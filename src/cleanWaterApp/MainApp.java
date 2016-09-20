@@ -6,7 +6,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TitledPane;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -34,6 +36,7 @@ public class MainApp extends Application {
 
     private void initRootLayout(Stage mainScreen) {
         try {
+
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/welcome.fxml"));
@@ -65,4 +68,27 @@ public class MainApp extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+    public void showLoginWindow() {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/login.fxml"));
+            GridPane page = loader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Login");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+
+            // Show the dialog and wait until the user closes it
+            dialogStage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
