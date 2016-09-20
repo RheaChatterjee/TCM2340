@@ -1,6 +1,7 @@
 package controller;
 
 import cleanWaterApp.MainApp;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
@@ -17,8 +18,20 @@ public class WelcomeScreenController {
 
     private MainApp mainApplication;
 
+    @FXML
+    private void initialize() {
+        loginButton.setOnAction((e) -> {
+            //loginButton was clicked
+        });
+    }
+
     public void setMainApp(MainApp main) {
         mainApplication = main;
+    }
+
+    @FXML
+    private void handleLogin(ActionEvent e) {
+
     }
 
 

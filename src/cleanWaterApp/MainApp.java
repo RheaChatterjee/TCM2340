@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TitledPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -21,7 +22,7 @@ public class MainApp extends Application {
     private Stage mainScreen;
 
     /** the main layout for the main window */
-    private TitledPane rootLayout;
+    private GridPane rootLayout;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
