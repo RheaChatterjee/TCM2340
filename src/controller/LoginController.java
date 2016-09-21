@@ -67,6 +67,7 @@ public class LoginController {
             alert.initOwner(_dialogStage);
             alert.setTitle("Invalid Fields");
             alert.setHeaderText("Please correct invalid fields");
+            alert.showAndWait();
         }
         _okClicked = true;
     }
