@@ -3,6 +3,7 @@ package controller;
 import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import model.User;
 
 /**
  * Created by Elizabeth on 9/17/2016.
@@ -24,7 +25,8 @@ public class WelcomeScreenController {
     @FXML
     private void handleLogin() {
         //handle login
-        mainApplication.showLoginWindow();
+        User tempUser = new User();
+        mainApplication.showLoginWindow(tempUser);
     }
 
 

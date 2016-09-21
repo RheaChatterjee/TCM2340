@@ -11,6 +11,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model.User;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -70,7 +71,7 @@ public class MainApp extends Application {
         launch(args);
     }
 
-    public void showLoginWindow() {
+    public void showLoginWindow(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -86,6 +87,7 @@ public class MainApp extends Application {
 
             LoginController controller = loader.getController();
             controller.setDialogStage(dialogStage);
+            controller.setUser(user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

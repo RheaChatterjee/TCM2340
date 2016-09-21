@@ -33,11 +33,11 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField id="usernameField" prefHeight="27.0" prefWidth="452.0" GridPane.columnIndex="1" />
-            <TextField id="passwordField" prefHeight="27.0" prefWidth="359.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="usernameField" prefHeight="27.0" prefWidth="452.0" GridPane.columnIndex="1" />
+            <TextField fx:id="passwordField" prefHeight="27.0" prefWidth="359.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
               <buttons>
-                  <Button mnemonicParsing="false" text="Login" />
+                  <Button mnemonicParsing="false" onAction="#handleOKPressed" text="Login" />
                 <Button mnemonicParsing="false" onAction="#handleCancelPressed" text="Cancel" />
               </buttons>
             </ButtonBar>

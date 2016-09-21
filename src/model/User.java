@@ -1,31 +1,35 @@
 package model;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+
 /**
  * Created by Elizabeth on 9/18/2016.
  */
 public class User {
 
-    private String username;
-    private String password;
+    private final StringProperty username = new SimpleStringProperty();
+    private final StringProperty password = new SimpleStringProperty();
 
+    public User() {}
     public User(String username, String password) {
-        this.username = username;
-        this.password = password;
+        setUsername(username);
+        setPassword(password);
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.username.set(username);
     }
-    public String getUsername(String username) {
-        return username;
+    public String getUsername() {
+        return username.get();
     }
     public void setPassword(String password) {
-        this.password = password;
+        this.password.set(password);
     }
     public String getPassword() {
-        return password;
+        return password.get();
     }
-    public boolean authenicate(String username, String password) {
+    public boolean authenticate(String username, String password) {
         return this.username.equals(username) && this.password.equals(password);
     }
 }
