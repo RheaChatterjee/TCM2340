@@ -1,6 +1,7 @@
 package cleanWaterApp;
 
 import controller.LoginController;
+import controller.MainScreenController;
 import controller.WelcomeScreenController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -50,7 +51,7 @@ public class MainApp extends Application {
 
 
             // Set the cleanWaterApp App title
-            mainScreen.setTitle("Course Registration");
+            mainScreen.setTitle("Welcome");
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
@@ -70,6 +71,33 @@ public class MainApp extends Application {
         launch(args);
     }
 
+    public void showWelcomeScreen() {
+        try {
+
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/welcome.fxml"));
+            GridPane layout = loader.load();
+
+            WelcomeScreenController controller = loader.getController();
+            controller.setMainApp(this);
+
+            // Set the cleanWaterApp App title
+            mainScreen.setTitle("Welcome Screen");
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(layout);
+            mainScreen.setScene(scene);
+            mainScreen.show();
+
+
+        } catch (IOException e) {
+            //error on load, so log it
+            LOGGER.log(Level.SEVERE, "Failed to find the fxml file for WelcomeScreen!!");
+            e.printStackTrace();
+        }
+    }
+
     public void showMainScreen() {
         try {
 
@@ -78,6 +106,8 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("../view/mainScreen.fxml"));
             GridPane layout = loader.load();
 
+            MainScreenController controller = loader.getController();
+            controller.setMainApp(this);
 
             // Set the cleanWaterApp App title
             mainScreen.setTitle("Main Screen");
