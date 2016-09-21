@@ -1,5 +1,6 @@
 package cleanWaterApp;
 
+import controller.LoginController;
 import controller.WelcomeScreenController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -83,6 +84,8 @@ public class MainApp extends Application {
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
 
+            LoginController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

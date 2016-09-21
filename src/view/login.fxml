@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
    <children>
       <GridPane layoutX="-1.0" prefHeight="289.0" prefWidth="600.0">
         <columnConstraints>
@@ -38,7 +38,7 @@
             <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
               <buttons>
                   <Button mnemonicParsing="false" text="Login" />
-                <Button mnemonicParsing="false" text="Cancel" />
+                <Button mnemonicParsing="false" onAction="#handleCancelPressed" text="Cancel" />
               </buttons>
             </ButtonBar>
          </children>
