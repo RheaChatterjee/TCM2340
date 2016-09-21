@@ -45,8 +45,7 @@ public class MainApp extends Application {
             rootLayout = loader.load();
 
 
-            WelcomeScreenController controller = new WelcomeScreenController();
-            loader.setController(controller);
+            WelcomeScreenController controller = loader.getController();
             controller.setMainApp(this);
 
 
@@ -71,6 +70,31 @@ public class MainApp extends Application {
         launch(args);
     }
 
+    public void showMainScreen() {
+        try {
+
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/mainScreen.fxml"));
+            GridPane layout = loader.load();
+
+
+            // Set the cleanWaterApp App title
+            mainScreen.setTitle("Main Screen");
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(layout);
+            mainScreen.setScene(scene);
+            mainScreen.show();
+
+
+        } catch (IOException e) {
+            //error on load, so log it
+            LOGGER.log(Level.SEVERE, "Failed to find the fxml file for WelcomeScreen!!");
+            e.printStackTrace();
+        }
+    }
+
     public void showLoginWindow(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
@@ -91,6 +115,9 @@ public class MainApp extends Application {
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
+            if (controller.is_login()) {
+                showMainScreen();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -17,10 +17,6 @@ public class WelcomeScreenController {
         this.mainApplication = mainApplication;
     }
 
-    @FXML
-    private void initialize() {
-        setMainApp(new MainApp());
-    }
 
     @FXML
     private void handleLogin() {

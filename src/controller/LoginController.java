@@ -28,7 +28,7 @@ public class LoginController {
     /** the window for this dialog */
     private Stage _dialogStage;
 
-    private boolean _okClicked = false;
+    private boolean _login = false;
 
 
     /**
@@ -42,8 +42,8 @@ public class LoginController {
         _dialogStage = dialogStage;
     }
 
-    public boolean isOkClicked() {
-        return _okClicked;
+    public boolean is_login() {
+        return _login;
     }
 
 
@@ -61,6 +61,7 @@ public class LoginController {
     @FXML
     private void handleOKPressed() {
         if (_user.getUsername().equals(usernameField.getText()) && _user.getPassword().equals(passwordField.getText())) {
+            _login = true;
             _dialogStage.close();
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -69,7 +70,7 @@ public class LoginController {
             alert.setHeaderText("Please correct invalid fields");
             alert.showAndWait();
         }
-        _okClicked = true;
+
     }
 
 
