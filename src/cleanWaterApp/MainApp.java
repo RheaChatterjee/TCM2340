@@ -29,14 +29,23 @@ public class MainApp extends Application {
     /** the main layout for the main window */
     private GridPane rootLayout;
 
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         mainScreen = primaryStage;
         initRootLayout(mainScreen);
     }
 
+    /**
+     * Gets main screen
+     * @return main screen
+     */
     public Stage getMainScreen() { return mainScreen;}
 
+    /**
+     * initializes original scene
+     * @param mainScreen
+     */
     private void initRootLayout(Stage mainScreen) {
         try {
 
@@ -66,11 +75,17 @@ public class MainApp extends Application {
         }
     }
 
-
+    /**
+     * launches application
+     * @param args
+     */
     public static void main(String[] args) {
         launch(args);
     }
 
+    /**
+     * shows welcome screen
+     */
     public void showWelcomeScreen() {
         try {
 
@@ -98,6 +113,9 @@ public class MainApp extends Application {
         }
     }
 
+    /**
+     * shows main screen
+     */
     public void showMainScreen() {
         try {
 
@@ -125,6 +143,10 @@ public class MainApp extends Application {
         }
     }
 
+    /**
+     * shows login window
+     * @param user
+     */
     public void showLoginWindow(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.

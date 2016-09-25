@@ -25,7 +25,6 @@ public class LoginController {
     private User _user;
 
 
-    /** the window for this dialog */
     private Stage _dialogStage;
 
     private boolean _login = false;
@@ -38,26 +37,43 @@ public class LoginController {
     private void initialize() {
     }
 
+    /**
+     * sets the dialog stage
+     * @param dialogStage
+     */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;
     }
 
+    /**
+     * tests if the user is logged in
+     * @return true if the user is logged in and false otherwise
+     */
     public boolean is_login() {
         return _login;
     }
 
-
+    /**
+     * closes the window if the canceled button is pressed
+     */
     @FXML
     private void handleCancelPressed() {
         _dialogStage.close();
     }
 
+    /**
+     * sets the default user
+     * @param user
+     */
     public void setUser(User user) {
         _user = user;
         _user.setUsername("user");
         _user.setPassword("pass");
     }
 
+    /**
+     * checks credentials when the okay button is pressed
+     */
     @FXML
     private void handleOKPressed() {
         if (_user.getUsername().equals(usernameField.getText()) && _user.getPassword().equals(passwordField.getText())) {

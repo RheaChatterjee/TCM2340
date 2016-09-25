@@ -13,11 +13,18 @@ public class WelcomeScreenController {
 
     private MainApp mainApplication;
 
+    /**
+     * Connects the controller to the main application
+     * @param mainApplication the main app
+     */
     public void setMainApp(MainApp mainApplication) {
         this.mainApplication = mainApplication;
     }
 
 
+    /**
+     * shows the login window
+     */
     @FXML
     private void handleLogin() {
         //handle login
