@@ -9,7 +9,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.User;
@@ -27,7 +26,7 @@ public class MainApp extends Application {
     private Stage mainScreen;
 
     /** the main layout for the main window */
-    private GridPane rootLayout;
+    private AnchorPane rootLayout;
 
 
     @Override
@@ -92,7 +91,7 @@ public class MainApp extends Application {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/welcome.fxml"));
-            GridPane layout = loader.load();
+            AnchorPane layout = loader.load();
 
             WelcomeScreenController controller = loader.getController();
             controller.setMainApp(this);
@@ -122,7 +121,7 @@ public class MainApp extends Application {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/mainScreen.fxml"));
-            GridPane layout = loader.load();
+            AnchorPane layout = loader.load();
 
             MainScreenController controller = loader.getController();
             controller.setMainApp(this);
