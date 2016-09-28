@@ -2,12 +2,11 @@ package cleanWaterApp;
 
 import controller.LoginController;
 import controller.MainScreenController;
+import controller.RegistrationController;
 import controller.WelcomeScreenController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.SplitPane;
-import javafx.scene.control.TitledPane;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -169,6 +168,33 @@ public class MainApp extends Application {
             if (controller.is_login()) {
                 showMainScreen();
             }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * shows registration window
+     */
+    public void showRegistrationWindow() {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader registrationLoader = new FXMLLoader();
+            registrationLoader.setLocation(MainApp.class.getResource("../view/registration.fxml"));
+            AnchorPane page = registrationLoader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Registration");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            RegistrationController controller = registrationLoader.getController();
+            controller.setDialogStage(dialogStage);
+
+            dialogStage.showAndWait();
+
         } catch (IOException e) {
             e.printStackTrace();
         }

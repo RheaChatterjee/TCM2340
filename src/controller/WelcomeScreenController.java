@@ -32,6 +32,17 @@ public class WelcomeScreenController {
         mainApplication.showLoginWindow(tempUser);
     }
 
+    /**
+     * shows the login window
+     */
+    @FXML
+    private void handleRegistration() {
+        //handle registration
+        mainApplication.showRegistrationWindow();
+    }
+
+
+
 
 
 

@@ -7,6 +7,6 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WelcomeScreenController">
    <children>
       <Button id="loginButton" onAction="#handleLogin" alignment="CENTER" contentDisplay="CENTER" layoutX="272.0" layoutY="173.0" mnemonicParsing="false" text="Login" textFill="#42c915" />
-      <Button id="registerButton" layoutX="263.0" layoutY="209.0" mnemonicParsing="false" text="Register" textFill="#1114f5" />
+      <Button id="registerButton" onAction="#handleRegistration" layoutX="263.0" layoutY="209.0" mnemonicParsing="false" text="Register" textFill="#1114f5" />
    </children>
 </AnchorPane>
