@@ -2,13 +2,13 @@
  * Created by Amine on 9/28/2016.
  */
 
-public class Admin extends Worker {
+public class Admin extends Manager {
 
     private final StringProperty adminId = new SimpleStringProperty();
 
-    public Worker(String username, String password, String id, String email,
+    public Admin(String username, String password, String id, String email,
                 String address, String title, String workerId, String adminId) {
-        super(username, password, id, email, address, title, workerId);
+        super(username, password, id, email, address, title, workerId, managerId);
 
         setAdminId(adminId);
     }
