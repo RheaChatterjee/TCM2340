@@ -2,23 +2,31 @@ package controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 /**
  * Created by Elizabeth on 10/2/2016.
  */
 public class EditProfileController {
     @FXML
-    private TextField Name;
+    private TextField emailField;
 
     @FXML
-    private TextField Email;
+    private TextField passwordField;
 
     @FXML
-    private TextField Password;
+    private TextField addressField;
 
     @FXML
-    private TextField addressBox;
+    private TextField titleField;
 
+    private Stage _dialogStage;
+
+    /**
+     * closes the window if the canceled button is pressed
+     */
     @FXML
-    private TextField titleBox;
+    private void handleCancelPressed() {
+        _dialogStage.close();
+    }
 }
