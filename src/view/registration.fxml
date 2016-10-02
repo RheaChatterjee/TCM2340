@@ -22,7 +22,7 @@
             <Font size="34.0" />
          </font>
       </Label>
-      <TextField fx:id="addressBox" layoutX="207.0" layoutY="274.0" promptText="Enter Adress" />
+      <TextField fx:id="addressBox" layoutX="207.0" layoutY="274.0" promptText="Enter Address" />
       <Label layoutX="95.0" layoutY="279.0" text="Address" />
       <Label layoutX="108.0" layoutY="325.0" text="Title" />
       <TextField fx:id="titleBox" layoutX="207.0" layoutY="320.0" promptText="Enter Title" />
