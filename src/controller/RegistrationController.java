@@ -34,7 +34,7 @@ public class RegistrationController {
     @FXML
     private ComboBox<AccountType> selectAccountType;
 
-    private RegisteredUser registeredUser;
+    private static final RegisteredUser registeredUser = new RegisteredUser();
 
     private Stage registrationStage;
 
@@ -50,7 +50,6 @@ public class RegistrationController {
     private void initialize() {
 
         selectAccountType.setItems(AccountType.getAccountTypeList());
-        registeredUser = new RegisteredUser();
     }
 
     /**
