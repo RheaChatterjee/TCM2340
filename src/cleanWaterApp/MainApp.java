@@ -114,7 +114,7 @@ public class MainApp extends Application {
     /**
      * shows main screen
      */
-    public void showMainScreen() {
+    public void showMainScreen(User user) {
         try {
 
             // Load root layout from fxml file.
@@ -166,7 +166,7 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
-                showMainScreen();
+                showMainScreen(user);
             }
         } catch (IOException e) {
             e.printStackTrace();
