@@ -129,7 +129,6 @@ public class RegistrationController {
         this.user = new User(registrationName.getText(), registrationPassword.getText(), "tempID", registrationEmail.getText(), selectAccountType.getValue(), addressBox.getText(), titleBox.getText());
         if (isInputValid()) {
             registeredUser.addUser(user);
-            System.out.println(registeredUser.getRegisteredUsers().keySet());
             registered = true;
             registrationStage.close();
         }
