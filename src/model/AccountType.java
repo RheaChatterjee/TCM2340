@@ -8,8 +8,9 @@ import javafx.collections.ObservableList;
  */
 public enum AccountType {
     USER("User"),
-    Worker("Worker"),
-    Manager("Manager");
+    WORKER("Worker"),
+    MANAGER("Manager"),
+    ADMIN("Admin");
 
     /** String representation of account type
      */

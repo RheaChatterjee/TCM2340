@@ -1,5 +1,7 @@
 package model;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
@@ -12,6 +14,8 @@ public class User {
     private final StringProperty username = new SimpleStringProperty();
     private final StringProperty password = new SimpleStringProperty();
     private final StringProperty id = new SimpleStringProperty();
+    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();
+
 
     //Advanced Information
     private final StringProperty email = new SimpleStringProperty();
@@ -28,11 +32,12 @@ public class User {
      * @param username User's username
      * @param password User's password
      */
-    public User(String username, String password, String id, String email,
+    public User(String username, String password, String id, String email, AccountType accountType,
                 String address, String title) {
         setUsername(username);
         setPassword(password);
         setId(id);
+        setAccountType(accountType);
 
         setEmail(email);
         setAddress(address);
@@ -87,6 +92,20 @@ public class User {
     public String getId() {
         return id.get();
     }
+
+    /**
+     * Gets the account type
+     * @return AccountType the user account type
+     */
+    public AccountType getAccountType() {
+        return accountType.get();
+    }
+
+    /**
+     * Sets account type
+     * @param accountType given title
+     */
+    public void setAccountType(AccountType accountType) {this.accountType.set(accountType);}
 
     //ADVANCED INFORMATION -----------------------------------------------------
     /**
