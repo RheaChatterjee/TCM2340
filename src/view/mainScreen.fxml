@@ -11,7 +11,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="217.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
+      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="207.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
