@@ -33,6 +33,6 @@ public class MainScreenController {
 
     @FXML
     private void handleEditProfile() {
-        mainApplication.showEditProfile();
+        mainApplication.showEditProfile(user);
     }
 }

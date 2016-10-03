@@ -111,7 +111,7 @@ public class MainApp extends Application {
     /**
      * shows main screen
      */
-    public void showMainScreen() {
+    public void showMainScreen(User user) {
         try {
 
             // Load root layout from fxml file.
@@ -120,6 +120,7 @@ public class MainApp extends Application {
             AnchorPane layout = loader.load();
 
             MainScreenController controller = loader.getController();
+            controller.setUser(user);
             controller.setMainApp(this);
 
             // Set the cleanWaterApp App title
@@ -163,14 +164,14 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
-                showMainScreen();
+                showMainScreen(user);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void showEditProfile() {
+    public void showEditProfile(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -186,6 +187,7 @@ public class MainApp extends Application {
 
             EditProfileController controller = loader.getController();
             controller.setDialogStage(dialogStage);
+            controller.setUser(user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

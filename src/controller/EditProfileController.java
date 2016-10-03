@@ -3,6 +3,7 @@ package controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import model.User;
 
 /**
  * Created by Elizabeth on 10/2/2016.
@@ -20,7 +21,13 @@ public class EditProfileController {
     @FXML
     private TextField titleField;
 
+    private User user;
+
     private Stage _dialogStage;
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     /**
      * sets the dialog stage
@@ -39,6 +46,10 @@ public class EditProfileController {
 
     @FXML
     private void handleEditProfile() {
-
+        user.setPassword(passwordField.getText());
+        user.setAddress(addressField.getText());
+        user.setEmail(emailField.getText());
+        user.setTitle(titleField.getText());
+        _dialogStage.close();
     }
 }
