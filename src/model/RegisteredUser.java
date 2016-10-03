@@ -15,13 +15,14 @@ public class RegisteredUser {
         registeredUserMap = new HashMap<String, ArrayList>();
     }
 
-    public HashMap getRegisteredUsers() {
+    public HashMap getRegisteredUserMap() {
         return this.registeredUserMap;
     }
 
     public boolean usernameExist(User user) {
         return registeredUserMap.containsKey(user.getUsername());
     }
+
 
     public void addUser(User user) {
         if (usernameExist(user)) {

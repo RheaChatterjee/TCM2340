@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import model.User;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by Elizabeth on 9/20/2016.
@@ -27,6 +28,8 @@ public class LoginController {
 
     private Stage _dialogStage;
 
+    private RegistrationController registrationController;
+
     private boolean _login = false;
 
     /**
@@ -34,6 +37,7 @@ public class LoginController {
      */
     @FXML
     private void initialize() {
+        registrationController = new RegistrationController();
     }
 
     /**
@@ -75,7 +79,15 @@ public class LoginController {
      */
     @FXML
     private void handleOKPressed() {
+        String username = usernameField.getText();
+        String password = passwordField.getText();
+        HashMap<String, ArrayList> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        ArrayList registeredUserInformation = registeredUserMap.get(username);
         if (_user.getUsername().equals(usernameField.getText()) && _user.getPassword().equals(passwordField.getText())) {
+            _login = true;
+            _dialogStage.close();
+        } else if (registeredUserMap.containsKey(username) &&
+                registeredUserInformation.get(0).equals(passwordField.getText())) {
             _login = true;
             _dialogStage.close();
         } else {

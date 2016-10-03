@@ -44,11 +44,11 @@ public class RegistrationController {
 
 
     /**
-     * called automatically after load
+     * called automatically after
+     * Initializes list of account types on registration page
      */
     @FXML
     private void initialize() {
-
         selectAccountType.setItems(AccountType.getAccountTypeList());
     }
 
@@ -68,7 +68,14 @@ public class RegistrationController {
         return registered;
     }
 
+    public RegisteredUser getRegisteredUser() {
+        return registeredUser;
+    }
 
+    /**
+     * Cancels registration and closes registration window
+     *
+     */
     @FXML
     private void handleCancelPressed() {
         registrationStage.close();
