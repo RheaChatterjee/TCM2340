@@ -1,9 +1,6 @@
 package cleanWaterApp;
 
-import controller.LoginController;
-import controller.MainScreenController;
-import controller.RegistrationController;
-import controller.WelcomeScreenController;
+import controller.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -114,7 +111,7 @@ public class MainApp extends Application {
     /**
      * shows main screen
      */
-    public void showMainScreen() {
+    public void showMainScreen(User user) {
         try {
 
             // Load root layout from fxml file.
@@ -123,6 +120,7 @@ public class MainApp extends Application {
             AnchorPane layout = loader.load();
 
             MainScreenController controller = loader.getController();
+            controller.setUser(user);
             controller.setMainApp(this);
 
             // Set the cleanWaterApp App title
@@ -166,8 +164,33 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
-                showMainScreen();
+                showMainScreen(user);
             }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void showEditProfile(User user) {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/EditProfile.fxml"));
+            AnchorPane page = loader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Edit Profile");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            EditProfileController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.setUser(user);
+
+            // Show the dialog and wait until the user closes it
+            dialogStage.showAndWait();
         } catch (IOException e) {
             e.printStackTrace();
         }
