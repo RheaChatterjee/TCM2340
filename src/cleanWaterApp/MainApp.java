@@ -1,9 +1,6 @@
 package cleanWaterApp;
 
-import controller.LoginController;
-import controller.MainScreenController;
-import controller.RegistrationController;
-import controller.WelcomeScreenController;
+import controller.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -114,7 +111,7 @@ public class MainApp extends Application {
     /**
      * shows main screen
      */
-    public void showMainScreen(User user) {
+    public void showMainScreen() {
         try {
 
             // Load root layout from fxml file.
@@ -166,7 +163,7 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
-                showMainScreen(user);
+                showMainScreen();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -187,7 +184,7 @@ public class MainApp extends Application {
             Scene scene = new Scene(page);
             dialogStage.setScene(scene);
 
-            LoginController controller = loader.getController();
+            EditProfileController controller = loader.getController();
             controller.setDialogStage(dialogStage);
 
             // Show the dialog and wait until the user closes it

@@ -30,4 +30,9 @@ public class MainScreenController {
         //handle logout
         mainApplication.showWelcomeScreen();
     }
+
+    @FXML
+    private void handleEditProfile() {
+        mainApplication.showEditProfile();
+    }
 }

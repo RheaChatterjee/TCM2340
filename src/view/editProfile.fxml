@@ -68,7 +68,7 @@
             </AnchorPane>
             <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <buttons>
-                  <Button fx:id="UpdateButton" mnemonicParsing="false" styleClass="Button" stylesheets="@style.css" text="Update" textFill="WHITE" />
+                  <Button fx:id="UpdateButton" onAction="#handleEditProfile" mnemonicParsing="false" styleClass="Button" stylesheets="@style.css" text="Update" textFill="WHITE" />
                   <Button fx:id="CancelButton" onAction="#handleCancelPressed" mnemonicParsing="false" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" />
                </buttons>
             </ButtonBar>

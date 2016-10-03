@@ -23,10 +23,22 @@ public class EditProfileController {
     private Stage _dialogStage;
 
     /**
+     * sets the dialog stage
+     * @param dialogStage
+     */
+    public void setDialogStage(Stage dialogStage) {
+        _dialogStage = dialogStage;
+    }
+    /**
      * closes the window if the canceled button is pressed
      */
     @FXML
     private void handleCancelPressed() {
         _dialogStage.close();
+    }
+
+    @FXML
+    private void handleEditProfile() {
+
     }
 }
