@@ -24,6 +24,8 @@ public class MainApp extends Application {
     /** the main layout for the main window */
     private AnchorPane rootLayout;
 
+    private static User user;
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -164,6 +166,7 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
+                this.user = controller.getUser();
                 showMainScreen(user);
             }
         } catch (IOException e) {
@@ -171,6 +174,9 @@ public class MainApp extends Application {
         }
     }
 
+    /**
+     * shows edit profile window
+     */
     public void showEditProfile(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
@@ -187,7 +193,36 @@ public class MainApp extends Application {
 
             EditProfileController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(user);
+            controller.setUser(this.user);
+
+            // Show the dialog and wait until the user closes it
+            dialogStage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * shows user profile window
+     */
+    public void showUserProfile(User user) {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/UserProfile.fxml"));
+            AnchorPane page = loader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Edit Profile");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            UserProfileController controller = loader.getController();
+            controller.initialize(this.user);
+            controller.setDialogStage(dialogStage);
+            controller.setUser(this.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

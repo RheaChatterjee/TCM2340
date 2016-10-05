@@ -68,6 +68,11 @@ public class RegistrationController {
         return registered;
     }
 
+
+    /**
+     * returns instance of registered user
+     * @return RegisteredUser
+     */
     public RegisteredUser getRegisteredUser() {
         return registeredUser;
     }
@@ -99,7 +104,7 @@ public class RegistrationController {
         if (registrationPassword.getText() == null || registrationPassword.getText().length() < 4) {
             errorMessage += "No valid password entered! Please make password longer than four characters! \n";
         }
-        if (registrationEmail.getText() == null || registrationEmail.getText().length() == 0) {
+        if (registrationEmail.getText() == null || registrationEmail.getText().length() == 0 || !registrationEmail.getText().contains("@")) {
             errorMessage += "No valid email entered!\n";
         }
         if (selectAccountType.getValue() == null) {

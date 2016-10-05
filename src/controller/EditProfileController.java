@@ -1,6 +1,7 @@
 package controller;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.User;
@@ -44,12 +45,31 @@ public class EditProfileController {
         _dialogStage.close();
     }
 
+    /**
+     * handles editing user profile
+     */
     @FXML
     private void handleEditProfile() {
-        user.setPassword(passwordField.getText());
-        user.setAddress(addressField.getText());
-        user.setEmail(emailField.getText());
-        user.setTitle(titleField.getText());
+        if (emailField.getText().length() != 0 && !emailField.getText().contains("@")) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.initOwner(_dialogStage);
+            alert.setTitle("Invalid Fields");
+            alert.setHeaderText("Please correct invalid fields");
+            alert.setContentText("Invalid email address");
+
+            alert.showAndWait();;
+        } else if (emailField.getText().length() != 0) {
+            user.setEmail(emailField.getText());
+        }
+        if (passwordField.getText() == null || passwordField.getText().length() >= 4) {
+            user.setPassword(passwordField.getText());
+        }
+        if (addressField.getText() == null || addressField.getText().length() != 0) {
+            user.setAddress(addressField.getText());
+        }
+        if (titleField.getText() == null || titleField.getText().length() != 0) {
+            user.setTitle(titleField.getText());
+        }
         _dialogStage.close();
     }
 }

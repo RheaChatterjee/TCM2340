@@ -1,17 +1,11 @@
 package controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import model.User;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -66,12 +60,19 @@ public class LoginController {
 
     /**
      * sets the default user
-     * @param user
+     * @param user the user you want to set
      */
     public void setUser(User user) {
         _user = user;
-        _user.setUsername("user");
-        _user.setPassword("pass");
+    }
+
+    /**
+     * gets user
+     *
+     * @return user of the controller
+     */
+    public User getUser() {
+        return _user;
     }
 
     /**
@@ -81,15 +82,13 @@ public class LoginController {
     private void handleOKPressed() {
         String username = usernameField.getText();
         String password = passwordField.getText();
-        HashMap<String, ArrayList> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
-        ArrayList registeredUserInformation = registeredUserMap.get(username);
-        if (_user.getUsername().equals(usernameField.getText()) && _user.getPassword().equals(passwordField.getText())) {
+        HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        User registeredUserInformation = registeredUserMap.get(username);
+        if (registeredUserMap.containsKey(username) &&
+                registeredUserInformation.getPassword().equals(passwordField.getText())) {
             _login = true;
             _dialogStage.close();
-        } else if (registeredUserMap.containsKey(username) &&
-                registeredUserInformation.get(0).equals(passwordField.getText())) {
-            _login = true;
-            _dialogStage.close();
+            setUser(registeredUserInformation);
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.initOwner(_dialogStage);

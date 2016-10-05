@@ -38,7 +38,6 @@ public class User {
         setPassword(password);
         setId(id);
         setAccountType(accountType);
-
         setEmail(email);
         setAddress(address);
         setTitle(title);

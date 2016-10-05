@@ -6,15 +6,16 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
    <children>
-      <Button id="logoutButton" contentDisplay="CENTER" layoutX="217.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleLogout" styleClass="Button" stylesheets="@style.css" text="Logout" textAlignment="CENTER" textFill="WHITE">
+      <Button id="logoutButton" contentDisplay="CENTER" layoutX="220.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleLogout" styleClass="Button" stylesheets="@style.css" text="Logout" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="207.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
+      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="208.0" layoutY="235.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
+      <Button fx:id="userProfile" layoutX="202.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleUserProfile" text="User Profile" />
    </children>
 </AnchorPane>

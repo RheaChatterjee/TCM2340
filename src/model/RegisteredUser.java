@@ -9,36 +9,32 @@ import java.util.HashMap;
  */
 public class RegisteredUser {
 
-    private HashMap<String, ArrayList> registeredUserMap;
+    private static final HashMap<String, User> registeredUserMap = new HashMap<>();
 
-    public RegisteredUser() {
-        registeredUserMap = new HashMap<String, ArrayList>();
-    }
-
+    /**
+     * @return HashMap of registered users
+     */
     public HashMap getRegisteredUserMap() {
         return this.registeredUserMap;
     }
 
+    /**
+     * checks if the username currently exists in the list of registered users
+     */
     public boolean usernameExist(User user) {
         return registeredUserMap.containsKey(user.getUsername());
     }
 
-
+    /**
+     * adds user to the list of registered users
+     */
     public void addUser(User user) {
         if (usernameExist(user)) {
             throw new IllegalArgumentException("Username already exists, please enter a different username!");
         } else {
-            registeredUserMap.put(user.getUsername(), new ArrayList());
-            ArrayList userInformation = registeredUserMap.get(user.getUsername());
-            userInformation.add(user.getPassword());
-            userInformation.add(user.getId());
-            userInformation.add(user.getEmail());
-            userInformation.add(user.getAccountType());
-            userInformation.add(user.getAddress());
-            userInformation.add(user.getTitle());
+            registeredUserMap.put(user.getUsername(), user);
         }
     }
-
 
 }
 

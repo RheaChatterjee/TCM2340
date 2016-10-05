@@ -31,8 +31,19 @@ public class MainScreenController {
         mainApplication.showWelcomeScreen();
     }
 
+    /**
+     * shows the edit profile screen
+     */
     @FXML
     private void handleEditProfile() {
         mainApplication.showEditProfile(user);
+    }
+
+    /**
+     * shows the user profile screen
+     */
+    @FXML
+    private void handleUserProfile() {
+        mainApplication.showUserProfile(user);
     }
 }
