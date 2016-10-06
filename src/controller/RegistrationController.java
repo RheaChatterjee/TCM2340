@@ -1,9 +1,11 @@
 package controller;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import model.AccountType;
 import javafx.scene.control.TextField;
@@ -49,6 +51,12 @@ public class RegistrationController {
      */
     @FXML
     private void initialize() {
+        selectAccountType.setOnMousePressed(new EventHandler<MouseEvent>(){
+            @Override
+            public void handle(MouseEvent event) {
+                selectAccountType.requestFocus();
+            }
+        });
         selectAccountType.setItems(AccountType.getAccountTypeList());
     }
 
