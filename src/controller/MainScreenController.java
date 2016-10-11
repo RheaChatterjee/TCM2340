@@ -46,4 +46,9 @@ public class MainScreenController {
     private void handleUserProfile() {
         mainApplication.showUserProfile(user);
     }
+
+    @FXML
+    private void openSubmitReportPage() {
+        mainApplication.showReportPage(user);
+    }
 }

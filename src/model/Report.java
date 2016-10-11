@@ -19,6 +19,7 @@ public class Report {
     private final StringProperty reporterName = new SimpleStringProperty();
     private final StringProperty location = new SimpleStringProperty();
     private final StringProperty waterType = new SimpleStringProperty();
+    private final StringProperty waterCondition = new SimpleStringProperty();
 
 
     public Report() {
@@ -27,12 +28,13 @@ public class Report {
         this.dateTime.set(date.toString());
     }
 
-    public Report(String dateTime, String reportNumber, String reporterName, String location, String waterType) {
+    public Report(String dateTime, String reportNumber, String reporterName, String location, String waterType, String waterCondition) {
         setDateTime(dateTime);
         setReportNumber(reportNumber);
         setReporterName(reporterName);
         setLocation(location);
         setWaterType(waterType);
+        setWaterCondition(waterCondition);
         DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy h:mm a");
         Date date = new Date();
         this.dateTime.set(date.toString());
@@ -95,6 +97,14 @@ public class Report {
     }
 
     public void setWaterType(String waterType) {
+        this.waterType.set(waterType);
+    }
+
+    public StringProperty waterConditionProperty() {
+        return waterType;
+    }
+
+    public void setWaterCondition(String waterType) {
         this.waterType.set(waterType);
     }
 

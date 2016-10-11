@@ -16,6 +16,7 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="userProfile" layoutX="202.0" layoutY="187.0" mnemonicParsing="false" onAction="#handleUserProfile" text="User Profile" />
+      <Button fx:id="userProfile" layoutX="213.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleUserProfile" styleClass="Button" stylesheets="@style.css" text="User Profile" textFill="WHITE" />
+      <Button fx:id="submitReportButton" layoutX="206.0" layoutY="143.0" mnemonicParsing="false" onAction="#openSubmitReportPage" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
    </children>
 </AnchorPane>
