@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Report.java" afterPath="$PROJECT_DIR$/src/model/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SubmittedReports.java" afterPath="$PROJECT_DIR$/src/model/SubmittedReports.java" />
     </list>
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
     <ignored path="waterResources.iws" />
@@ -626,7 +624,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475785304312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished report and submitted reports classes">
+      <created>1476203529095</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1476203529095</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -685,7 +689,8 @@
     <MESSAGE value="front end of edit profile now works&#10;" />
     <MESSAGE value="combo box now works on dell xps laptops" />
     <MESSAGE value="created report class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created report class" />
+    <MESSAGE value="finished report and submitted reports classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished report and submitted reports classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
