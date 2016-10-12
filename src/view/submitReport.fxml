@@ -43,22 +43,22 @@
                 </Label>
                 <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@style.css" GridPane.columnIndex="1">
                     <children>
-                        <TextField fx:id="emailField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
+                        <TextField fx:id="locationField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
                     </children>
                 </AnchorPane>
                 <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <children>
-                        <PasswordField fx:id="passwordField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
+                        <PasswordField fx:id="conditionField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
                     </children>
                 </AnchorPane>
                 <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <children>
-                        <TextField fx:id="addressField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
+                        <TextField fx:id="typeField" layoutX="32.0" layoutY="23.0" prefHeight="27.0" prefWidth="391.0" />
                     </children>
                 </AnchorPane>
                 <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                     <buttons>
-                        <Button fx:id="UpdateButton" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
+                        <Button fx:id="SubmitButton" mnemonicParsing="false" onAction="#handleSubmitReport" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
                         <Button fx:id="CancelButton" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" />
                     </buttons>
                 </ButtonBar>

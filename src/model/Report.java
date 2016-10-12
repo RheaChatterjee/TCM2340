@@ -28,9 +28,8 @@ public class Report {
         this.dateTime.set(date.toString());
     }
 
-    public Report(String dateTime, String reportNumber, String reporterName, String location, String waterType, String waterCondition) {
-        setDateTime(dateTime);
-        setReportNumber(reportNumber);
+    public Report(String reporterName, String location, String waterType, String waterCondition) {
+        setReportNumber("12345");
         setReporterName(reporterName);
         setLocation(location);
         setWaterType(waterType);
