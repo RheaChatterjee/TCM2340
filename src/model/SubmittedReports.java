@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class SubmittedReports {
     private static final ArrayList<Report> submittedReports = new ArrayList<>();
 
-    public ArrayList getSubmittedReports() {
+    public static ArrayList<Report> getSubmittedReports() {
         return submittedReports;
     }
 

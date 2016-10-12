@@ -107,4 +107,8 @@ public class Report {
         this.waterType.set(waterType);
     }
 
+    public String toString() {
+        return "Report Number: " + reportNumber + " Location: " + location + "Water Type: " + waterType + " Water Condition: " + waterCondition;
+    }
+
 }
