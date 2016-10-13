@@ -6,17 +6,18 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
    <children>
-      <Button id="logoutButton" contentDisplay="CENTER" layoutX="220.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleLogout" styleClass="Button" stylesheets="@style.css" text="Logout" textAlignment="CENTER" textFill="WHITE">
+      <Button id="logoutButton" contentDisplay="CENTER" layoutX="218.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleLogout" styleClass="Button" stylesheets="@style.css" text="Logout" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="208.0" layoutY="235.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
+      <Button id="EditProfileButton" contentDisplay="CENTER" layoutX="206.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Edit Profile" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="userProfile" layoutX="213.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleUserProfile" styleClass="Button" stylesheets="@style.css" text="User Profile" textFill="WHITE" />
-      <Button fx:id="submitReportButton" layoutX="206.0" layoutY="143.0" mnemonicParsing="false" onAction="#openSubmitReportPage" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
+      <Button fx:id="userProfile" layoutX="200.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleUserProfile" styleClass="Button" stylesheets="@style.css" text="User Profile" textFill="WHITE" />
+      <Button fx:id="submitReportButton" layoutX="192.0" layoutY="146.0" mnemonicParsing="false" onAction="#openSubmitReportPage" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
+      <Button fx:id="viewReportsButton" layoutX="196.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleViewSubmittedReports" styleClass="Button" textFill="WHITE" text="View Reports" />
    </children>
 </AnchorPane>

@@ -51,4 +51,9 @@ public class MainScreenController {
     private void openSubmitReportPage() {
         mainApplication.showReportPage(user);
     }
+
+    @FXML
+    private void handleViewSubmittedReports() {
+        mainApplication.showSubmittedReports(user);
+    }
 }
