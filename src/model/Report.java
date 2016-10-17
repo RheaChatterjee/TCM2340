@@ -5,9 +5,11 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import model.SubmittedReports;
 
 /**
  * Created by Elizabeth on 10/6/2016.
@@ -20,6 +22,7 @@ public class Report {
     private final StringProperty location = new SimpleStringProperty();
     private final StringProperty waterType = new SimpleStringProperty();
     private final StringProperty waterCondition = new SimpleStringProperty();
+    private SubmittedReports submittedReports = new SubmittedReports();
 
 
     public Report() {
@@ -29,7 +32,7 @@ public class Report {
     }
 
     public Report(String reporterName, String location, String waterType, String waterCondition) {
-        setReportNumber("12345");
+        setReportNumber(String.format("%05d", submittedReports.getArraySize() + 1));
         setReporterName(reporterName);
         setLocation(location);
         setWaterType(waterType);
@@ -99,16 +102,20 @@ public class Report {
         this.waterType.set(waterType);
     }
 
+    public String getWaterCondition() {
+        return waterCondition.get();
+    }
+
     public StringProperty waterConditionProperty() {
         return waterType;
     }
 
-    public void setWaterCondition(String waterType) {
-        this.waterType.set(waterType);
+    public void setWaterCondition(String waterCondition) {
+        this.waterCondition.set(waterCondition);
     }
 
     public String toString() {
-        return "Report Number: " + reportNumber + " Location: " + location + "Water Type: " + waterType + " Water Condition: " + waterCondition;
+        return "Report Number: " + getReportNumber() + "\nReporter Name: " + getReporterName() + "\nDate Reported: " + getDateTime() + "\nLocation: " + getLocation() + "\nWater Type: " + getWaterType() + "\nWater Condition: " + getWaterCondition();
     }
 
 }

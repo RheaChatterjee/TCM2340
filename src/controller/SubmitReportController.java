@@ -89,11 +89,9 @@ public class SubmitReportController {
         }
     }
 
-
-
     @FXML
     private void handleSubmitReport() {
-        Report report = new Report(user.getUsername(), locationField.getText(), conditionField.getText(), typeField.getText());
+        Report report = new Report(user.getUsername(), locationField.getText(), typeField.getText(), conditionField.getText());
         if (isInputValid()) {
             reports.addReport(report);
             _dialogStage.close();

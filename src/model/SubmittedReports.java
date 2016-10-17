@@ -12,6 +12,10 @@ public class SubmittedReports {
         return submittedReports;
     }
 
+    public int getArraySize() {
+        return submittedReports.size();
+    }
+
     public void addReport(Report report) {
         submittedReports.add(report);
     }

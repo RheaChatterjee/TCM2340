@@ -37,17 +37,24 @@ public class reportListViewController {
         this._dialogStage = dialogStage;
     }
 
-//    /**
-//     * called automatically after load
-//     */
-//    @FXML
-//    private void initialize() {
-//        ArrayList<String> reportsAsStrings = new ArrayList<>();
-//        for(int i = 0; i < reportArrayList.size(); i++) {
-//            Report report = reportArrayList.get(i);
-//            reportsAsStrings.add(report.toString());
-//        }
-//
-//        reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
-//    }
+    /**
+     * closes dialog stage
+     */
+    public void handleCancel() {
+        _dialogStage.close();
+    }
+
+    /**
+     * called automatically after load
+     */
+    @FXML
+    private void initialize() {
+        ArrayList<String> reportsAsStrings = new ArrayList<>();
+        for(int i = 0; i < reportArrayList.size(); i++) {
+            Report report = reportArrayList.get(i);
+            reportsAsStrings.add(report.toString());
+        }
+
+        reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
+    }
 }
