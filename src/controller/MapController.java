@@ -15,6 +15,7 @@ import javafx.stage.Window;
 
 import model.Facade;
 import model.Location;
+import model.User;
 import netscape.javascript.JSObject;
 
 import java.io.File;
@@ -34,6 +35,8 @@ public class MapController implements Initializable, MapComponentInitializedList
     private Window mainStage;
 
     private MainApp theApp;
+
+    private User user;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -98,7 +101,15 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     @FXML
     public void onCloseMenu() {
-        theApp.closeMapView();
+        theApp.showMainScreen(user);
+    }
+
+    public void setMainApp(MainApp mainApplication) {
+        theApp = mainApplication;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
 }

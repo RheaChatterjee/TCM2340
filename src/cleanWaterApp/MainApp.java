@@ -5,6 +5,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.User;
@@ -310,11 +311,31 @@ public class MainApp extends Application {
         }
     }
 
-    public void closeMapView() {
-        Facade fc = Facade.getInstance();
-        fc.addLocations();
-        //controller.mapInitialized();
-        //mainScreen.setScene(mapScene);
-    }
+    public void showMap(User user) {
+        try {
 
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/map.fxml"));
+            BorderPane layout = loader.load();
+
+            MapController controller = loader.getController();
+            controller.setUser(user);
+            controller.setMainApp(this);
+
+            // Set the cleanWaterApp App title
+            mainScreen.setTitle("Map View");
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(layout);
+            mainScreen.setScene(scene);
+            mainScreen.show();
+
+
+        } catch (IOException e) {
+            //error on load, so log it
+            LOGGER.log(Level.SEVERE, "Failed to find the fxml file for WelcomeScreen!!");
+            e.printStackTrace();
+        }
+    }
 }

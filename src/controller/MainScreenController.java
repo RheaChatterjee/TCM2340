@@ -48,6 +48,11 @@ public class MainScreenController {
     }
 
     @FXML
+    private void openMap() {
+        mainApplication.showMap(user);
+    }
+
+    @FXML
     private void openSubmitReportPage() {
         mainApplication.showReportPage(user);
     }
