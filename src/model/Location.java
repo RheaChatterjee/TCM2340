@@ -40,6 +40,17 @@ public class Location implements Serializable {
         LOGGER.exiting("Location", "Constructor");
     }
 
+    public Location() {
+        longitude = 0;
+        latitude = 0;
+        description = "";
+        title = "";
+    }
+
+    public String toString() {
+        return latitude + ", " + longitude;
+    }
+
     public double getLongitude() { return longitude; }
     public double getLatitude() {return latitude; }
     public String getDescription() {return description;}

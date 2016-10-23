@@ -6,10 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import model.AccountType;
-import model.Report;
-import model.SubmittedReports;
-import model.User;
+import model.*;
 
 /**
  * Created by Elizabeth on 10/11/2016.
@@ -20,7 +17,10 @@ public class SubmitReportController {
     private Stage _dialogStage;
 
     @FXML
-    private TextField locationField;
+    private TextField longitudeField;
+
+    @FXML
+    private TextField latitudeField;
 
     @FXML
     private TextField conditionField;
@@ -63,7 +63,10 @@ public class SubmitReportController {
         String errorMessage = "";
 
         //for now just check they actually typed something
-        if (locationField.getText() == null || locationField.getText().length() == 0) {
+        if (longitudeField.getText() == null || longitudeField.getText().length() == 0) {
+            errorMessage += "No valid location entered!\n";
+        }
+        if (latitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
         }
         if (conditionField.getText() == null || conditionField.getText().length() == 0) {
@@ -91,7 +94,10 @@ public class SubmitReportController {
 
     @FXML
     private void handleSubmitReport() {
-        Report report = new Report(user.getUsername(), locationField.getText(), typeField.getText(), conditionField.getText());
+        double longitude = Double.parseDouble(longitudeField.getText().toString());
+        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        Location loc = new Location(latitude, longitude, "title", "description");
+        Report report = new Report(user.getUsername(), loc, typeField.getText(), conditionField.getText());
         if (isInputValid()) {
             reports.addReport(report);
             _dialogStage.close();

@@ -13,13 +13,12 @@ import javafx.stage.FileChooser;
 import javafx.stage.Window;
 
 
-import model.Facade;
-import model.Location;
-import model.User;
+import model.*;
 import netscape.javascript.JSObject;
 
 import java.io.File;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -37,6 +36,8 @@ public class MapController implements Initializable, MapComponentInitializedList
     private MainApp theApp;
 
     private User user;
+
+    private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -70,8 +71,10 @@ public class MapController implements Initializable, MapComponentInitializedList
 
 
         /** now we communciate with the model to get all the locations for markers */
-        Facade fc = Facade.getInstance();
-        List<Location> locations = fc.getLocations();
+        List<Location> locations = new ArrayList<>();
+        for (Report r : reportArrayList) {
+            locations.add(r.getLocation());
+        }
 
         for (Location l: locations) {
             MarkerOptions markerOptions = new MarkerOptions();

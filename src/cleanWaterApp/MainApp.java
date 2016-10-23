@@ -9,7 +9,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.User;
-import model.Facade;
 
 import java.io.IOException;
 import java.util.logging.Level;

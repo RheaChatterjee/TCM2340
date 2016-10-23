@@ -19,7 +19,7 @@ public class Report {
     private final StringProperty dateTime = new SimpleStringProperty();
     private final StringProperty reportNumber = new SimpleStringProperty();
     private final StringProperty reporterName = new SimpleStringProperty();
-    private final StringProperty location = new SimpleStringProperty();
+    private  Location location = new Location();
     private final StringProperty waterType = new SimpleStringProperty();
     private final StringProperty waterCondition = new SimpleStringProperty();
     private SubmittedReports submittedReports = new SubmittedReports();
@@ -31,7 +31,7 @@ public class Report {
         this.dateTime.set(date.toString());
     }
 
-    public Report(String reporterName, String location, String waterType, String waterCondition) {
+    public Report(String reporterName, Location location, String waterType, String waterCondition) {
         setReportNumber(String.format("%05d", submittedReports.getArraySize() + 1));
         setReporterName(reporterName);
         setLocation(location);
@@ -78,16 +78,12 @@ public class Report {
         this.reporterName.set(reporterName);
     }
 
-    public String getLocation() {
-        return location.get();
-    }
-
-    public StringProperty locationProperty() {
+    public Location getLocation() {
         return location;
     }
 
-    public void setLocation(String location) {
-        this.location.set(location);
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
     public String getWaterType() {
@@ -115,7 +111,7 @@ public class Report {
     }
 
     public String toString() {
-        return "Report Number: " + getReportNumber() + "\nReporter Name: " + getReporterName() + "\nDate Reported: " + getDateTime() + "\nLocation: " + getLocation() + "\nWater Type: " + getWaterType() + "\nWater Condition: " + getWaterCondition();
+        return "Report Number: " + getReportNumber() + "\nReporter Name: " + getReporterName() + "\nDate Reported: " + getDateTime() + "\nLocation: " + getLocation().toString() + "\nWater Type: " + getWaterType() + "\nWater Condition: " + getWaterCondition();
     }
 
 }
