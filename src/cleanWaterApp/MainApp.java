@@ -8,6 +8,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.User;
+import model.Facade;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -77,6 +78,7 @@ public class MainApp extends Application {
      * @param args
      */
     public static void main(String[] args) {
+        System.setProperty("java.net.useSystemProxies", "true");
         launch(args);
     }
 
@@ -306,6 +308,13 @@ public class MainApp extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void closeMapView() {
+        Facade fc = Facade.getInstance();
+        fc.addLocations();
+        //controller.mapInitialized();
+        //mainScreen.setScene(mapScene);
     }
 
 }

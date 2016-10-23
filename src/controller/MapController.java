@@ -13,6 +13,8 @@ import javafx.stage.FileChooser;
 import javafx.stage.Window;
 
 
+import model.Facade;
+import model.Location;
 import netscape.javascript.JSObject;
 
 import java.io.File;
@@ -23,9 +25,80 @@ import java.util.ResourceBundle;
 /**
  * Created by David on 10/18/2016.
  */
-public class MapController {
+public class MapController implements Initializable, MapComponentInitializedListener {
+    @FXML
+    private GoogleMapView mapView;
 
-    public MapController() {
+    private GoogleMap map;
+
+    private Window mainStage;
+
+    private MainApp theApp;
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        mapView.addMapInializedListener(this);
+    }
+
+    public void setCallbacks(Window stage, MainApp app) {
+        mainStage = stage;
+        theApp = app;
+    }
+
+
+    @Override
+    public void mapInitialized() {
+        MapOptions options = new MapOptions();
+
+        //set up the center location for the map
+        LatLong center = new LatLong(34, -88);
+
+        options.center(center)
+                .zoom(9)
+                .overviewMapControl(false)
+                .panControl(false)
+                .rotateControl(false)
+                .scaleControl(false)
+                .streetViewControl(false)
+                .zoomControl(false)
+                .mapType(MapTypeIdEnum.TERRAIN);
+
+        map = mapView.createMap(options);
+
+
+        /** now we communciate with the model to get all the locations for markers */
+        Facade fc = Facade.getInstance();
+        List<Location> locations = fc.getLocations();
+
+        for (Location l: locations) {
+            MarkerOptions markerOptions = new MarkerOptions();
+            LatLong loc = new LatLong(l.getLatitude(), l.getLongitude());
+
+            markerOptions.position(loc)
+                    .visible(Boolean.TRUE)
+                    .title(l.getTitle());
+
+            Marker marker = new Marker(markerOptions);
+
+            map.addUIEventHandler(marker,
+                    UIEventType.click,
+                    (JSObject obj) -> {
+                        InfoWindowOptions infoWindowOptions = new InfoWindowOptions();
+                        infoWindowOptions.content(l.getDescription());
+
+                        InfoWindow window = new InfoWindow(infoWindowOptions);
+                        window.open(map, marker);
+                    });
+
+            map.addMarker(marker);
+        }
+
+
+    }
+
+    @FXML
+    public void onCloseMenu() {
+        theApp.closeMapView();
     }
 
 }
