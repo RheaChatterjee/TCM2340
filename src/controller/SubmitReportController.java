@@ -61,13 +61,20 @@ public class SubmitReportController {
      * */
     public boolean isInputValid() {
         String errorMessage = "";
-
+        double longitude = Double.parseDouble(longitudeField.getText().toString());
+        double latitude = Double.parseDouble(latitudeField.getText().toString());
         //for now just check they actually typed something
         if (longitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
         }
         if (latitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
+        }
+        if (longitude > 180 || longitude < -180) {
+            errorMessage += "Longitude field is invalid!\n";
+        }
+        if (latitude > 90 || latitude < -180) {
+            errorMessage += "Latitude field is invalid!\n";
         }
         if (conditionField.getText() == null || conditionField.getText().length() == 0) {
             errorMessage += "No valid water condition entered!\n";
@@ -96,7 +103,7 @@ public class SubmitReportController {
     private void handleSubmitReport() {
         double longitude = Double.parseDouble(longitudeField.getText().toString());
         double latitude = Double.parseDouble(latitudeField.getText().toString());
-        Location loc = new Location(latitude, longitude, "title", "description");
+        Location loc = new Location(latitude, longitude, typeField.getText(), "<h2>Type: " + typeField.getText() + "<br> Condition: " + conditionField.getText());
         Report report = new Report(user.getUsername(), loc, typeField.getText(), conditionField.getText());
         if (isInputValid()) {
             reports.addReport(report);

@@ -318,18 +318,26 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("../view/map.fxml"));
             BorderPane layout = loader.load();
 
+//            // Set the cleanWaterApp App title
+//            mainScreen.setTitle("Map View");
+//
+//            // Show the scene containing the root layout.
+//            Scene scene = new Scene(layout);
+//            mainScreen.setScene(scene);
+//            mainScreen.show();
+
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Registration");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(layout);
+            dialogStage.setScene(scene);
+
             MapController controller = loader.getController();
             controller.setUser(user);
-            controller.setMainApp(this);
+            controller.setDialogStage(dialogStage);
 
-            // Set the cleanWaterApp App title
-            mainScreen.setTitle("Map View");
-
-            // Show the scene containing the root layout.
-            Scene scene = new Scene(layout);
-            mainScreen.setScene(scene);
-            mainScreen.show();
-
+            dialogStage.showAndWait();
 
         } catch (IOException e) {
             //error on load, so log it

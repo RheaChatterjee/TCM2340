@@ -25,6 +25,10 @@ public class reportListViewController {
     @FXML
     private ListView<String> reportListView;
 
+    /**
+     * sets the user
+     * @param user the logged in user
+     */
     public void setUser(User user) {
         this.user = user;
     }

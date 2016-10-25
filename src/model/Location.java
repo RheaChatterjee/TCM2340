@@ -15,6 +15,7 @@ public class Location implements Serializable {
 
     private static Logger LOGGER = Logger.getLogger("Location");
     private static FileHandler logFileHandler;
+
     static {
         LOGGER.setLevel(Level.FINER);
         try {
@@ -28,23 +29,23 @@ public class Location implements Serializable {
 
     private final double longitude;
     private final double latitude;
-    private final String description;
-    private final String title;
+    private String description;
+    private String title;
 
     public Location(double lat, double lg, String ti, String desc) {
         LOGGER.entering("Location", "Constructor");
         longitude = lg;
         latitude = lat;
-        description = desc;
         title = ti;
+        description = desc;
         LOGGER.exiting("Location", "Constructor");
     }
 
     public Location() {
         longitude = 0;
         latitude = 0;
-        description = "";
         title = "";
+        description = "";
     }
 
     public String toString() {
@@ -55,5 +56,12 @@ public class Location implements Serializable {
     public double getLatitude() {return latitude; }
     public String getDescription() {return description;}
     public String getTitle() { return title; }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
 }

@@ -19,7 +19,7 @@ public class Report {
     private final StringProperty dateTime = new SimpleStringProperty();
     private final StringProperty reportNumber = new SimpleStringProperty();
     private final StringProperty reporterName = new SimpleStringProperty();
-    private  Location location = new Location();
+    private Location location = new Location();
     private final StringProperty waterType = new SimpleStringProperty();
     private final StringProperty waterCondition = new SimpleStringProperty();
     private SubmittedReports submittedReports = new SubmittedReports();

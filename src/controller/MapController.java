@@ -10,6 +10,7 @@ import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 import javafx.stage.Window;
 
 
@@ -39,6 +40,8 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
+    private Stage _dialogStage;
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         mapView.addMapInializedListener(this);
@@ -55,8 +58,13 @@ public class MapController implements Initializable, MapComponentInitializedList
         MapOptions options = new MapOptions();
 
         //set up the center location for the map
-        LatLong center = new LatLong(34, -88);
-
+        LatLong center = null;
+        if (reportArrayList.isEmpty()) {
+            center = new LatLong(34, -88);
+        } else {
+            Location lastLocation = reportArrayList.get(reportArrayList.size() - 1).getLocation();
+            center = new LatLong(lastLocation.getLatitude(), lastLocation.getLongitude());
+        }
         options.center(center)
                 .zoom(9)
                 .overviewMapControl(false)
@@ -100,6 +108,14 @@ public class MapController implements Initializable, MapComponentInitializedList
         }
 
 
+    }
+
+    /**
+     * sets the dialog stage
+     * @param dialogStage
+     */
+    public void setDialogStage(Stage dialogStage) {
+        _dialogStage = dialogStage;
     }
 
     @FXML
