@@ -42,17 +42,24 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     private Stage _dialogStage;
 
+    /** called automatically
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         mapView.addMapInializedListener(this);
     }
 
+    /** sets stage and app
+     * @param stage main stage of the app
+     * @param app main app
+     */
     public void setCallbacks(Window stage, MainApp app) {
         mainStage = stage;
         theApp = app;
     }
 
-
+    /** Initializes map
+     */
     @Override
     public void mapInitialized() {
         MapOptions options = new MapOptions();
@@ -66,7 +73,7 @@ public class MapController implements Initializable, MapComponentInitializedList
             center = new LatLong(lastLocation.getLatitude(), lastLocation.getLongitude());
         }
         options.center(center)
-                .zoom(9)
+                .zoom(5)
                 .overviewMapControl(false)
                 .panControl(false)
                 .rotateControl(false)
@@ -118,15 +125,21 @@ public class MapController implements Initializable, MapComponentInitializedList
         _dialogStage = dialogStage;
     }
 
+    /** closes map on click
+     */
     @FXML
     public void onCloseMenu() {
         theApp.showMainScreen(user);
     }
 
+
     public void setMainApp(MainApp mainApplication) {
         theApp = mainApplication;
     }
 
+    /** sets the user
+     * @param user the logged in user
+     */
     public void setUser(User user) {
         this.user = user;
     }

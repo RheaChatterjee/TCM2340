@@ -99,6 +99,8 @@ public class SubmitReportController {
         }
     }
 
+    /** Creates a new report and instance of location for the report
+     */
     @FXML
     private void handleSubmitReport() {
         double longitude = Double.parseDouble(longitudeField.getText().toString());
