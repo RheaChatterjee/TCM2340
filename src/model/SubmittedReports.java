@@ -16,6 +16,7 @@ public class SubmittedReports {
         return submittedReports;
     }
 
+
     /**
      * gets the size of the array
      * @return int size of the array
@@ -31,4 +32,6 @@ public class SubmittedReports {
     public void addReport(Report report) {
         submittedReports.add(report);
     }
+
+
 }

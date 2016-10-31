@@ -229,6 +229,31 @@ public class MainApp extends Application {
         }
     }
 
+    public void showQualityReportPage(User user) {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/submitQualityReport.fxml"));
+            AnchorPane page = loader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Submit Quality Report");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            SubmitQualityReportController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.setUser(this.user);
+
+            // Show the dialog and wait until the user closes it
+            dialogStage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void showSubmittedReports(User user) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
@@ -244,6 +269,31 @@ public class MainApp extends Application {
             dialogStage.setScene(scene);
 
             reportListViewController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.setUser(this.user);
+
+            // Show the dialog and wait until the user closes it
+            dialogStage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void showSubmittedQualityReports(User user) {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/qualityReportListView.fxml"));
+            AnchorPane page = loader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Submitted Quality Report");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            qualityReportListViewController controller = loader.getController();
             controller.setDialogStage(dialogStage);
             controller.setUser(this.user);
 

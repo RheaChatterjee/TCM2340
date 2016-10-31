@@ -58,7 +58,17 @@ public class MainScreenController {
     }
 
     @FXML
+    private void openSubmitQualityReportPage() {
+        mainApplication.showQualityReportPage(user);
+    }
+
+    @FXML
     private void handleViewSubmittedReports() {
         mainApplication.showSubmittedReports(user);
+    }
+
+    @FXML
+    private void handleViewSubmittedQualityReports() {
+        mainApplication.showSubmittedQualityReports(user);
     }
 }
