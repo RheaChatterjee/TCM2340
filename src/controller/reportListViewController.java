@@ -21,7 +21,6 @@ public class reportListViewController {
 
     private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
-
     @FXML
     private ListView<String> reportListView;
 
@@ -58,7 +57,6 @@ public class reportListViewController {
             Report report = reportArrayList.get(i);
             reportsAsStrings.add(report.toString());
         }
-
         reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
     }
 }

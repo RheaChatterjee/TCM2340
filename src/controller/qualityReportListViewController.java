@@ -22,7 +22,7 @@ public class qualityReportListViewController {
 
 
     @FXML
-    private ListView<String> reportListView;
+    private ListView<String> qualityReportListView;
 
     /**
      * sets the user
@@ -58,6 +58,6 @@ public class qualityReportListViewController {
             reportsAsStrings.add(report.toString());
         }
 
-        reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
+        qualityReportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
     }
 }
