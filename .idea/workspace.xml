@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogFile" afterPath="$PROJECT_DIR$/LogFile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" afterPath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
     <ignored path="waterResources.iws" />
@@ -62,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="239" column="46" selection-start-line="239" selection-start-column="46" selection-end-line="239" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.4956822">
+              <caret line="236" column="49" selection-start-line="236" selection-start-column="49" selection-end-line="236" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaterQualityReport.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaterQualityReport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5284974">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -189,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/view/mainScreen.fxml" />
         <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
-        <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
         <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
+        <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
       </list>
     </option>
   </component>
@@ -1154,29 +1150,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/WelcomeScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="46" selection-start-line="239" selection-start-column="46" selection-end-line="239" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,9 +1176,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5284974">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4956822">
+          <caret line="236" column="49" selection-start-line="236" selection-start-column="49" selection-end-line="236" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

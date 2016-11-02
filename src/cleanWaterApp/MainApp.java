@@ -235,7 +235,6 @@ public class MainApp extends Application {
             dialogStage.showAndWait();
             if (controller.is_login()) {
                 this.user = controller.getUser();
-                System.out.println(this.user.getUsername());
                 if (this.user.getAccountType().equals(AccountType.USER) || this.user.getAccountType().equals(AccountType.ADMIN)) {
                     showMainScreen(this.user);
                 } else if (this.user.getAccountType().equals(AccountType.WORKER)) {
