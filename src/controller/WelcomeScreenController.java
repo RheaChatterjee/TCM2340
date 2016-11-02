@@ -13,6 +13,8 @@ public class WelcomeScreenController {
 
     private MainApp mainApplication;
 
+    private User user;
+
     /**
      * Connects the controller to the main application
      * @param mainApplication the main app

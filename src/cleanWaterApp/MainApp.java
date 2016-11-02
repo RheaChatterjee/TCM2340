@@ -8,6 +8,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model.AccountType;
 import model.User;
 
 import java.io.IOException;
@@ -121,6 +122,39 @@ public class MainApp extends Application {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/mainScreen.fxml"));
+
+            AnchorPane layout = loader.load();
+
+            MainScreenController controller = loader.getController();
+            controller.setUser(user);
+            controller.setMainApp(this);
+
+            // Set the cleanWaterApp App title
+            mainScreen.setTitle("Main Screen");
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(layout);
+            mainScreen.setScene(scene);
+            mainScreen.show();
+
+
+        } catch (IOException e) {
+            //error on load, so log it
+            LOGGER.log(Level.SEVERE, "Failed to find the fxml file for WelcomeScreen!!");
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * shows main screen
+     */
+    public void showWorkerMainScreen(User user) {
+        try {
+
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/workerMainScreen.fxml"));
+
             AnchorPane layout = loader.load();
 
             MainScreenController controller = loader.getController();
@@ -169,7 +203,12 @@ public class MainApp extends Application {
             dialogStage.showAndWait();
             if (controller.is_login()) {
                 this.user = controller.getUser();
-                showMainScreen(user);
+                System.out.println(this.user.getUsername());
+                if (this.user.getAccountType().equals(AccountType.USER) || this.user.getAccountType().equals(AccountType.ADMIN)) {
+                    showMainScreen(this.user);
+                } else if (this.user.getAccountType().equals(AccountType.WORKER) || this.user.getAccountType().equals(AccountType.MANAGER)) {
+                    showWorkerMainScreen(this.user);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -262,7 +301,7 @@ public class MainApp extends Application {
             AnchorPane page = loader.load();
             // Create the dialog Stage.
             Stage dialogStage = new Stage();
-            dialogStage.setTitle("Submitted Report");
+            dialogStage.setTitle("Submitted Reports");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(mainScreen);
             Scene scene = new Scene(page);
@@ -287,7 +326,7 @@ public class MainApp extends Application {
             AnchorPane page = loader.load();
             // Create the dialog Stage.
             Stage dialogStage = new Stage();
-            dialogStage.setTitle("Submitted Quality Report");
+            dialogStage.setTitle("Submitted Quality Reports");
             dialogStage.initModality(Modality.WINDOW_MODAL);
             dialogStage.initOwner(mainScreen);
             Scene scene = new Scene(page);
