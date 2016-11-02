@@ -178,6 +178,38 @@ public class MainApp extends Application {
     }
 
     /**
+     * shows  manager main screen
+     */
+    public void showManagerMainScreen(User user) {
+        try {
+
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("../view/managerMainScreen.fxml"));
+
+            AnchorPane layout = loader.load();
+
+            MainScreenController controller = loader.getController();
+            controller.setUser(user);
+            controller.setMainApp(this);
+
+            // Set the cleanWaterApp App title
+            mainScreen.setTitle("Main Screen");
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(layout);
+            mainScreen.setScene(scene);
+            mainScreen.show();
+
+
+        } catch (IOException e) {
+            //error on load, so log it
+            LOGGER.log(Level.SEVERE, "Failed to find the fxml file for WelcomeScreen!!");
+            e.printStackTrace();
+        }
+    }
+
+    /**
      * shows login window
      * @param user
      */
@@ -206,8 +238,10 @@ public class MainApp extends Application {
                 System.out.println(this.user.getUsername());
                 if (this.user.getAccountType().equals(AccountType.USER) || this.user.getAccountType().equals(AccountType.ADMIN)) {
                     showMainScreen(this.user);
-                } else if (this.user.getAccountType().equals(AccountType.WORKER) || this.user.getAccountType().equals(AccountType.MANAGER)) {
+                } else if (this.user.getAccountType().equals(AccountType.WORKER)) {
                     showWorkerMainScreen(this.user);
+                } else if (this.user.getAccountType().equals(AccountType.MANAGER)) {
+                    showManagerMainScreen(this.user);
                 }
             }
         } catch (IOException e) {

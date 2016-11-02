@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" afterPath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogFile" afterPath="$PROJECT_DIR$/LogFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" afterPath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" afterPath="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/mainScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
@@ -32,23 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reportListView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/reportListView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="10" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mainScreen.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -68,27 +52,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workerMainScreen.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/workerMainScreen.fxml">
+      <file leaf-file-name="UserProfileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/UserProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1761658">
-              <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="239" column="46" selection-start-line="239" selection-start-column="46" selection-end-line="239" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmitQualityReportController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmittedQualityReports.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaterQualityReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5284974">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,42 +109,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-              <folding>
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/welcome.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/AccountType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/User.java">
+      <file leaf-file-name="MainScreenController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+              <caret line="33" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -205,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
         <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
       </list>
     </option>
   </component>
@@ -246,9 +232,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,6 +340,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -663,7 +649,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24784483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -934,13 +920,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UserProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -996,11 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2363#2364#0" expanded="false" />
-            <element signature="e#2397#2398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,34 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#947#948#0" expanded="false" />
-            <element signature="e#1000#1001#0" expanded="false" />
-            <element signature="e#1040#1041#0" expanded="false" />
-            <element signature="e#1085#1086#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1190#1191#0" expanded="false" />
-            <element signature="e#1557#1558#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Report.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,35 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/SubmittedReports.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73402417">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/workerMainScreen.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1167,7 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/welcome.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
@@ -1203,14 +1127,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/UserProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,24 +1170,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1761658">
-          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="239" column="46" selection-start-line="239" selection-start-column="46" selection-end-line="239" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5284974">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
