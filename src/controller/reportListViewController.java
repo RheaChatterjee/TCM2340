@@ -51,12 +51,13 @@ public class reportListViewController {
      * called automatically after load
      */
     @FXML
-    private void initialize() {
+    private boolean populateListView() {
         ArrayList<String> reportsAsStrings = new ArrayList<>();
         for(int i = 0; i < reportArrayList.size(); i++) {
             Report report = reportArrayList.get(i);
             reportsAsStrings.add(report.toString());
         }
         reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
+        return true;
     }
 }
