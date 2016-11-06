@@ -2,7 +2,6 @@ package controller;
 
 import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import model.User;
 
 /**

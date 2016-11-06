@@ -3,7 +3,7 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import model.Worker;
+
 
 /**
  * Created by Amine on 9/28/2016.

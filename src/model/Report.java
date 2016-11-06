@@ -1,7 +1,5 @@
 package model;
 
-import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
@@ -9,7 +7,6 @@ import javafx.beans.property.StringProperty;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import model.SubmittedReports;
 
 /**
  * Created by Elizabeth on 10/6/2016.

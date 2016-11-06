@@ -51,7 +51,7 @@ public class qualityReportListViewController {
      * called automatically after load
      */
     @FXML
-    private void initialize() {
+    private void populateListView() {
         ArrayList<String> reportsAsStrings = new ArrayList<>();
         for(int i = 0; i < reportArrayList.size(); i++) {
             WaterQualityReport report = reportArrayList.get(i);

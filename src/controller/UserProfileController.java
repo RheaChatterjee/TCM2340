@@ -3,10 +3,7 @@ package controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import model.RegisteredUser;
 import model.User;
-import javax.sound.midi.Soundbank;
-import java.awt.*;
 import java.util.HashMap;
 
 /**

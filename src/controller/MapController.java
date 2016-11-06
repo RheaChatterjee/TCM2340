@@ -9,7 +9,6 @@ import cleanWaterApp.MainApp;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
@@ -17,7 +16,6 @@ import javafx.stage.Window;
 import model.*;
 import netscape.javascript.JSObject;
 
-import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
