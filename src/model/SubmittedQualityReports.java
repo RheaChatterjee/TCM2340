@@ -2,9 +2,7 @@ package model;
 
 import java.util.ArrayList;
 
-/**
- * Created by RheaChatterjee on 10/30/16.
- */
+
 public class SubmittedQualityReports {
     private static final ArrayList<WaterQualityReport> submittedQualityReports = new ArrayList<>();
 

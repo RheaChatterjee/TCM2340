@@ -10,9 +10,7 @@ import model.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by aminebenltaifa on 10/12/16.
- */
+
 public class reportListViewController {
 
     private User user;

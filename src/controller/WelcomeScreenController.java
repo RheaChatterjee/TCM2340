@@ -4,9 +4,7 @@ import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
 import model.User;
 
-/**
- * Created by Elizabeth on 9/17/2016.
- */
+
 public class WelcomeScreenController {
 
 

@@ -6,10 +6,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Created by elizabethcooper on 10/22/16.
- * Just a class to hold some data we might want to display on the map
- */
+
 public class Location implements Serializable {
 
     private static Logger LOGGER = Logger.getLogger("Location");

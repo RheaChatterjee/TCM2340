@@ -5,7 +5,6 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
-   <children>
       <Button id="logoutButton" contentDisplay="CENTER" layoutX="210.0" layoutY="401.0" mnemonicParsing="false" onAction="#handleLogout" styleClass="Button" stylesheets="@style.css" text="Logout" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font size="14.0" />
@@ -22,5 +21,4 @@
       <Button fx:id="viewMap" layoutX="204.0" layoutY="107.0" mnemonicParsing="false" onAction="#openMap" styleClass="Button" stylesheets="@style.css" text="View Map" textFill="WHITE" />
       <Button fx:id="viewQualityReportsButton" layoutX="172.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleViewSubmittedQualityReports" styleClass="Button" text="View Quality Reports" textFill="WHITE" />
       <Button fx:id="viewReportsButton" layoutX="193.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleViewSubmittedReports" styleClass="Button" text="View Reports" textFill="WHITE" />
-   </children>
 </AnchorPane>

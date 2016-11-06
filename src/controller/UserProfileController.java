@@ -6,9 +6,7 @@ import javafx.stage.Stage;
 import model.User;
 import java.util.HashMap;
 
-/**
- * Created by David on 10/3/2016.
- */
+
 public class UserProfileController {
     @FXML
     private Label usernameProfile;

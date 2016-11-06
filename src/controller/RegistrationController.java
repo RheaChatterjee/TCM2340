@@ -12,9 +12,7 @@ import model.RegisteredUser;
 import model.User;
 
 
-/**
- * Created by David on 9/28/2016.
- */
+
 public class RegistrationController {
 
     @FXML

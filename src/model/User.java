@@ -5,9 +5,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-/**
- * Created by Amine on 9/28/2016.
- */
+
 public class User {
 
     //Basic Information

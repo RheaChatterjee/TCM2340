@@ -8,9 +8,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by Elizabeth on 10/6/2016.
- */
+
 public class Report {
 
     private final StringProperty dateTime = new SimpleStringProperty();

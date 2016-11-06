@@ -21,9 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-/**
- * Created by David on 10/18/2016.
- */
+
 public class MapController implements Initializable, MapComponentInitializedListener {
     @FXML
     private GoogleMapView mapView;

@@ -5,10 +5,6 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import model.User;
 
-/**
- * Created by Amine on 9/28/2016.
- */
-
 public class Worker extends User {
 
     private final StringProperty workerId = new SimpleStringProperty();

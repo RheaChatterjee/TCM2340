@@ -57,7 +57,7 @@ public class EditProfileController {
             alert.setHeaderText("Please correct invalid fields");
             alert.setContentText("Invalid email address");
 
-            alert.showAndWait();;
+            alert.showAndWait();
         } else if (emailField.getText().length() != 0) {
             user.setEmail(emailField.getText());
         }

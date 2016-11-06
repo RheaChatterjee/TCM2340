@@ -6,9 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.*;
 
-/**
- * Created by RheaChatterjee on 10/30/16.
- */
+
 public class SubmitQualityReportController {
     private User user;
 
@@ -31,11 +29,6 @@ public class SubmitQualityReportController {
 
     private static final SubmittedQualityReports reports = new SubmittedQualityReports();
 
-
-    @FXML
-    private void initialize() {
-
-    }
 
     public void setUser(User user) {
         this.user = user;
