@@ -28,15 +28,11 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     private GoogleMap map;
 
-    private Window mainStage;
-
     private MainApp theApp;
 
     private User user;
 
     private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
-
-    private Stage _dialogStage;
 
     /** called automatically
      */
@@ -46,11 +42,9 @@ public class MapController implements Initializable, MapComponentInitializedList
     }
 
     /** sets stage and app
-     * @param stage main stage of the app
      * @param app main app
      */
-    public void setCallbacks(Window stage, MainApp app) {
-        mainStage = stage;
+    public void setCallbacks( MainApp app) {
         theApp = app;
     }
 
@@ -61,7 +55,7 @@ public class MapController implements Initializable, MapComponentInitializedList
         MapOptions options = new MapOptions();
 
         //set up the center location for the map
-        LatLong center = null;
+        LatLong center;
         if (reportArrayList.isEmpty()) {
             center = new LatLong(34, -88);
         } else {
@@ -113,13 +107,6 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     }
 
-    /**
-     * sets the dialog stage
-     * @param dialogStage given dialog stage
-     */
-    public void setDialogStage(Stage dialogStage) {
-        _dialogStage = dialogStage;
-    }
 
     /** closes map on click
      */

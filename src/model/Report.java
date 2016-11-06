@@ -17,7 +17,6 @@ public class Report {
     private Location location = new Location();
     private final StringProperty waterType = new SimpleStringProperty();
     private final StringProperty waterCondition = new SimpleStringProperty();
-    private final SubmittedReports submittedReports = new SubmittedReports();
 
 
     public Report() {
@@ -27,6 +26,7 @@ public class Report {
     }
 
     public Report(String reporterName, Location location, String waterType, String waterCondition) {
+        SubmittedReports submittedReports = new SubmittedReports();
         setReportNumber(String.format("%05d", submittedReports.getArraySize() + 1));
         setReporterName(reporterName);
         setLocation(location);

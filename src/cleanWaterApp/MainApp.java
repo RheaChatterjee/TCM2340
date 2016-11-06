@@ -365,7 +365,6 @@ public class MainApp extends Application {
 
             qualityReportListViewController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -455,7 +454,6 @@ public class MainApp extends Application {
 
             MapController controller = loader.getController();
             controller.setUser(user);
-            controller.setDialogStage(dialogStage);
 
             dialogStage.showAndWait();
 

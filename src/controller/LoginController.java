@@ -23,8 +23,6 @@ public class LoginController {
 
     private boolean _login = false;
 
-    private HashMap<String, User> registeredUserMap;
-
     /**
      * called automatically after load
      */
@@ -80,8 +78,7 @@ public class LoginController {
     @FXML
     private void handleOKPressed() {
         String username = usernameField.getText();
-        String password = passwordField.getText();
-        registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
         User registeredUserInformation = registeredUserMap.get(username);
         if (registeredUserMap.containsKey(username) &&
                 registeredUserInformation.getPassword().equals(passwordField.getText())) {

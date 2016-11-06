@@ -21,13 +21,6 @@ public class qualityReportListViewController {
     @FXML
     private ListView<String> qualityReportListView;
 
-    /**
-     * sets the user
-     * @param user the logged in user
-     */
-    public void setUser(User user) {
-        User user1 = user;
-    }
 
     /**
      * sets the dialog stage
@@ -51,8 +44,7 @@ public class qualityReportListViewController {
     private void populateListView() {
         ArrayList<String> reportsAsStrings = new ArrayList<>();
         for(WaterQualityReport r : reportArrayList) {
-            WaterQualityReport report = r;
-            reportsAsStrings.add(report.toString());
+            reportsAsStrings.add(r.toString());
         }
 
         qualityReportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
