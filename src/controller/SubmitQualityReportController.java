@@ -55,8 +55,8 @@ public class SubmitQualityReportController {
      * */
     public boolean isInputValid() {
         String errorMessage = "";
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         //for now just check they actually typed something
         if (longitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
@@ -100,8 +100,8 @@ public class SubmitQualityReportController {
      */
     @FXML
     private void handleSubmitQualityReport() {
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, virusPPMField.getText(), "<h2>Type: " + contamPPMField.getText() + "<br> Condition: " + conditionField.getText());
         WaterQualityReport report = new WaterQualityReport(user.getUsername(), loc, conditionField.getText(), virusPPMField.getText(), contamPPMField.getText());
         if (isInputValid()) {

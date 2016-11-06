@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" afterPath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/EditProfileController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/EditProfileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MainScreenController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MainScreenController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController$1.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitQualityReportController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitQualityReportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitReportController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitReportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/UserProfileController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/UserProfileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/WelcomeScreenController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/WelcomeScreenController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/qualityReportListViewController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/qualityReportListViewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/reportListViewController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/reportListViewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Location.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/User.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" afterPath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/EditProfileController.java" afterPath="$PROJECT_DIR$/src/controller/EditProfileController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MapController.java" afterPath="$PROJECT_DIR$/src/controller/MapController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Location.java" afterPath="$PROJECT_DIR$/src/model/Location.java" />
     </list>
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
     <ignored path="waterResources.iws" />
@@ -89,16 +48,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubmittedReports.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/SubmittedReports.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -157,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubmitReportController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubmitReportController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29122055">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,11 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubmitQualityReportController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
+      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Location.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmitQualityReportController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.99785864">
+              <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -227,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
         <option value="$PROJECT_DIR$/src/model/AccountType.java" />
         <option value="$PROJECT_DIR$/src/model/Admin.java" />
-        <option value="$PROJECT_DIR$/src/model/Location.java" />
         <option value="$PROJECT_DIR$/src/model/Manager.java" />
         <option value="$PROJECT_DIR$/src/model/RegisteredUser.java" />
         <option value="$PROJECT_DIR$/src/model/Report.java" />
@@ -241,8 +199,9 @@
         <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
         <option value="$PROJECT_DIR$/src/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
         <option value="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
+        <option value="$PROJECT_DIR$/src/model/Location.java" />
+        <option value="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
       </list>
     </option>
   </component>
@@ -719,7 +678,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478460968258</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed code issues&#10;">
+      <created>1478461284636</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1478461284636</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1159,16 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1290,21 +1245,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29122055">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.99785864">
+          <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
