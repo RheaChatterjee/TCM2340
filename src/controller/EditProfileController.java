@@ -6,9 +6,6 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.User;
 
-/**
- * Created by Elizabeth on 10/2/2016.
- */
 public class EditProfileController {
     @FXML
     private TextField emailField;
@@ -32,7 +29,7 @@ public class EditProfileController {
 
     /**
      * sets the dialog stage
-     * @param dialogStage
+     * @param dialogStage the given dialog stage
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;

@@ -8,9 +8,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by RheaChatterjee on 10/29/16.
- */
 public class WaterQualityReport {
     private final StringProperty dateTime = new SimpleStringProperty();
     private final StringProperty reportNumber = new SimpleStringProperty();

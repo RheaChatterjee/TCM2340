@@ -33,7 +33,7 @@ public class SubmitReportController {
 
     /**
      * sets the dialog stage
-     * @param dialogStage
+     * @param dialogStage given dialog stage
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;

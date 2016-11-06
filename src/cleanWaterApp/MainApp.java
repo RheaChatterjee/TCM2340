@@ -43,7 +43,7 @@ public class MainApp extends Application {
 
     /**
      * initializes original scene
-     * @param mainScreen
+     * @param mainScreen given screen
      */
     private void initRootLayout(Stage mainScreen) {
         try {
@@ -76,7 +76,7 @@ public class MainApp extends Application {
 
     /**
      * launches application
-     * @param args
+     * @param args main args
      */
     public static void main(String[] args) {
         System.setProperty("java.net.useSystemProxies", "true");
@@ -211,7 +211,7 @@ public class MainApp extends Application {
 
     /**
      * shows login window
-     * @param user
+     * @param user current user
      */
     public void showLoginWindow(User user) {
         try {

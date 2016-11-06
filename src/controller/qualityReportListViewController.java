@@ -51,8 +51,8 @@ public class qualityReportListViewController {
     @FXML
     private void populateListView() {
         ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for(int i = 0; i < reportArrayList.size(); i++) {
-            WaterQualityReport report = reportArrayList.get(i);
+        for(WaterQualityReport r : reportArrayList) {
+            WaterQualityReport report = r;
             reportsAsStrings.add(report.toString());
         }
 

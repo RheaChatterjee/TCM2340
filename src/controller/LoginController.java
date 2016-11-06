@@ -35,7 +35,7 @@ public class LoginController {
 
     /**
      * sets the dialog stage
-     * @param dialogStage
+     * @param dialogStage the given dialog stage
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;
