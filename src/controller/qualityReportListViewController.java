@@ -15,7 +15,7 @@ public class qualityReportListViewController {
 
     private Stage _dialogStage;
 
-    private ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
+    private final ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
 
 
     @FXML

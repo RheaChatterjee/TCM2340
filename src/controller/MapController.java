@@ -34,7 +34,7 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     private User user;
 
-    private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
+    private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     private Stage _dialogStage;
 

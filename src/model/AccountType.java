@@ -12,7 +12,7 @@ public enum AccountType {
 
     /** String representation of account type
      */
-    private String name;
+    private final String name;
 
 
     /** Enum constructor for account type

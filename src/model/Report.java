@@ -17,7 +17,7 @@ public class Report {
     private Location location = new Location();
     private final StringProperty waterType = new SimpleStringProperty();
     private final StringProperty waterCondition = new SimpleStringProperty();
-    private SubmittedReports submittedReports = new SubmittedReports();
+    private final SubmittedReports submittedReports = new SubmittedReports();
 
 
     public Report() {
@@ -37,7 +37,7 @@ public class Report {
         this.dateTime.set(date.toString());
     }
 
-    public String getDateTime() {
+    private String getDateTime() {
         return dateTime.get();
     }
 
@@ -49,7 +49,7 @@ public class Report {
         this.dateTime.set(dateTime);
     }
 
-    public String getReportNumber() {
+    private String getReportNumber() {
         return reportNumber.get();
     }
 
@@ -57,11 +57,11 @@ public class Report {
         return reportNumber;
     }
 
-    public void setReportNumber(String reportNumber) {
+    private void setReportNumber(String reportNumber) {
         this.reportNumber.set(reportNumber);
     }
 
-    public String getReporterName() {
+    private String getReporterName() {
         return reporterName.get();
     }
 
@@ -69,7 +69,7 @@ public class Report {
         return reporterName;
     }
 
-    public void setReporterName(String reporterName) {
+    private void setReporterName(String reporterName) {
         this.reporterName.set(reporterName);
     }
 
@@ -77,11 +77,11 @@ public class Report {
         return location;
     }
 
-    public void setLocation(Location location) {
+    private void setLocation(Location location) {
         this.location = location;
     }
 
-    public String getWaterType() {
+    private String getWaterType() {
         return waterType.get();
     }
 
@@ -89,11 +89,11 @@ public class Report {
         return waterType;
     }
 
-    public void setWaterType(String waterType) {
+    private void setWaterType(String waterType) {
         this.waterType.set(waterType);
     }
 
-    public String getWaterCondition() {
+    private String getWaterCondition() {
         return waterCondition.get();
     }
 
@@ -101,7 +101,7 @@ public class Report {
         return waterType;
     }
 
-    public void setWaterCondition(String waterCondition) {
+    private void setWaterCondition(String waterCondition) {
         this.waterCondition.set(waterCondition);
     }
 

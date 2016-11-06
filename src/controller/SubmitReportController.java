@@ -50,7 +50,7 @@ public class SubmitReportController {
     /**
      * Checks for valid input
      * */
-    public boolean isInputValid() {
+    private boolean isInputValid() {
         String errorMessage = "";
         double longitude = Double.parseDouble(longitudeField.getText().toString());
         double latitude = Double.parseDouble(latitudeField.getText().toString());

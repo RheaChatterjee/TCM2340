@@ -53,7 +53,7 @@ public class SubmitQualityReportController {
     /**
      * Checks for valid input
      * */
-    public boolean isInputValid() {
+    private boolean isInputValid() {
         String errorMessage = "";
         double longitude = Double.parseDouble(longitudeField.getText());
         double latitude = Double.parseDouble(latitudeField.getText());

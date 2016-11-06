@@ -12,7 +12,7 @@ public class RegisteredUser {
      * @return HashMap of registered users
      */
     public HashMap getRegisteredUserMap() {
-        return this.registeredUserMap;
+        return registeredUserMap;
     }
 
     /**

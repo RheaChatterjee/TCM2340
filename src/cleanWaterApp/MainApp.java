@@ -146,7 +146,7 @@ public class MainApp extends Application {
     /**
      * shows main screen
      */
-    public void showWorkerMainScreen(User user) {
+    private void showWorkerMainScreen(User user) {
         try {
 
             // Load root layout from fxml file.
@@ -178,7 +178,7 @@ public class MainApp extends Application {
     /**
      * shows  manager main screen
      */
-    public void showManagerMainScreen(User user) {
+    private void showManagerMainScreen(User user) {
         try {
 
             // Load root layout from fxml file.
@@ -232,13 +232,13 @@ public class MainApp extends Application {
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
             if (controller.is_login()) {
-                this.user = controller.getUser();
-                if (this.user.getAccountType().equals(AccountType.USER) || this.user.getAccountType().equals(AccountType.ADMIN)) {
-                    showMainScreen(this.user);
-                } else if (this.user.getAccountType().equals(AccountType.WORKER)) {
-                    showWorkerMainScreen(this.user);
-                } else if (this.user.getAccountType().equals(AccountType.MANAGER)) {
-                    showManagerMainScreen(this.user);
+                MainApp.user = controller.getUser();
+                if (MainApp.user.getAccountType().equals(AccountType.USER) || MainApp.user.getAccountType().equals(AccountType.ADMIN)) {
+                    showMainScreen(MainApp.user);
+                } else if (MainApp.user.getAccountType().equals(AccountType.WORKER)) {
+                    showWorkerMainScreen(MainApp.user);
+                } else if (MainApp.user.getAccountType().equals(AccountType.MANAGER)) {
+                    showManagerMainScreen(MainApp.user);
                 }
             }
         } catch (IOException e) {
@@ -249,7 +249,7 @@ public class MainApp extends Application {
     /**
      * shows edit profile window
      */
-    public void showEditProfile(User user) {
+    public void showEditProfile() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -265,7 +265,7 @@ public class MainApp extends Application {
 
             EditProfileController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -274,7 +274,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showReportPage(User user) {
+    public void showReportPage() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -290,7 +290,7 @@ public class MainApp extends Application {
 
             SubmitReportController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -299,7 +299,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showQualityReportPage(User user) {
+    public void showQualityReportPage() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -315,7 +315,7 @@ public class MainApp extends Application {
 
             SubmitQualityReportController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -324,7 +324,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showSubmittedReports(User user) {
+    public void showSubmittedReports() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -340,7 +340,7 @@ public class MainApp extends Application {
 
             reportListViewController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -349,7 +349,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showSubmittedQualityReports(User user) {
+    public void showSubmittedQualityReports() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -365,7 +365,7 @@ public class MainApp extends Application {
 
             qualityReportListViewController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();
@@ -377,7 +377,7 @@ public class MainApp extends Application {
     /**
      * shows user profile window
      */
-    public void showUserProfile(User user) {
+    public void showUserProfile() {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
             FXMLLoader loader = new FXMLLoader();
@@ -392,9 +392,9 @@ public class MainApp extends Application {
             dialogStage.setScene(scene);
 
             UserProfileController controller = loader.getController();
-            controller.initialize(this.user);
+            controller.initialize(MainApp.user);
             controller.setDialogStage(dialogStage);
-            controller.setUser(this.user);
+            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

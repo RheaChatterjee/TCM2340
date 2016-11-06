@@ -15,7 +15,7 @@ public class reportListViewController {
 
     private Stage _dialogStage;
 
-    private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
+    private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     @FXML
     private ListView<String> reportListView;
