@@ -23,9 +23,6 @@ public class MainApp extends Application {
     /** the main container for the application window */
     private Stage mainScreen;
 
-    /** the main layout for the main window */
-    private AnchorPane rootLayout;
-
     private static User user;
 
 
@@ -51,7 +48,8 @@ public class MainApp extends Application {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/welcome.fxml"));
-            rootLayout = loader.load();
+            /* the main layout for the main window */
+            AnchorPane rootLayout = loader.load();
 
 
             WelcomeScreenController controller = loader.getController();

@@ -13,8 +13,6 @@ import java.util.ArrayList;
 
 public class reportListViewController {
 
-    private User user;
-
     private Stage _dialogStage;
 
     private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
@@ -27,7 +25,7 @@ public class reportListViewController {
      * @param user the logged in user
      */
     public void setUser(User user) {
-        this.user = user;
+        User user1 = user;
     }
 
     /**

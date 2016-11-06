@@ -17,7 +17,6 @@ public class WaterQualityReport {
     private final StringProperty waterCondition = new SimpleStringProperty();
     private final StringProperty virusPPM = new SimpleStringProperty();
     private final StringProperty contamPPM = new SimpleStringProperty();
-    private SubmittedQualityReports submittedReports = new SubmittedQualityReports();
 
 
     public WaterQualityReport() {
@@ -27,6 +26,7 @@ public class WaterQualityReport {
     }
 
     public WaterQualityReport(String reporterName, Location location, String waterCondition, String virusPPM, String contamPPM) {
+        SubmittedQualityReports submittedReports = new SubmittedQualityReports();
         setReportNumber(String.format("%05d", submittedReports.getQualityArraySize() + 1));
         setReporterName(reporterName);
         setLocation(location);

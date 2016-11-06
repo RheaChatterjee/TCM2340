@@ -12,7 +12,6 @@ import java.util.ArrayList;
 
 
 public class qualityReportListViewController {
-    private User user;
 
     private Stage _dialogStage;
 
@@ -27,7 +26,7 @@ public class qualityReportListViewController {
      * @param user the logged in user
      */
     public void setUser(User user) {
-        this.user = user;
+        User user1 = user;
     }
 
     /**
