@@ -20,6 +20,7 @@ import model.WaterQualityReport;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class VirusPPMGraphController extends Application {
@@ -45,6 +46,7 @@ public class VirusPPMGraphController extends Application {
     private ArrayList<WaterQualityReport> reportListGraph = new ArrayList<>();
 
     private ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
+
 
 
     public void setDialogStage(Stage dialogStage) {
@@ -92,14 +94,7 @@ public class VirusPPMGraphController extends Application {
 
     @Override
     public void start(Stage stage) {
-
-        RadioButton virusPPMButton = new RadioButton("VirusPPM");
-        RadioButton contamPPMButton = new RadioButton("ContamPPM");
-        ToggleGroup radioGroup = new ToggleGroup();
-        virusPPMButton.setToggleGroup(radioGroup);
-        contamPPMButton.setToggleGroup(radioGroup);
-        RadioButton selectedButton = (RadioButton) radioGroup.getSelectedToggle();
-        if (selectedButton == virusPPMButton) {
+        if (virusButton.isSelected()) {
             stage.setTitle("VirusPPM History Chart");
             final CategoryAxis xAxis = new CategoryAxis();
             final NumberAxis yAxis = new NumberAxis();
@@ -113,9 +108,21 @@ public class VirusPPMGraphController extends Application {
             XYChart.Series virusSeries = new XYChart.Series();
             virusSeries.setName("VirusPPM");
 
+            HashMap<String, Integer> data = new HashMap<>();
             for (WaterQualityReport report : getWaterQualityData()) {
-                virusSeries.getData().add(new XYChart.Data(report.getMonth(), Integer.parseInt(report.getVirusPPM())));
+                if (data.get(report.getMonth()) == null) {
+                    data.put(report.getMonth(), Integer.parseInt(report.getVirusPPM()));
+                } else {
+                    data.put(report.getMonth(), (data.get(report.getMonth())+Integer.parseInt(report.getVirusPPM()))/2);
+                }
             }
+            System.out.println(data.size());
+            for (String key : data.keySet()) {
+                virusSeries.getData().add(new XYChart.Data(key, data.get(key)));
+            }
+            /*for (WaterQualityReport report : getWaterQualityData()) {
+                virusSeries.getData().add(new XYChart.Data(report.getMonth(), Integer.parseInt(report.getVirusPPM())));
+            }*/
 
 
             Scene scene = new Scene(viruslineChart, 800, 600);
@@ -123,29 +130,41 @@ public class VirusPPMGraphController extends Application {
 
             stage.setScene(scene);
             stage.show();
-        } else if (selectedButton == contamPPMButton)
+        }
+        if (containmentButton.isSelected()) {
             stage.setTitle("ContaminantPPM History Chart");
-        final CategoryAxis xAxis = new CategoryAxis();
-        final NumberAxis yAxis = new NumberAxis();
-        xAxis.setLabel("Month");
+            final CategoryAxis xAxis = new CategoryAxis();
+            final NumberAxis yAxis = new NumberAxis();
+            xAxis.setLabel("Month");
 
-        final LineChart<String, Number> viruslineChart =
-                new LineChart(xAxis, yAxis);
+            final LineChart<String, Number> viruslineChart =
+                    new LineChart(xAxis, yAxis);
 
-        viruslineChart.setTitle("ContaminantPPM History");
+            viruslineChart.setTitle("ContaminantPPM History");
 
-        XYChart.Series contamSeries = new XYChart.Series();
-        contamSeries.setName("ContaminantPPM");
+            XYChart.Series contamSeries = new XYChart.Series();
+            contamSeries.setName("ContaminantPPM");
 
-        for (WaterQualityReport report : getWaterQualityData()) {
-            contamSeries.getData().add(new XYChart.Data(report.getMonth(), Integer.parseInt(report.getContamPPM())));
+            HashMap<String, Integer> data = new HashMap<>();
+            for (WaterQualityReport report : getWaterQualityData()) {
+                if (data.get(report.getMonth()) == null) {
+                    data.put(report.getMonth(), Integer.parseInt(report.getContamPPM()));
+                } else {
+                    data.put(report.getMonth(), (data.get(report.getMonth()) + Integer.parseInt(report.getContamPPM())) / 2);
+                }
+            }
+            System.out.println(data.size());
+            for (String key : data.keySet()) {
+                contamSeries.getData().add(new XYChart.Data(key, data.get(key)));
+            }
+
+
+            Scene scene = new Scene(viruslineChart, 800, 600);
+            viruslineChart.getData().add(contamSeries);
+            stage.setScene(scene);
+            stage.show();
         }
 
 
-        Scene scene = new Scene(viruslineChart, 800, 600);
-        viruslineChart.getData().add(contamSeries);
-
-        stage.setScene(scene);
-        stage.show();
     }
 }
