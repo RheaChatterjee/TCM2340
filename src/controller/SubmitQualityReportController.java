@@ -64,21 +64,8 @@ public class SubmitQualityReportController {
         if (latitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
         }
-        if (longitude > 180 || longitude < -180) {
-            errorMessage += "Longitude field is invalid!\n";
-        }
-        if (latitude > 90 || latitude < -180) {
-            errorMessage += "Latitude field is invalid!\n";
-        }
-        if (conditionField.getText() == null || conditionField.getText().length() == 0) {
-            errorMessage += "No valid water condition entered!\n";
-        }
-        if (virusPPMField.getText() == null || virusPPMField.getText().length() == 0) {
-            errorMessage += "No valid virusPPM entered!\n";
-        }
-        if (contamPPMField.getText() == null || contamPPMField.getText().length() == 0) {
-            errorMessage += "No valid contamPPM entered!\n";
-        }
+        InputChecker checker = new InputChecker();
+        errorMessage += checker.checkQualReportInput(longitude, latitude, conditionField.getText(), virusPPMField.getText(), contamPPMField.getText());
         //no error message means success / good input
         if (errorMessage.length() == 0) {
             return true;

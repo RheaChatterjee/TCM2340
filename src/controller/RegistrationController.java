@@ -8,6 +8,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import model.AccountType;
 import javafx.scene.control.TextField;
+import model.InputChecker;
 import model.RegisteredUser;
 import model.User;
 
@@ -98,29 +99,12 @@ public class RegistrationController {
      */
     private boolean isInputValid() {
         String errorMessage = "";
-
+        InputChecker checker = new InputChecker();
         //for now just check they actually typed something
-        if (registrationName.getText() == null || registrationName.getText().length() == 0) {
-            errorMessage += "Not a valid username!\n";
-        }
         if (registeredUser.usernameExist(user)) {
             errorMessage += "Username already exists!\n";
         }
-        if (registrationPassword.getText() == null || registrationPassword.getText().length() < 4) {
-            errorMessage += "No valid password entered! Please make password longer than four characters! \n";
-        }
-        if (registrationEmail.getText() == null || registrationEmail.getText().length() == 0 || !registrationEmail.getText().contains("@")) {
-            errorMessage += "No valid email entered!\n";
-        }
-        if (selectAccountType.getValue() == null) {
-            errorMessage += "No valid account type selected\n";
-        }
-        if (addressBox.getText() == null || addressBox.getText().length() == 0) {
-            errorMessage += "No valid address entered!\n";
-        }
-        if (titleBox.getText() == null || titleBox.getText().length() == 0) {
-            errorMessage += "No valid title entered!\n";
-        }
+        errorMessage += checker.checkRegistrationInput(registrationName.getText(), registrationPassword.getText(), registrationEmail.getText(), selectAccountType.getValue().toString(), addressBox.getText(), titleBox.getText());
         //no error message means success / good input
         if (errorMessage.length() == 0) {
             return true;
