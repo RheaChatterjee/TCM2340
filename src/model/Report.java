@@ -34,9 +34,18 @@ public class Report {
         setLocation(location);
         setWaterType(waterType);
         setWaterCondition(waterCondition);
-        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy h:mm a");
-        Date date = new Date();
-        this.dateTime.set(date.toString());
+        DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
+        String date = dateFormat.format(new Date());
+        this.dateTime.set(date);
+    }
+
+    /**
+     * gets the year of the report
+     * @return String of the year
+     */
+    public String getYear() {
+        String year = getDateTime().substring(7, 11);
+        return year;
     }
 
     public String getDateTime() {

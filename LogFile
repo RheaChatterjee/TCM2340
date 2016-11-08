@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2016-11-02T13:20:19</date>
-  <millis>1478107219276</millis>
-  <sequence>1</sequence>
+  <date>2016-11-07T20:47:28</date>
+  <millis>1478569648822</millis>
+  <sequence>0</sequence>
   <logger>Location</logger>
   <level>FINER</level>
   <class>Location</class>
@@ -13,9 +13,9 @@
   <message>ENTRY</message>
 </record>
 <record>
-  <date>2016-11-02T13:20:19</date>
-  <millis>1478107219276</millis>
-  <sequence>2</sequence>
+  <date>2016-11-07T20:47:28</date>
+  <millis>1478569648822</millis>
+  <sequence>1</sequence>
   <logger>Location</logger>
   <level>FINER</level>
   <class>Location</class>
@@ -24,9 +24,9 @@
   <message>RETURN</message>
 </record>
 <record>
-  <date>2016-11-02T13:20:30</date>
-  <millis>1478107230115</millis>
-  <sequence>4</sequence>
+  <date>2016-11-07T20:48:03</date>
+  <millis>1478569683361</millis>
+  <sequence>3</sequence>
   <logger>Location</logger>
   <level>FINER</level>
   <class>Location</class>
@@ -35,9 +35,9 @@
   <message>ENTRY</message>
 </record>
 <record>
-  <date>2016-11-02T13:20:30</date>
-  <millis>1478107230115</millis>
-  <sequence>5</sequence>
+  <date>2016-11-07T20:48:03</date>
+  <millis>1478569683361</millis>
+  <sequence>4</sequence>
   <logger>Location</logger>
   <level>FINER</level>
   <class>Location</class>
