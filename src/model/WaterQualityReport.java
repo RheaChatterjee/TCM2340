@@ -20,7 +20,7 @@ public class WaterQualityReport {
 
 
     public WaterQualityReport() {
-        DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy h:mm a");
+        DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
         Date date = new Date();
         this.dateTime.set(date.toString());
     }
@@ -92,7 +92,7 @@ public class WaterQualityReport {
         this.reporterName.set(reporterName);
     }
 
-    private Location getLocation() {
+    public Location getLocation() {
         return location;
     }
 

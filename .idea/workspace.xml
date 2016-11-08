@@ -2,77 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/EditProfileController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/EditProfileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Location.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" afterPath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MainScreenController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MainScreenController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController$1.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/RegistrationController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitQualityReportController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitQualityReportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitReportController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SubmitReportController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/User.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/UserProfileController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/UserProfileController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/WelcomeScreenController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/WelcomeScreenController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/qualityReportListViewController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/qualityReportListViewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/reportListViewController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/reportListViewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/AccountType.java" afterPath="$PROJECT_DIR$/src/model/AccountType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Admin.java" afterPath="$PROJECT_DIR$/src/model/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/EditProfileController.java" afterPath="$PROJECT_DIR$/src/controller/EditProfileController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Location.java" afterPath="$PROJECT_DIR$/src/model/Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" afterPath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Manager.java" afterPath="$PROJECT_DIR$/src/model/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MapController.java" afterPath="$PROJECT_DIR$/src/controller/MapController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/RegisteredUser.java" afterPath="$PROJECT_DIR$/src/model/RegisteredUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/RegistrationController.java" afterPath="$PROJECT_DIR$/src/controller/RegistrationController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Report.java" afterPath="$PROJECT_DIR$/src/model/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" afterPath="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SubmittedReports.java" afterPath="$PROJECT_DIR$/src/model/SubmittedReports.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/UserProfileController.java" afterPath="$PROJECT_DIR$/src/controller/UserProfileController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" afterPath="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Worker.java" afterPath="$PROJECT_DIR$/src/model/Worker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/editProfile.fxml" afterPath="$PROJECT_DIR$/src/view/editProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/login.fxml" afterPath="$PROJECT_DIR$/src/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/src/view/qualityReportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/registration.fxml" afterPath="$PROJECT_DIR$/src/view/registration.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/reportListView.fxml" afterPath="$PROJECT_DIR$/src/view/reportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/reportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/reportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/src/view/submitQualityReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/submitReport.fxml" afterPath="$PROJECT_DIR$/src/view/submitReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/userProfile.fxml" afterPath="$PROJECT_DIR$/src/view/userProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/welcome.fxml" afterPath="$PROJECT_DIR$/src/view/welcome.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
@@ -120,16 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,12 +77,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WaterQualityReport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="VirusPPMGraphController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/VirusPPMGraphController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.098265894">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.82312137">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <folding>
+                <element signature="e#1501#1502#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Report.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,16 +146,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/AccountType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -253,10 +195,8 @@
         <option value="$PROJECT_DIR$/src/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/controller/UserProfileController.java" />
         <option value="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
-        <option value="$PROJECT_DIR$/src/model/Report.java" />
         <option value="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" />
         <option value="$PROJECT_DIR$/src/model/SubmittedReports.java" />
-        <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
         <option value="$PROJECT_DIR$/src/controller/EditProfileController.java" />
         <option value="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
         <option value="$PROJECT_DIR$/src/model/Location.java" />
@@ -272,6 +212,9 @@
         <option value="$PROJECT_DIR$/src/controller/reportListViewController.java" />
         <option value="$PROJECT_DIR$/src/controller/MapController.java" />
         <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/controller/VirusPPMGraphController.java" />
+        <option value="$PROJECT_DIR$/src/model/Report.java" />
+        <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
       </list>
     </option>
   </component>
@@ -761,10 +704,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826537" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15482955" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31737193" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -773,6 +718,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,11 +726,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826537" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39944714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3178991" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1135,16 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1165,16 +1098,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,11 +1257,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/VirusPPMGraphController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.098265894">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.82312137">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
