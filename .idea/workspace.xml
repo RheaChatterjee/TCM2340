@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/VirusPPMGraphController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogFile" afterPath="$PROJECT_DIR$/LogFile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Report.java" afterPath="$PROJECT_DIR$/src/model/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/reportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/reportListViewController.java" />
-    </list>
+    <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="" />
     <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
     <ignored path="waterResources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +26,7 @@
       <file leaf-file-name="VirusPPMGraphController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/VirusPPMGraphController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5561312">
+            <state vertical-scroll-proportion="0.46977547">
               <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding>
                 <element signature="e#1148#1149#0" expanded="true" />
@@ -1290,7 +1283,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/VirusPPMGraphController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5561312">
+        <state vertical-scroll-proportion="0.46977547">
           <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
           <folding>
             <element signature="e#1148#1149#0" expanded="true" />
