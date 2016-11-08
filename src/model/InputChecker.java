@@ -49,4 +49,12 @@ public class InputChecker {
         }
         return errorMessage;
     }
+
+    public boolean checkEmail(String email) {
+        if (email.length() != 0 && email.contains("@")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

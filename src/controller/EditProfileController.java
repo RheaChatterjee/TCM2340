@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import model.InputChecker;
 import model.User;
 
 public class EditProfileController {
@@ -47,7 +48,8 @@ public class EditProfileController {
      */
     @FXML
     private void handleEditProfile() {
-        if (emailField.getText().length() != 0 && !emailField.getText().contains("@")) {
+        InputChecker checker = new InputChecker();
+        if (checker.checkEmail(emailField.getText())) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.initOwner(_dialogStage);
             alert.setTitle("Invalid Fields");
