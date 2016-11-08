@@ -3,9 +3,7 @@ package model;
 import java.util.HashMap;
 
 
-/**
- * Created by David on 9/28/2016.
- */
+
 public class RegisteredUser {
 
     private static final HashMap<String, User> registeredUserMap = new HashMap<>();
@@ -14,7 +12,7 @@ public class RegisteredUser {
      * @return HashMap of registered users
      */
     public HashMap getRegisteredUserMap() {
-        return this.registeredUserMap;
+        return registeredUserMap;
     }
 
     /**

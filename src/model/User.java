@@ -5,9 +5,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-/**
- * Created by Amine on 9/28/2016.
- */
+
 public class User {
 
     //Basic Information
@@ -48,7 +46,7 @@ public class User {
      * Sets username
      * @param username given username
      */
-    public void setUsername(String username) {
+    private void setUsername(String username) {
         this.username.set(username);
     }
 
@@ -80,7 +78,7 @@ public class User {
      * Sets id
      * @param id given id
      */
-    public void setId(String id) {
+    private void setId(String id) {
         this.id.set(id);
     }
 
@@ -104,7 +102,7 @@ public class User {
      * Sets account type
      * @param accountType given title
      */
-    public void setAccountType(AccountType accountType) {this.accountType.set(accountType);}
+    private void setAccountType(AccountType accountType) {this.accountType.set(accountType);}
 
     //ADVANCED INFORMATION -----------------------------------------------------
     /**

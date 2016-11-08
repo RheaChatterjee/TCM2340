@@ -8,9 +8,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by RheaChatterjee on 10/29/16.
- */
 public class WaterQualityReport {
     private final StringProperty dateTime = new SimpleStringProperty();
     private final StringProperty reportNumber = new SimpleStringProperty();
@@ -20,7 +17,6 @@ public class WaterQualityReport {
     private final StringProperty waterCondition = new SimpleStringProperty();
     private final StringProperty virusPPM = new SimpleStringProperty();
     private final StringProperty contamPPM = new SimpleStringProperty();
-    private SubmittedQualityReports submittedReports = new SubmittedQualityReports();
 
 
     public WaterQualityReport() {
@@ -30,6 +26,7 @@ public class WaterQualityReport {
     }
 
     public WaterQualityReport(String reporterName, Location location, String waterCondition, String virusPPM, String contamPPM) {
+        SubmittedQualityReports submittedReports = new SubmittedQualityReports();
         setReportNumber(String.format("%05d", submittedReports.getQualityArraySize() + 1));
         setReporterName(reporterName);
         setLocation(location);
@@ -59,7 +56,7 @@ public class WaterQualityReport {
         return month;
     }
 
-    public String getDateTime() {
+    private String getDateTime() {
         return dateTime.get();
     }
 
@@ -71,7 +68,7 @@ public class WaterQualityReport {
         this.dateTime.set(dateTime);
     }
 
-    public String getReportNumber() {
+    private String getReportNumber() {
         return reportNumber.get();
     }
 
@@ -79,11 +76,11 @@ public class WaterQualityReport {
         return reportNumber;
     }
 
-    public void setReportNumber(String reportNumber) {
+    private void setReportNumber(String reportNumber) {
         this.reportNumber.set(reportNumber);
     }
 
-    public String getReporterName() {
+    private String getReporterName() {
         return reporterName.get();
     }
 
@@ -91,19 +88,19 @@ public class WaterQualityReport {
         return reporterName;
     }
 
-    public void setReporterName(String reporterName) {
+    private void setReporterName(String reporterName) {
         this.reporterName.set(reporterName);
     }
 
-    public Location getLocation() {
+    private Location getLocation() {
         return location;
     }
 
-    public void setLocation(Location location) {
+    private void setLocation(Location location) {
         this.location = location;
     }
 
-    public String getWaterCondition() {
+    private String getWaterCondition() {
         return waterCondition.get();
     }
 
@@ -111,11 +108,11 @@ public class WaterQualityReport {
         return waterType;
     }
 
-    public void setWaterCondition(String waterCondition) {
+    private void setWaterCondition(String waterCondition) {
         this.waterCondition.set(waterCondition);
     }
 
-    public String getVirusPPM() {
+    private String getVirusPPM() {
         return virusPPM.get();
     }
 
@@ -123,11 +120,11 @@ public class WaterQualityReport {
         return virusPPM;
     }
 
-    public void setVirusPPM(String virusPPM) {
+    private void setVirusPPM(String virusPPM) {
         this.virusPPM.set(virusPPM);
     }
 
-    public String getContamPPM() {
+    private String getContamPPM() {
         return contamPPM.get();
     }
 
@@ -135,7 +132,7 @@ public class WaterQualityReport {
         return contamPPM;
     }
 
-    public void setContamPPM(String contamPPM) {
+    private void setContamPPM(String contamPPM) {
         this.contamPPM.set(contamPPM);
     }
 

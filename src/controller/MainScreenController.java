@@ -4,9 +4,7 @@ import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
 import model.User;
 
-/**
- * Created by Elizabeth on 9/21/2016.
- */
+
 public class MainScreenController {
     private MainApp mainApplication;
     private User user;
@@ -36,7 +34,7 @@ public class MainScreenController {
      */
     @FXML
     private void handleEditProfile() {
-        mainApplication.showEditProfile(user);
+        mainApplication.showEditProfile();
     }
 
     /**
@@ -44,7 +42,7 @@ public class MainScreenController {
      */
     @FXML
     private void handleUserProfile() {
-        mainApplication.showUserProfile(user);
+        mainApplication.showUserProfile();
     }
 
     @FXML
@@ -54,21 +52,21 @@ public class MainScreenController {
 
     @FXML
     private void openSubmitReportPage() {
-        mainApplication.showReportPage(user);
+        mainApplication.showReportPage();
     }
 
     @FXML
     private void openSubmitQualityReportPage() {
-        mainApplication.showQualityReportPage(user);
+        mainApplication.showQualityReportPage();
     }
 
     @FXML
     private void handleViewSubmittedReports() {
-        mainApplication.showSubmittedReports(user);
+        mainApplication.showSubmittedReports();
     }
 
     @FXML
     private void handleViewSubmittedQualityReports() {
-        mainApplication.showSubmittedQualityReports(user);
+        mainApplication.showSubmittedQualityReports();
     }
 }

@@ -8,9 +8,6 @@ import model.User;
 
 import java.util.HashMap;
 
-/**
- * Created by Elizabeth on 9/20/2016.
- */
 public class LoginController {
     @FXML
     private TextField usernameField;
@@ -26,8 +23,6 @@ public class LoginController {
 
     private boolean _login = false;
 
-    private HashMap<String, User> registeredUserMap;
-
     /**
      * called automatically after load
      */
@@ -38,7 +33,7 @@ public class LoginController {
 
     /**
      * sets the dialog stage
-     * @param dialogStage
+     * @param dialogStage the given dialog stage
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;
@@ -83,8 +78,7 @@ public class LoginController {
     @FXML
     private void handleOKPressed() {
         String username = usernameField.getText();
-        String password = passwordField.getText();
-        registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
         User registeredUserInformation = registeredUserMap.get(username);
         if (registeredUserMap.containsKey(username) &&
                 registeredUserInformation.getPassword().equals(passwordField.getText())) {

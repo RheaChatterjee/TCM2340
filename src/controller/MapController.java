@@ -21,24 +21,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-/**
- * Created by David on 10/18/2016.
- */
+
 public class MapController implements Initializable, MapComponentInitializedListener {
     @FXML
     private GoogleMapView mapView;
 
     private GoogleMap map;
 
-    private Window mainStage;
-
     private MainApp theApp;
 
     private User user;
 
-    private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
-
-    private Stage _dialogStage;
+    private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     /** called automatically
      */
@@ -48,11 +42,9 @@ public class MapController implements Initializable, MapComponentInitializedList
     }
 
     /** sets stage and app
-     * @param stage main stage of the app
      * @param app main app
      */
-    public void setCallbacks(Window stage, MainApp app) {
-        mainStage = stage;
+    public void setCallbacks( MainApp app) {
         theApp = app;
     }
 
@@ -63,7 +55,7 @@ public class MapController implements Initializable, MapComponentInitializedList
         MapOptions options = new MapOptions();
 
         //set up the center location for the map
-        LatLong center = null;
+        LatLong center;
         if (reportArrayList.isEmpty()) {
             center = new LatLong(34, -88);
         } else {
@@ -115,13 +107,6 @@ public class MapController implements Initializable, MapComponentInitializedList
 
     }
 
-    /**
-     * sets the dialog stage
-     * @param dialogStage
-     */
-    public void setDialogStage(Stage dialogStage) {
-        _dialogStage = dialogStage;
-    }
 
     /** closes map on click
      */

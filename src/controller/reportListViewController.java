@@ -10,16 +10,12 @@ import model.User;
 
 import java.util.ArrayList;
 
-/**
- * Created by aminebenltaifa on 10/12/16.
- */
-public class reportListViewController {
 
-    private User user;
+public class reportListViewController {
 
     private Stage _dialogStage;
 
-    private ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
+    private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     @FXML
     private ListView<String> reportListView;
@@ -29,7 +25,7 @@ public class reportListViewController {
      * @param user the logged in user
      */
     public void setUser(User user) {
-        this.user = user;
+        User user1 = user;
     }
 
     /**
@@ -51,7 +47,7 @@ public class reportListViewController {
      * called automatically after load
      */
     @FXML
-    private void initialize() {
+    private void populateListView() {
         ArrayList<String> reportsAsStrings = new ArrayList<>();
         for(int i = 0; i < reportArrayList.size(); i++) {
             Report report = reportArrayList.get(i);

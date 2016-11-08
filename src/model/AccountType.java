@@ -3,9 +3,7 @@ package model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-/**
- * Created by David on 9/28/2016.
- */
+
 public enum AccountType {
     USER("User"),
     WORKER("Worker"),
@@ -14,7 +12,7 @@ public enum AccountType {
 
     /** String representation of account type
      */
-    private String name;
+    private final String name;
 
 
     /** Enum constructor for account type

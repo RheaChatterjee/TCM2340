@@ -6,9 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.*;
 
-/**
- * Created by RheaChatterjee on 10/30/16.
- */
+
 public class SubmitQualityReportController {
     private User user;
 
@@ -32,18 +30,13 @@ public class SubmitQualityReportController {
     private static final SubmittedQualityReports reports = new SubmittedQualityReports();
 
 
-    @FXML
-    private void initialize() {
-
-    }
-
     public void setUser(User user) {
         this.user = user;
     }
 
     /**
      * sets the dialog stage
-     * @param dialogStage
+     * @param dialogStage given dialog stage
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;
@@ -60,10 +53,10 @@ public class SubmitQualityReportController {
     /**
      * Checks for valid input
      * */
-    public boolean isInputValid() {
+    private boolean isInputValid() {
         String errorMessage = "";
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         //for now just check they actually typed something
         if (longitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
@@ -107,8 +100,8 @@ public class SubmitQualityReportController {
      */
     @FXML
     private void handleSubmitQualityReport() {
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, virusPPMField.getText(), "<h2>Type: " + contamPPMField.getText() + "<br> Condition: " + conditionField.getText());
         WaterQualityReport report = new WaterQualityReport(user.getUsername(), loc, conditionField.getText(), virusPPMField.getText(), contamPPMField.getText());
         if (isInputValid()) {

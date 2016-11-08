@@ -5,11 +5,9 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 
-/**
- * Created by Amine on 9/28/2016.
- */
 
-public class Admin {
+
+class Admin {
 
     //Basic Information
     private final StringProperty username = new SimpleStringProperty();
@@ -25,7 +23,7 @@ public class Admin {
     private final StringProperty adminId = new SimpleStringProperty();
 
     public Admin(String username, String password, String id, String email,
-                String address, String title, String workerId, StringProperty adminId) {
+                 String address, String title, StringProperty adminId) {
         setUsername(username);
         setPassword(password);
         setId(id);
@@ -43,7 +41,7 @@ public class Admin {
      * Sets username
      * @param username given username
      */
-    public void setUsername(String username) {
+    private void setUsername(String username) {
         this.username.set(username);
     }
 
@@ -59,7 +57,7 @@ public class Admin {
      * Sets password
      * @param password given password
      */
-    public void setPassword(String password) {
+    private void setPassword(String password) {
         this.password.set(password);
     }
 
@@ -75,7 +73,7 @@ public class Admin {
      * Sets id
      * @param id given id
      */
-    public void setId(String id) {
+    private void setId(String id) {
         this.id.set(id);
     }
 
@@ -100,7 +98,7 @@ public class Admin {
      * Sets email
      * @param email given email
      */
-    public void setEmail(String email) {
+    private void setEmail(String email) {
         this.email.set(email);
     }
 
@@ -116,7 +114,7 @@ public class Admin {
      * Sets address
      * @param address given address
      */
-    public void setAddress(String address) {
+    private void setAddress(String address) {
         this.address.set(address);
     }
 
@@ -132,7 +130,7 @@ public class Admin {
      * Sets title
      * @param title given title
      */
-    public void setTitle(String title) {
+    private void setTitle(String title) {
         this.title.set(title);
     }
 
@@ -159,7 +157,7 @@ public class Admin {
      * Sets adminId
      * @param adminId given adminId
      */
-    public void setAdminId(StringProperty adminId) {
+    private void setAdminId(StringProperty adminId) {
         this.adminId.set(String.valueOf(adminId));
     }
 

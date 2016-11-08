@@ -5,11 +5,8 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import model.Worker;
 
-/**
- * Created by Amine on 9/28/2016.
- */
 
-public class Manager extends Worker {
+class Manager extends Worker {
 
     private final StringProperty managerId = new SimpleStringProperty();
     private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();
@@ -26,7 +23,7 @@ public class Manager extends Worker {
      * Sets managerId
      * @param managerId given managerId
      */
-    public void setManagerId(StringProperty managerId) {
+    private void setManagerId(StringProperty managerId) {
         this.managerId.set(String.valueOf(managerId));
     }
 
