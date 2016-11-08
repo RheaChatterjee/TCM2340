@@ -112,7 +112,7 @@ public class WaterQualityReport {
         this.waterCondition.set(waterCondition);
     }
 
-    private String getVirusPPM() {
+    public String getVirusPPM() {
         return virusPPM.get();
     }
 
@@ -124,7 +124,7 @@ public class WaterQualityReport {
         this.virusPPM.set(virusPPM);
     }
 
-    private String getContamPPM() {
+    public String getContamPPM() {
         return contamPPM.get();
     }
 

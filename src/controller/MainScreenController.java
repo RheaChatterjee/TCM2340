@@ -61,6 +61,11 @@ public class MainScreenController {
     }
 
     @FXML
+    private void showGraphPage() {
+        mainApplication.showGraphPage();
+    }
+
+    @FXML
     private void handleViewSubmittedReports() {
         mainApplication.showSubmittedReports();
     }

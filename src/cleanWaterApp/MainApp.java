@@ -429,6 +429,30 @@ public class MainApp extends Application {
         }
     }
 
+    public void showGraphPage() {
+        try {
+            // Load the fxml file and create a new stage for the popup dialog.
+            FXMLLoader graphLoader = new FXMLLoader();
+            graphLoader.setLocation(MainApp.class.getResource("../view/historyReportPrompt.fxml"));
+            AnchorPane page = graphLoader.load();
+            // Create the dialog Stage.
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Graph");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(mainScreen);
+            Scene scene = new Scene(page);
+            dialogStage.setScene(scene);
+
+            VirusPPMGraphController controller = graphLoader.getController();
+            controller.setDialogStage(dialogStage);
+
+            dialogStage.showAndWait();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void showMap(User user) {
         try {
 

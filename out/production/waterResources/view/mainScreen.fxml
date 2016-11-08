@@ -21,4 +21,6 @@
       <Button fx:id="viewMap" layoutX="207.0" layoutY="124.0" mnemonicParsing="false" onAction="#openMap" styleClass="Button" stylesheets="@style.css" text="View Map" textFill="WHITE" />
 
       <Button fx:id="viewReportsButton" layoutX="197.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleViewSubmittedReports" styleClass="Button" text="View Reports" textFill="WHITE" />
+      <Button fx:id="viewGraphButton" layoutX="197.0" layoutY="332.0" mnemonicParsing="false" onAction="#showGraphPage" styleClass="Button" text="View Graph" textFill="WHITE" />
+
 </AnchorPane>
