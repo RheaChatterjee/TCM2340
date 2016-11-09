@@ -5,21 +5,24 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+import java.io.Serializable;
 
-public class User {
+
+public class User implements Serializable{
 
     //Basic Information
-    private final StringProperty username = new SimpleStringProperty();
-    private final StringProperty password = new SimpleStringProperty();
-    private final StringProperty id = new SimpleStringProperty();
-    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();
+    private String username = "";
+    private String password = "";
+    private String id = "";
+    private AccountType accountType;
 
 
     //Advanced Information
-    private final StringProperty email = new SimpleStringProperty();
-    private final StringProperty address = new SimpleStringProperty();
-    private final StringProperty title = new SimpleStringProperty();
+    private String email = "";
+    private String address = "";
+    private String title = "";
 
+    private static final long serialVersionUID = 1L;
     /**
      * Constructs new User
      */
@@ -47,7 +50,7 @@ public class User {
      * @param username given username
      */
     private void setUsername(String username) {
-        this.username.set(username);
+        this.username = username;
     }
 
     /**
@@ -55,7 +58,7 @@ public class User {
      * @return username
      */
     public String getUsername() {
-        return username.get();
+        return username;
     }
 
     /**
@@ -63,7 +66,7 @@ public class User {
      * @param password given password
      */
     public void setPassword(String password) {
-        this.password.set(password);
+        this.password = password;
     }
 
     /**
@@ -71,7 +74,7 @@ public class User {
      * @return password
      */
     public String getPassword() {
-        return password.get();
+        return password;
     }
 
     /**
@@ -79,7 +82,7 @@ public class User {
      * @param id given id
      */
     private void setId(String id) {
-        this.id.set(id);
+        this.id = id;
     }
 
     /**
@@ -87,7 +90,7 @@ public class User {
      * @return id
      */
     public String getId() {
-        return id.get();
+        return id;
     }
 
     /**
@@ -95,14 +98,14 @@ public class User {
      * @return AccountType the user account type
      */
     public AccountType getAccountType() {
-        return accountType.get();
+        return accountType;
     }
 
     /**
      * Sets account type
      * @param accountType given title
      */
-    private void setAccountType(AccountType accountType) {this.accountType.set(accountType);}
+    private void setAccountType(AccountType accountType) {this.accountType = accountType;}
 
     //ADVANCED INFORMATION -----------------------------------------------------
     /**
@@ -110,7 +113,7 @@ public class User {
      * @param email given email
      */
     public void setEmail(String email) {
-        this.email.set(email);
+        this.email = email;
     }
 
     /**
@@ -118,7 +121,7 @@ public class User {
      * @return email
      */
     public String getEmail() {
-        return email.get();
+        return email;
     }
 
     /**
@@ -126,7 +129,7 @@ public class User {
      * @param address given address
      */
     public void setAddress(String address) {
-        this.address.set(address);
+        this.address = address;
     }
 
     /**
@@ -134,7 +137,7 @@ public class User {
      * @return address
      */
     public String getAddress() {
-        return address.get();
+        return address;
     }
 
     /**
@@ -142,7 +145,7 @@ public class User {
      * @param title given title
      */
     public void setTitle(String title) {
-        this.title.set(title);
+        this.title = title;
     }
 
     /**
@@ -150,7 +153,7 @@ public class User {
      * @return title
      */
     public String getTitle() {
-        return title.get();
+        return title;
     }
 
 

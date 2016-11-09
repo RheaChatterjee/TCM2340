@@ -25,10 +25,12 @@ public class MainApp extends Application {
 
     private static User user;
 
+    private static SerializationController serController = new SerializationController();
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         mainScreen = primaryStage;
+        serController.retrieveAll();
         initRootLayout(mainScreen);
     }
 

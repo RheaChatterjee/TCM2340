@@ -6,6 +6,9 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 
 public class SubmitReportController {
     private User user;
@@ -25,6 +28,17 @@ public class SubmitReportController {
     private TextField typeField;
 
     private static final SubmittedReports reports = new SubmittedReports();
+
+    private static SerializationController serController;
+
+
+    /**
+     * called automatically after load
+     */
+    @FXML
+    private void initialize() {
+        serController = SerializationController.getInstance();
+    }
 
 
     public void setUser(User user) {
@@ -94,12 +108,17 @@ public class SubmitReportController {
      */
     @FXML
     private void handleSubmitReport() {
+        serController.retrieveChanges("reports");
+        ArrayList<Report> reportList = serController.reports;
         double longitude = Double.parseDouble(longitudeField.getText().toString());
         double latitude = Double.parseDouble(latitudeField.getText().toString());
         Location loc = new Location(latitude, longitude, typeField.getText(), "<h2>Type: " + typeField.getText() + "<br> Condition: " + conditionField.getText());
         Report report = new Report(user.getUsername(), loc, typeField.getText(), conditionField.getText());
         if (isInputValid()) {
-            reports.addReport(report);
+            serController.retrieveChanges("reports");
+            reportList.add(report);
+            serController.saveChanges("reports", serController.reports);
+            //reports.addReport(report);
             _dialogStage.close();
         }
     }

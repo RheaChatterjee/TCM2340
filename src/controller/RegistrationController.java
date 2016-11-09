@@ -12,6 +12,8 @@ import model.InputChecker;
 import model.RegisteredUser;
 import model.User;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class RegistrationController {
@@ -42,6 +44,8 @@ public class RegistrationController {
 
     private User user;
 
+    private static SerializationController serController;
+
 
     /**
      * called automatically after
@@ -56,6 +60,7 @@ public class RegistrationController {
             }
         });
         selectAccountType.setItems(AccountType.getAccountTypeList());
+        serController = SerializationController.getInstance();
     }
 
     /**
@@ -100,8 +105,13 @@ public class RegistrationController {
     private boolean isInputValid() {
         String errorMessage = "";
         InputChecker checker = new InputChecker();
-        //for now just check they actually typed something
-        if (registeredUser.usernameExist(user)) {
+        ArrayList<User> userList = serController.users;
+        HashMap<String, User> registeredUserMap = getRegisteredUser().getRegisteredUserMap();
+        for (User user : userList) {
+            System.out.println(user.getUsername() + " " + user.getPassword());
+            registeredUserMap.put(user.getUsername(), user);
+        }
+        if (registeredUser.usernameExist(user) || registeredUserMap.containsKey(registrationName.getText())) {
             errorMessage += "Username already exists!\n";
         }
         errorMessage += checker.checkRegistrationInput(registrationName.getText(), registrationPassword.getText(), registrationEmail.getText(), selectAccountType.getValue().toString(), addressBox.getText(), titleBox.getText());
@@ -129,6 +139,10 @@ public class RegistrationController {
 
         this.user = new User(registrationName.getText(), registrationPassword.getText(), "tempID", registrationEmail.getText(), selectAccountType.getValue(), addressBox.getText(), titleBox.getText());
         if (isInputValid()) {
+            serController.retrieveChanges("users");
+            ArrayList<User> userList = serController.users;
+            userList.add(user);
+            serController.saveChanges("users", serController.users);
             registeredUser.addUser(user);
             registered = true;
             registrationStage.close();

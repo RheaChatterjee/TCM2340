@@ -26,6 +26,7 @@ public class MainScreenController {
     @FXML
     private void handleLogout() {
         //handle logout
+        SerializationController.getInstance().saveAll();
         mainApplication.showWelcomeScreen();
     }
 

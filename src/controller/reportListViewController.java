@@ -17,6 +17,8 @@ public class reportListViewController {
 
     private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
+    private static SerializationController serController;
+
     @FXML
     private ListView<String> reportListView;
 
@@ -47,10 +49,13 @@ public class reportListViewController {
      * called automatically after load
      */
     @FXML
-    private void populateListView() {
+    private void initialize() {
+        serController = SerializationController.getInstance();
+        serController.retrieveChanges("reports");
+        ArrayList<Report> reportList = serController.reports;
         ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for(int i = 0; i < reportArrayList.size(); i++) {
-            Report report = reportArrayList.get(i);
+        for(int i = 0; i < reportList.size(); i++) {
+            Report report = reportList.get(i);
             reportsAsStrings.add(report.toString());
         }
         reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));

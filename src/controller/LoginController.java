@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.User;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class LoginController {
@@ -23,12 +24,23 @@ public class LoginController {
 
     private boolean _login = false;
 
+    private static SerializationController serController;
+
     /**
      * called automatically after load
      */
     @FXML
     private void initialize() {
+        serController = SerializationController.getInstance();
+        ArrayList<User> userList = serController.users;
+        System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
+        System.out.println(userList.size());
+        HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        for (User user : userList) {
+            System.out.println(user.getUsername() + " " + user.getPassword());
+            registeredUserMap.put(user.getUsername(), user);
+        }
     }
 
     /**

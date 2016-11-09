@@ -1,10 +1,15 @@
 package model;
 
+import controller.SerializationController;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
-public class SubmittedReports {
-    private static final ArrayList<Report> submittedReports = new ArrayList<>();
+public class SubmittedReports implements Serializable {
+
+    private static SerializationController serController = SerializationController.getInstance();
+    private static final ArrayList<Report> submittedReports = serController.reports;
 
     /**
      * gets the submitted reports

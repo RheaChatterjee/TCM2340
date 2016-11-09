@@ -1,10 +1,11 @@
 package model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 
 
-public class RegisteredUser {
+public class RegisteredUser implements Serializable {
 
     private static final HashMap<String, User> registeredUserMap = new HashMap<>();
 

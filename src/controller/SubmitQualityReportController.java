@@ -6,6 +6,8 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.*;
 
+import java.util.ArrayList;
+
 
 public class SubmitQualityReportController {
     private User user;
@@ -28,6 +30,16 @@ public class SubmitQualityReportController {
     private TextField contamPPMField;
 
     private static final SubmittedQualityReports reports = new SubmittedQualityReports();
+
+    private static SerializationController serController;
+
+    /**
+     * called automatically after load
+     */
+    @FXML
+    private void initialize() {
+        serController = SerializationController.getInstance();
+    }
 
 
     public void setUser(User user) {
@@ -87,12 +99,15 @@ public class SubmitQualityReportController {
      */
     @FXML
     private void handleSubmitQualityReport() {
+        serController.retrieveChanges("waterQualityReports");
+        ArrayList<WaterQualityReport> reportList = serController.waterQualityReports;
         double longitude = Double.parseDouble(longitudeField.getText());
         double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, virusPPMField.getText(), "<h2>Type: " + contamPPMField.getText() + "<br> Condition: " + conditionField.getText());
         WaterQualityReport report = new WaterQualityReport(user.getUsername(), loc, conditionField.getText(), virusPPMField.getText(), contamPPMField.getText());
         if (isInputValid()) {
-            reports.addQualityReport(report);
+            reportList.add(report);
+            //reports.addQualityReport(report);
             _dialogStage.close();
         }
     }

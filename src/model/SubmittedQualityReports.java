@@ -1,10 +1,16 @@
 package model;
 
+import controller.SerializationController;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
-public class SubmittedQualityReports {
-    private static final ArrayList<WaterQualityReport> submittedQualityReports = new ArrayList<>();
+public class SubmittedQualityReports implements Serializable {
+
+    private static SerializationController serController = SerializationController.getInstance();
+
+    private static final ArrayList<WaterQualityReport> submittedQualityReports = serController.waterQualityReports;
 
 
     /**

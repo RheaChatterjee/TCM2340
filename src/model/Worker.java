@@ -5,7 +5,9 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import model.User;
 
-class Worker extends User {
+import java.io.Serializable;
+
+public class Worker extends User implements Serializable {
 
     private final StringProperty workerId = new SimpleStringProperty();
     private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();

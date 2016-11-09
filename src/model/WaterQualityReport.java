@@ -4,25 +4,26 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class WaterQualityReport {
-    private final StringProperty dateTime = new SimpleStringProperty();
-    private final StringProperty reportNumber = new SimpleStringProperty();
-    private final StringProperty reporterName = new SimpleStringProperty();
+public class WaterQualityReport implements Serializable {
+    private String dateTime = "";
+    private String reportNumber = "";
+    private String reporterName = "";
     private Location location = new Location();
-    private final StringProperty waterType = new SimpleStringProperty();
-    private final StringProperty waterCondition = new SimpleStringProperty();
-    private final StringProperty virusPPM = new SimpleStringProperty();
-    private final StringProperty contamPPM = new SimpleStringProperty();
+    private String waterType = "";
+    private String waterCondition = "";
+    private String virusPPM = "";
+    private String contamPPM = "";
 
 
     public WaterQualityReport() {
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
         Date date = new Date();
-        this.dateTime.set(date.toString());
+        this.dateTime = date.toString();
     }
 
     public WaterQualityReport(String reporterName, Location location, String waterCondition, String virusPPM, String contamPPM) {
@@ -35,7 +36,7 @@ public class WaterQualityReport {
         setContamPPM(contamPPM);
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
         String date = dateFormat.format(new Date());
-        this.dateTime.set(date);
+        this.dateTime = date;
     }
 
     /**
@@ -57,39 +58,39 @@ public class WaterQualityReport {
     }
 
     private String getDateTime() {
-        return dateTime.get();
+        return dateTime;
     }
 
-    public StringProperty dateTimeProperty() {
+    public String dateTimeProperty() {
         return dateTime;
     }
 
     public void setDateTime(String dateTime) {
-        this.dateTime.set(dateTime);
+        this.dateTime = dateTime;
     }
 
     private String getReportNumber() {
-        return reportNumber.get();
+        return reportNumber;
     }
 
-    public StringProperty reportNumberProperty() {
+    public String reportNumberProperty() {
         return reportNumber;
     }
 
     private void setReportNumber(String reportNumber) {
-        this.reportNumber.set(reportNumber);
+        this.reportNumber = reportNumber;
     }
 
     private String getReporterName() {
-        return reporterName.get();
+        return reporterName;
     }
 
-    public StringProperty reporterNameProperty() {
+    public String reporterNameProperty() {
         return reporterName;
     }
 
     private void setReporterName(String reporterName) {
-        this.reporterName.set(reporterName);
+        this.reporterName = reporterName;
     }
 
     public Location getLocation() {
@@ -101,39 +102,39 @@ public class WaterQualityReport {
     }
 
     private String getWaterCondition() {
-        return waterCondition.get();
+        return waterCondition;
     }
 
-    public StringProperty waterConditionProperty() {
+    public String waterConditionProperty() {
         return waterType;
     }
 
     private void setWaterCondition(String waterCondition) {
-        this.waterCondition.set(waterCondition);
+        this.waterCondition = waterCondition;
     }
 
     public String getVirusPPM() {
-        return virusPPM.get();
+        return virusPPM;
     }
 
-    public StringProperty virusPPMProperty() {
+    public String virusPPMProperty() {
         return virusPPM;
     }
 
     private void setVirusPPM(String virusPPM) {
-        this.virusPPM.set(virusPPM);
+        this.virusPPM = virusPPM;
     }
 
     public String getContamPPM() {
-        return contamPPM.get();
+        return contamPPM;
     }
 
-    public StringProperty contamPPMProperty() {
+    public String contamPPMProperty() {
         return contamPPM;
     }
 
     private void setContamPPM(String contamPPM) {
-        this.contamPPM.set(contamPPM);
+        this.contamPPM = contamPPM;
     }
 
     public String toString() {

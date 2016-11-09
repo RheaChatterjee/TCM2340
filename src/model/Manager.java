@@ -5,8 +5,10 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import model.Worker;
 
+import java.io.Serializable;
 
-class Manager extends Worker {
+
+public class Manager extends Worker implements Serializable {
 
     private final StringProperty managerId = new SimpleStringProperty();
     private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();

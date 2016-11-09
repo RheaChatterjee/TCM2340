@@ -3,8 +3,10 @@ package model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.io.Serializable;
 
-public enum AccountType {
+
+public enum AccountType implements Serializable {
     USER("User"),
     WORKER("Worker"),
     MANAGER("Manager"),

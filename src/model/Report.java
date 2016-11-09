@@ -4,25 +4,28 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class Report {
+public class Report implements Serializable {
 
-    private final StringProperty dateTime = new SimpleStringProperty();
-    private final StringProperty reportNumber = new SimpleStringProperty();
-    private final StringProperty reporterName = new SimpleStringProperty();
+    private String dateTime = "";
+    private String reportNumber = "";
+    private String reporterName = "";
     private Location location = new Location();
-    private final StringProperty waterType = new SimpleStringProperty();
-    private final StringProperty waterCondition = new SimpleStringProperty();
+    private String waterType = "";
+    private String waterCondition = "";
+
+    private static final long serialVersionUID = 1L;
 
 
     public Report() {
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
         Date date = new Date();
-        this.dateTime.set(date.toString());
+        setDateTime(date.toString());
     }
 
     public Report(String reporterName, Location location, String waterType, String waterCondition) {
@@ -34,7 +37,7 @@ public class Report {
         setWaterCondition(waterCondition);
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
         String date = dateFormat.format(new Date());
-        this.dateTime.set(date);
+        setDateTime(date);
     }
 
     /**
@@ -47,39 +50,39 @@ public class Report {
     }
 
     private String getDateTime() {
-        return dateTime.get();
+        return dateTime;
     }
 
-    public StringProperty dateTimeProperty() {
+    public String dateTimeProperty() {
         return dateTime;
     }
 
     public void setDateTime(String dateTime) {
-        this.dateTime.set(dateTime);
+        this.dateTime = dateTime;
     }
 
     private String getReportNumber() {
-        return reportNumber.get();
+        return reportNumber;
     }
 
-    public StringProperty reportNumberProperty() {
+    public String reportNumberProperty() {
         return reportNumber;
     }
 
     private void setReportNumber(String reportNumber) {
-        this.reportNumber.set(reportNumber);
+        this.reportNumber = reportNumber;
     }
 
     private String getReporterName() {
-        return reporterName.get();
+        return reporterName;
     }
 
-    public StringProperty reporterNameProperty() {
+    public String reporterNameProperty() {
         return reporterName;
     }
 
     private void setReporterName(String reporterName) {
-        this.reporterName.set(reporterName);
+        this.reporterName = reporterName;
     }
 
     public Location getLocation() {
@@ -91,27 +94,27 @@ public class Report {
     }
 
     private String getWaterType() {
-        return waterType.get();
+        return waterType;
     }
 
-    public StringProperty waterTypeProperty() {
+    public String waterTypeProperty() {
         return waterType;
     }
 
     private void setWaterType(String waterType) {
-        this.waterType.set(waterType);
+        this.waterType = waterType;
     }
 
     private String getWaterCondition() {
-        return waterCondition.get();
+        return waterCondition;
     }
 
-    public StringProperty waterConditionProperty() {
+    public String waterConditionProperty() {
         return waterType;
     }
 
     private void setWaterCondition(String waterCondition) {
-        this.waterCondition.set(waterCondition);
+        this.waterCondition = waterCondition;
     }
 
     public String toString() {

@@ -4,10 +4,10 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+import java.io.Serializable;
 
 
-
-class Admin {
+public class Admin implements Serializable {
 
     //Basic Information
     private final StringProperty username = new SimpleStringProperty();
