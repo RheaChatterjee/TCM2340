@@ -1,62 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="">
-<<<<<<< Updated upstream
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/SerializationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/AccountType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Admin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" afterPath="$PROJECT_DIR$/out/production/waterResources/cleanWaterApp/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Manager.class" />
+    <list default="true" id="4913781c-8523-4e71-9911-37f4a0865032" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/RegisteredUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Report.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedQualityReports.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/SubmittedReports.class" />
-      <change type="MODIFICATION" beforePath="C:\Users\David\Documents\CS2340\TCM2340\out\production\waterResources\model\User.class" afterPath="C:\Users\David\Documents\CS2340\TCM2340\out\production\waterResources\model\User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/VirusPPMGraphController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/VirusPPMGraphController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/WaterQualityReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/AccountType.java" afterPath="$PROJECT_DIR$/src/model/AccountType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Admin.java" afterPath="$PROJECT_DIR$/src/model/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" afterPath="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MainScreenController.java" afterPath="$PROJECT_DIR$/src/controller/MainScreenController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Manager.java" afterPath="$PROJECT_DIR$/src/model/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/RegisteredUser.java" afterPath="$PROJECT_DIR$/src/model/RegisteredUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/RegistrationController.java" afterPath="$PROJECT_DIR$/src/controller/RegistrationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Report.java" afterPath="$PROJECT_DIR$/src/model/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SubmitReportController.java" afterPath="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" afterPath="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SubmittedReports.java" afterPath="$PROJECT_DIR$/src/model/SubmittedReports.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/User.java" afterPath="$PROJECT_DIR$/src/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/WaterQualityReport.java" afterPath="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Worker.java" afterPath="$PROJECT_DIR$/src/model/Worker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SerializationController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SerializationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.ser" afterPath="$PROJECT_DIR$/users.ser" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/reportListViewController.java" afterPath="$PROJECT_DIR$/src/controller/reportListViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/editProfile.fxml" afterPath="$PROJECT_DIR$/src/view/editProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/login.fxml" afterPath="$PROJECT_DIR$/src/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/src/view/qualityReportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/registration.fxml" afterPath="$PROJECT_DIR$/src/view/registration.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/reportListView.fxml" afterPath="$PROJECT_DIR$/src/view/reportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/style.css" afterPath="$PROJECT_DIR$/src/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/src/view/submitQualityReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/submitReport.fxml" afterPath="$PROJECT_DIR$/src/view/submitReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/userProfile.fxml" afterPath="$PROJECT_DIR$/src/view/userProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/welcome.fxml" afterPath="$PROJECT_DIR$/src/view/welcome.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/src/view/workerMainScreen.fxml" />
->>>>>>> Stashed changes
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/style.css" afterPath="$PROJECT_DIR$/out/production/waterResources/view/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" />
     </list>
-    <list id="7046cd4a-c807-4a97-8d7d-40dee6c14aab" name="Rejected commit: Default" comment="Partial code for registration - able to open registration window" />
     <ignored path="waterResources.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,6 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -75,228 +40,26 @@
     <favorites_list name="waterResources" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< Updated upstream
-    <leaf>
-      <file leaf-file-name="reportListViewController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/reportListViewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaterQualityReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="136" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
-                <element signature="e#2519#2520#0" expanded="true" />
-                <element signature="e#2567#2568#0" expanded="true" />
-                <element signature="e#3182#3183#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
-                <element signature="e#3414#3415#0" expanded="true" />
-                <element signature="e#3456#3457#0" expanded="true" />
-              </folding>
-=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/style.css">
+      <file leaf-file-name="ElizabethCooperJUnitTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file leaf-file-name="SubmitQualityReportController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-              <folding>
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-=======
-      <file leaf-file-name="mainScreen.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file leaf-file-name="MainScreenController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-              </folding>
-=======
-      <file leaf-file-name="managerMainScreen.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/managerMainScreen.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="322" column="0" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4601963">
+              <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-      <file leaf-file-name="qualityReportListView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/qualityReportListView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
-              <folding />
->>>>>>> Stashed changes
             </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-      <file leaf-file-name="Report.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Report.java">
+      <file leaf-file-name="InputChecker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1985#1986#0" expanded="true" />
-                <element signature="e#2196#2197#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2638#2639#0" expanded="true" />
-                <element signature="e#2856#2857#0" expanded="true" />
-                <element signature="e#2908#2909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubmittedReports.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/SubmittedReports.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubmittedQualityReports.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubmitReportController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67192984">
-              <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/SerializationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-      <file leaf-file-name="submitReport.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/submitReport.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submitQualityReport.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/submitQualityReport.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reportListView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/reportListView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -306,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -326,100 +89,79 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/model/RegisteredUsers.java" />
+        <option value="$PROJECT_DIR$/src/view/style.css" />
         <option value="$PROJECT_DIR$/src/model/FileFormatException.java" />
         <option value="$PROJECT_DIR$/src/model/Facade.java" />
         <option value="$PROJECT_DIR$/src/view/map.fxml" />
         <option value="$PROJECT_DIR$/src/view/welcome.fxml" />
-<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/src/view/mainScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/view/managerMainScreen.fxml" />
         <option value="$PROJECT_DIR$/src/view/qualityReportListView.fxml" />
         <option value="$PROJECT_DIR$/src/view/reportListView.fxml" />
-=======
-        <option value="$PROJECT_DIR$/src/view/managerMainScreen.fxml" />
->>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/src/view/workerMainScreen.fxml" />
         <option value="$PROJECT_DIR$/src/view/userProfile.fxml" />
         <option value="$PROJECT_DIR$/src/view/registration.fxml" />
         <option value="$PROJECT_DIR$/src/view/editProfile.fxml" />
         <option value="$PROJECT_DIR$/src/view/login.fxml" />
-<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/view/submitQualityReport.fxml" />
         <option value="$PROJECT_DIR$/src/view/submitReport.fxml" />
-=======
         <option value="$PROJECT_DIR$/src/controller/MainScreenController.java" />
         <option value="$PROJECT_DIR$/src/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/controller/reportListViewController.java" />
->>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/src/controller/UserProfileController.java" />
         <option value="$PROJECT_DIR$/src/controller/WelcomeScreenController.java" />
+        <option value="$PROJECT_DIR$/src/model/Report.java" />
+        <option value="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" />
+        <option value="$PROJECT_DIR$/src/model/SubmittedReports.java" />
+        <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
+        <option value="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
         <option value="$PROJECT_DIR$/src/model/Location.java" />
         <option value="$PROJECT_DIR$/src/model/RegisteredUser.java" />
-        <option value="$PROJECT_DIR$/src/model/AccountType.java" />
-        <option value="$PROJECT_DIR$/src/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/model/InputChecker.java" />
-        <option value="$PROJECT_DIR$/src/controller/EditProfileController.java" />
-        <option value="$PROJECT_DIR$/src/model/InputCheckerTest.java" />
-        <option value="$PROJECT_DIR$/src/view/historyReportPrompt.fxml" />
-        <option value="$PROJECT_DIR$/src/view/mainScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/view/managerMainScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/controller/VirusPPMGraphController.java" />
-        <option value="$PROJECT_DIR$/src/controller/serializationController.java" />
-        <option value="$PROJECT_DIR$/src/model/Admin.java" />
         <option value="$PROJECT_DIR$/src/model/Manager.java" />
-        <option value="$PROJECT_DIR$/src/model/Worker.java" />
-        <option value="$PROJECT_DIR$/src/controller/serializableController.java" />
-        <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/controller/SerializationController.java" />
-        <option value="$PROJECT_DIR$/src/controller/MainScreenController.java" />
-        <option value="$PROJECT_DIR$/src/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/model/User.java" />
-        <option value="$PROJECT_DIR$/src/controller/reportListViewController.java" />
-        <option value="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
-        <option value="$PROJECT_DIR$/src/model/WaterQualityReport.java" />
-        <option value="$PROJECT_DIR$/src/model/Report.java" />
-        <option value="$PROJECT_DIR$/src/model/SubmittedReports.java" />
-        <option value="$PROJECT_DIR$/src/model/SubmittedQualityReports.java" />
         <option value="$PROJECT_DIR$/src/controller/SubmitQualityReportController.java" />
-        <option value="$PROJECT_DIR$/src/controller/SubmitReportController.java" />
-        <option value="$PROJECT_DIR$/src/view/style.css" />
-        <option value="$PROJECT_DIR$/src/view/mainScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/view/reportListView.fxml" />
-        <option value="$PROJECT_DIR$/src/view/qualityReportListView.fxml" />
-        <option value="$PROJECT_DIR$/src/view/submitReport.fxml" />
-        <option value="$PROJECT_DIR$/src/view/submitQualityReport.fxml" />
+        <option value="$PROJECT_DIR$/src/model/User.java" />
+        <option value="$PROJECT_DIR$/src/model/Worker.java" />
+        <option value="$PROJECT_DIR$/src/model/AccountType.java" />
+        <option value="$PROJECT_DIR$/src/model/Admin.java" />
+        <option value="$PROJECT_DIR$/src/controller/qualityReportListViewController.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MapController.java" />
+        <option value="$PROJECT_DIR$/src/cleanWaterApp/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/controller/EditProfileController.java" />
+        <option value="$PROJECT_DIR$/src/populateListViewTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/reportListViewControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/reportListViewController.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" sorting="DEFINITION_ORDER" detection-done="true" />
+  <component name="JsBuildToolPackageJson" sorting="DEFINITION_ORDER" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-<<<<<<< Updated upstream
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
-=======
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
->>>>>>> Stashed changes
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
+    -
     <entry key="Project Default">
+      -
       <profile-state>
+        -
         <expanded-state>
+          -
           <State>
             <id />
           </State>
         </expanded-state>
+        -
         <selected-state>
+          -
           <State>
             <id>JUnit issues</id>
           </State>
@@ -448,14 +190,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< Updated upstream
-      <pane id="Scratches" />
-=======
-      <pane id="PackagesPane" />
->>>>>>> Stashed changes
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,13 +262,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waterResources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCM2340" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleanWaterApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waterResources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TCM2340" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-<<<<<<< Updated upstream
-      <pane id="PackagesPane" />
-=======
+      <pane id="Scope" />
       <pane id="Scratches" />
->>>>>>> Stashed changes
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,23 +307,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-<<<<<<< Updated upstream
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-=======
->>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="model" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+      <recent name="controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/view" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CS1332\TCM2340\lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="JUnit.ElizabethCooperJUnitTests">
     <configuration default="false" name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -582,6 +351,32 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="ElizabethCooperJUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="waterResources" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.ElizabethCooperJUnitTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -590,30 +385,31 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-<<<<<<< Updated upstream
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-=======
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
->>>>>>> Stashed changes
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -623,24 +419,27 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-<<<<<<< Updated upstream
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-=======
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
->>>>>>> Stashed changes
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -703,8 +502,58 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="waterResources" />
       <envs />
       <method />
     </configuration>
@@ -744,260 +593,241 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
       <item index="1" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ElizabethCooperJUnitTests" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
-        <item index="1" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElizabethCooperJUnitTests" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainApp" />
+        <item index="2" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f360dc8-a37d-4dc3-a33a-1f2ebe5f072c" name="Default" comment="" />
+      <changelist id="4913781c-8523-4e71-9911-37f4a0865032" name="Default" comment="" />
       <created>1474942579760</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1474942579760</updated>
       <workItem from="1474944263260" duration="53000" />
       <workItem from="1474944732061" duration="81000" />
       <workItem from="1474945032456" duration="15000" />
     </task>
-    <task id="LOCAL-00001" summary="Added stylesheet&#10;">
+    <task id="LOCAL-00001" summary="Added stylesheet ">
       <created>1475431846353</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1475431846353</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added edit Profile screen and controller&#10;">
+    <task id="LOCAL-00002" summary="Added edit Profile screen and controller ">
       <created>1475433511110</created>
       <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1475433511110</updated>
     </task>
-    <task id="LOCAL-00003" summary="Connected Edit profile screen to app&#10;">
+    <task id="LOCAL-00003" summary="Connected Edit profile screen to app ">
       <created>1475434061955</created>
       <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1475434061955</updated>
     </task>
     <task id="LOCAL-00004" summary="Passed user to main screen controller">
       <created>1475434652133</created>
       <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1475434652133</updated>
     </task>
-    <task id="LOCAL-00005" summary="front end of edit profile now works&#10;">
+    <task id="LOCAL-00005" summary="front end of edit profile now works ">
       <created>1475454396252</created>
       <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1475454396252</updated>
     </task>
     <task id="LOCAL-00006" summary="combo box now works on dell xps laptops">
       <created>1475784866253</created>
       <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1475784866253</updated>
     </task>
     <task id="LOCAL-00007" summary="created report class">
       <created>1475785304312</created>
       <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1475785304312</updated>
     </task>
     <task id="LOCAL-00008" summary="finished report and submitted reports classes">
       <created>1476203529095</created>
       <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1476203529095</updated>
     </task>
     <task id="LOCAL-00009" summary="finished report and submitted reports classes">
       <created>1476203537009</created>
       <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1476203537009</updated>
     </task>
     <task id="LOCAL-00010" summary="created submitReport controller and added submit report page">
       <created>1476204583754</created>
       <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1476204583754</updated>
     </task>
     <task id="LOCAL-00011" summary="added location and facade classes from in class demo">
       <created>1477185532278</created>
       <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1477185532278</updated>
     </task>
-    <task id="LOCAL-00012" summary="map screen now appears with sample data&#10;">
+    <task id="LOCAL-00012" summary="map screen now appears with sample data ">
       <created>1477255294778</created>
       <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1477255294778</updated>
     </task>
-    <task id="LOCAL-00013" summary="fixed code issues&#10;">
+    <task id="LOCAL-00013" summary="fixed code issues ">
       <created>1478460968258</created>
       <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1478460968258</updated>
     </task>
-    <task id="LOCAL-00014" summary="fixed code issues&#10;">
+    <task id="LOCAL-00014" summary="fixed code issues ">
       <created>1478461284636</created>
       <option name="number" value="00014" />
       <option name="project" value="LOCAL" />
       <updated>1478461284636</updated>
     </task>
-    <task id="LOCAL-00015" summary="fixed code issues&#10;">
+    <task id="LOCAL-00015" summary="fixed code issues ">
       <created>1478461592756</created>
       <option name="number" value="00015" />
       <option name="project" value="LOCAL" />
       <updated>1478461592756</updated>
     </task>
-    <task id="LOCAL-00016" summary="fixed code issues&#10;">
+    <task id="LOCAL-00016" summary="fixed code issues ">
       <created>1478463832426</created>
       <option name="number" value="00016" />
       <option name="project" value="LOCAL" />
       <updated>1478463832426</updated>
     </task>
-    <task id="LOCAL-00017" summary="added InputChecker class to make Junit tests easier&#10;">
-      <created>1478574465765</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1478574465765</updated>
-    </task>
-    <task id="LOCAL-00018" summary="added InputChecker class to make Junit tests easier&#10;">
-      <created>1478574975430</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1478574975430</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added graph stuff">
-      <created>1478578555814</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1478578555814</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 05m 17s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 10m 56s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 11m 36s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 12m 13s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 19m 49s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 20m 43s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 21m 05s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 22m 01s.xml">
+      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="149000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="true" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15482955" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850778" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26363635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39944714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
-    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15482955" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171472" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> Stashed changes
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15482955" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826537" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39944714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19212162" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26032257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1013,21 +843,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Partial code for registration - able to open registration window" />
-    <MESSAGE value="Added stylesheet&#10;" />
-    <MESSAGE value="Added edit Profile screen and controller&#10;" />
-    <MESSAGE value="Connected Edit profile screen to app&#10;" />
+    <MESSAGE value="Added stylesheet " />
+    <MESSAGE value="Added edit Profile screen and controller " />
+    <MESSAGE value="Connected Edit profile screen to app " />
     <MESSAGE value="Passed user to main screen controller" />
-    <MESSAGE value="front end of edit profile now works&#10;" />
+    <MESSAGE value="front end of edit profile now works " />
     <MESSAGE value="combo box now works on dell xps laptops" />
     <MESSAGE value="created report class" />
     <MESSAGE value="finished report and submitted reports classes" />
     <MESSAGE value="created submitReport controller and added submit report page" />
     <MESSAGE value="added location and facade classes from in class demo" />
-    <MESSAGE value="map screen now appears with sample data&#10;" />
-    <MESSAGE value="fixed code issues&#10;" />
-    <MESSAGE value="added InputChecker class to make Junit tests easier&#10;" />
-    <MESSAGE value="added graph stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="added graph stuff" />
+    <MESSAGE value="map screen now appears with sample data " />
+    <MESSAGE value="fixed code issues " />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code issues " />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1038,733 +866,103 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-=======
-    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/view/editProfile.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> Stashed changes
-    <entry file="file://$PROJECT_DIR$/src/controller/WelcomeScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/welcome.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/WelcomeScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/welcome.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/editProfile.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-<<<<<<< Updated upstream
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/map.fxml">
-=======
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/map.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/registration.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
->>>>>>> Stashed changes
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/userProfile.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/welcome.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/workerMainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/reportListViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UserProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/WelcomeScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/RegisteredUser.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/WelcomeScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UserProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EditProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/historyReportPrompt.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-=======
-    <entry file="file://$PROJECT_DIR$/src/controller/qualityReportListViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EditProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="213" column="31" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MapController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.39053255">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AccountType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1455">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-601">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/managerMainScreen.fxml">
+    <entry file="file://$PROJECT_DIR$/src/view/editProfile.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-=======
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/VirusPPMGraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="-511">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AccountType.java">
+    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.023672884">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-=======
-        <state relative-caret-position="-1486">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SubmittedReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
->>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/RegistrationController.java">
+    <entry file="file://$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="54" selection-start-line="142" selection-start-column="54" selection-end-line="142" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.4601963">
+          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="55" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/qualityReportListViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SerializationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="-631">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/model/WaterQualityReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2009#2010#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2519#2520#0" expanded="true" />
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#3182#3183#0" expanded="true" />
-            <element signature="e#3222#3223#0" expanded="true" />
-            <element signature="e#3414#3415#0" expanded="true" />
-            <element signature="e#3456#3457#0" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/src/view/managerMainScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state vertical-scroll-proportion="0.0">
-          <caret line="322" column="0" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/reportListView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/model/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2908#2909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SubmittedReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/view/qualityReportListView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
->>>>>>> Stashed changes
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/model/SubmittedQualityReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/reportListViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitQualityReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="14" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
-          <folding>
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SubmitReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67192984">
-          <caret line="120" column="14" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/src/view/submitReport.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/submitQualityReport.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
   </component>

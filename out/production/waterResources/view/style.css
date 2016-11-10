@@ -1,6 +1,12 @@
 .background {
-    -fx-background-color: #00E5EE;
+    -fx-background-color: #CFECF3;
 }
 .Button {
-    -fx-background-color: black;
+    -fx-background-color: #5D93CE;
 }
+.label {
+    -fx-text-fill: #5B6B7D;
+}
+
+
+
