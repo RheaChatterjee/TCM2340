@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
       <GridPane layoutX="-1.0" prefHeight="289.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="145.0" />
@@ -34,8 +34,8 @@
             </Label>
             <ButtonBar prefHeight="96.0" prefWidth="372.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
               <buttons>
-                  <Button mnemonicParsing="false" onAction="#handleOKPressed" styleClass="Button" stylesheets="@style.css" text="Login" textFill="WHITE" />
-                <Button mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#handleOKPressed" styleClass="Button" stylesheets="@style.css" text="Login" textFill="WHITE" translateX="10.0" />
+                <Button mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" translateX="20.0" />
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
               </buttons>
             </ButtonBar>
