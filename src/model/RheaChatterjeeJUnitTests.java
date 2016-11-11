@@ -20,32 +20,38 @@ public class RheaChatterjeeJUnitTests {
     }
 
     @Test
-    public void invalidLength() {
+    public void invalidLength0() {
         valid = test.checkEmail("");
         assertTrue(valid == false);
     }
 
     @Test
-    public void invalidSyntax() {
-        valid = test.checkEmail("e");
-        assertTrue(valid == false);
-    }
-
-    @Test
-    public void validLength() {
-        valid = test.checkEmail("email");
-        assertTrue(valid == false);
-    }
-
-    @Test
-    public void validSyntax() {
+    public void invalidLength1() {
         valid = test.checkEmail("@");
-        assertTrue(valid == true);
+        assertTrue(valid == false);
     }
 
     @Test
-    public void validBoth() {
-        valid = test.checkEmail("email@");
+    public void invalidLength2() {
+        valid = test.checkEmail("@.");
+        assertTrue(valid == false);
+    }
+
+    @Test
+    public void invalidSyntax0() {
+        valid = test.checkEmail("test");
+        assertTrue(valid == false);
+    }
+
+    @Test
+    public void invalidSyntax1() {
+        valid = test.checkEmail("test@");
+        assertTrue(valid == false);
+    }
+
+    @Test
+    public void valid() {
+        valid = test.checkEmail("test@.");
         assertTrue(valid == true);
     }
 
