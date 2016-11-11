@@ -40,13 +40,13 @@ public class RheaChatterjeeJUnitTests {
     @Test
     public void validSyntax() {
         valid = test.checkEmail("@");
-        assertTrue(valid == false);
+        assertTrue(valid == true);
     }
 
     @Test
     public void validBoth() {
         valid = test.checkEmail("email@");
-        assertTrue(valid == false);
+        assertTrue(valid == true);
     }
 
 }
