@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 
 /**
  * Created by RheaChatterjee on 11/10/16.
+ * 
+ * JUnit test for checkEmail method in InputChecker
  */
 public class RheaChatterjeeJUnitTests {
 
