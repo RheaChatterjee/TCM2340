@@ -51,7 +51,7 @@ public class InputChecker {
     }
 
     public boolean checkEmail(String email) {
-        if (email.length() != 0 && email.contains("@")) {
+        if (email.length() > 2 && email.contains("@") && email.contains(".")) {
             return true;
         } else {
             return false;
