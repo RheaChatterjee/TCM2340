@@ -78,7 +78,7 @@ public class SubmitReportController {
         if (longitude > 180 || longitude < -180) {
             errorMessage += "Longitude field is invalid!\n";
         }
-        if (latitude > 90 || latitude < -180) {
+        if (latitude > 90 || latitude < -90) {
             errorMessage += "Latitude field is invalid!\n";
         }
         if (conditionField.getText() == null || conditionField.getText().length() == 0) {
