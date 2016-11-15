@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4913781c-8523-4e71-9911-37f4a0865032" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/controller/SerializationController.class" afterPath="$PROJECT_DIR$/out/production/waterResources/controller/SerializationController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.ser" afterPath="$PROJECT_DIR$/users.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/AmineBenLtaifaJUnitTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/model/InputChecker.class" afterPath="$PROJECT_DIR$/out/production/waterResources/model/InputChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/editProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/mainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/managerMainScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/qualityReportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/registration.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/reportListView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/style.css" afterPath="$PROJECT_DIR$/out/production/waterResources/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitQualityReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/submitReport.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/userProfile.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/welcome.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" afterPath="$PROJECT_DIR$/out/production/waterResources/view/workerMainScreen.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.ser" afterPath="$PROJECT_DIR$/reports.ser" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.ser" afterPath="$PROJECT_DIR$/users.ser" />
     </list>
     <ignored path="waterResources.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,24 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="ElizabethCooperJUnitTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java">
+      <file leaf-file-name="AmineBenLtaifaJUnitTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/AmineBenLtaifaJUnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4601963">
-              <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.42159763">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/controller/reportListViewController.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java" />
+        <option value="$PROJECT_DIR$/src/model/AmineBenLtaifaJUnitTests.java" />
       </list>
     </option>
   </component>
@@ -141,11 +120,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3232" />
-    <option name="height" value="1732" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     -
@@ -261,6 +245,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -308,23 +296,24 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="model" />
       <recent name="controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/view" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CS1332\TCM2340\lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\CS1332\TCM2340\lib" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/view" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElizabethCooperJUnitTests">
+  <component name="RunManager" selected="JUnit.AmineBenLtaifaJUnitTests">
     <configuration default="false" name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -363,6 +352,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.ElizabethCooperJUnitTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AmineBenLtaifaJUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="waterResources" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.AmineBenLtaifaJUnitTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -557,6 +572,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -621,16 +648,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
       <item index="1" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ElizabethCooperJUnitTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AmineBenLtaifaJUnitTests" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ElizabethCooperJUnitTests" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AmineBenLtaifaJUnitTests" />
         <item index="1" class="java.lang.String" itemvalue="Application.MainApp" />
-        <item index="2" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ElizabethCooperJUnitTests" />
+        <item index="3" class="java.lang.String" itemvalue="JAR Application.GMapsFX-2.0.9.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -748,28 +777,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 05m 17s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 30m 39s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 10m 56s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 31m 13s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 11m 36s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 34m 19s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 12m 13s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 34m 31s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 19m 49s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 35m 36s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 20m 43s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 37m 52s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 21m 05s.xml">
-      <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 38m 16s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElizabethCooperJUnitTests - 2016.11.10 at 17h 22m 01s.xml">
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 39m 29s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmineBenLtaifaJUnitTests - 2016.11.15 at 13h 41m 12s.xml">
+      <configuration name="AmineBenLtaifaJUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElizabethCooperJUnitTests - 2016.11.15 at 13h 04m 26s.xml">
       <configuration name="ElizabethCooperJUnitTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -777,21 +812,20 @@
     <option name="totallyTimeSpent" value="149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.226979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -801,6 +835,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -866,6 +901,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/editProfile.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -939,26 +992,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023672884">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.35650888">
+          <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
+    <entry file="file://$PROJECT_DIR$/src/model/JolenaYaoJUnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.55473375">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cleanWaterApp/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5325444">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RheaChatterjeeJUnitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28846154">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ElizabethCooperJUnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4601963">
-          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.022189349">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59911245">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="36" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/InputChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06804734">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/RegisteredUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33284023">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AmineBenLtaifaJUnitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42159763">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
