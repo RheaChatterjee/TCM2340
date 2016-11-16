@@ -12,10 +12,10 @@ import java.util.Map;
 
 public class LoginController {
     @FXML
-    private final TextField usernameField;
+    private TextField usernameField;
 
     @FXML
-    private final TextField passwordField;
+    private TextField passwordField;
 
     private User _user;
 
@@ -31,10 +31,11 @@ public class LoginController {
     @FXML
     private void initialize() {
         SerializationController serController = SerializationController.getInstance();
-        ArrayList<User> userList = SerializationController.users;
+        ArrayList<User> userList = serController.users;
         System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
         System.out.println(userList.size());
+        //noinspection unchecked
         Map<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
         for (User user : userList) {
             System.out.println(user.getUsername() + " " + user.getPassword());
@@ -89,6 +90,7 @@ public class LoginController {
     @FXML
     private void handleOKPressed() {
         String username = usernameField.getText();
+        //noinspection unchecked
         HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
         User registeredUserInformation = registeredUserMap.get(username);
         if (registeredUserMap.containsKey(username) &&

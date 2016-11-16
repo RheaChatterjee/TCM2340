@@ -99,6 +99,7 @@ public class RegistrationController {
         String errorMessage = "";
         InputChecker checker = new InputChecker();
         ArrayList<User> userList = SerializationController.users;
+        //noinspection unchecked
         HashMap<String, User> registeredUserMap = getRegisteredUser().getRegisteredUserMap();
         for (User user : userList) {
             System.out.println(user.getUsername() + " " + user.getPassword());

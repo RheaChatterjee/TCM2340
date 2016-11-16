@@ -10,19 +10,19 @@ import java.util.HashMap;
 
 public class UserProfileController {
     @FXML
-    private final Label usernameProfile;
+    private Label usernameProfile;
 
     @FXML
-    private final Label emailProfile;
+    private Label emailProfile;
 
     @FXML
-    private final Label titleProfile;
+    private Label titleProfile;
 
     @FXML
-    private final Label accountTypeProfile;
+    private Label accountTypeProfile;
 
     @FXML
-    private final Label addressProfile;
+    private Label addressProfile;
 
     private Stage _dialogStage;
 
@@ -58,6 +58,7 @@ public class UserProfileController {
         RegistrationController registrationController = new RegistrationController();
         setUser(loginController.getUser());
         String username = user.getUsername();
+        //noinspection unchecked
         HashMap<String, User> registeredUserInformation = registrationController.getRegisteredUser().getRegisteredUserMap();
         User registeredUser = registeredUserInformation.get(username);
         usernameProfile.setText(user.getUsername());

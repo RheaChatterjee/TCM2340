@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class Worker extends User implements Serializable {
 
     private final StringProperty workerId = new SimpleStringProperty();
-    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();
+    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<>();
 
     Worker(String username, String password, String id, String email, AccountType accountType,
            String address, String title, String workerId) {

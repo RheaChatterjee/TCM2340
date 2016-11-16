@@ -18,8 +18,7 @@ public class WaterQualityReport implements Serializable {
 
     public WaterQualityReport() {
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
-        Date date = new Date();
-        this.dateTime = date.toString();
+        this.dateTime = dateFormat.format(new Date());
     }
 
     public WaterQualityReport(String reporterName, Location location, String waterCondition, String virusPPM, String contamPPM) {

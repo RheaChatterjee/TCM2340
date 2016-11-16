@@ -111,6 +111,7 @@ public class VirusPPMGraphController extends Application {
             }
             System.out.println(data.size());
             for (String key : data.keySet()) {
+                //noinspection unchecked,unchecked,unchecked
                 virusSeries.getData().add(new XYChart.Data(key, data.get(key)));
             }
             /*for (WaterQualityReport report : getWaterQualityData()) {
@@ -119,6 +120,7 @@ public class VirusPPMGraphController extends Application {
 
 
             Scene scene = new Scene(viruslineChart, 800, 600);
+            //noinspection unchecked
             viruslineChart.getData().add(virusSeries);
 
             stage.setScene(scene);
@@ -130,6 +132,7 @@ public class VirusPPMGraphController extends Application {
             final NumberAxis yAxis = new NumberAxis();
             xAxis.setLabel("Month");
 
+            //noinspection unchecked,unchecked
             final LineChart<String, Number> viruslineChart =
                     new LineChart(xAxis, yAxis);
 
@@ -148,11 +151,13 @@ public class VirusPPMGraphController extends Application {
             }
             System.out.println(data.size());
             for (String key : data.keySet()) {
+                //noinspection unchecked,unchecked
                 contamSeries.getData().add(new XYChart.Data(key, data.get(key)));
             }
 
 
             Scene scene = new Scene(viruslineChart, 800, 600);
+            //noinspection unchecked
             viruslineChart.getData().add(contamSeries);
             stage.setScene(scene);
             stage.show();

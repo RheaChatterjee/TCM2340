@@ -13,16 +13,10 @@ public class SerializationController implements Serializable {
     public static ArrayList<WaterQualityReport> waterQualityReports;
 
     public SerializationController() {
-        ArrayList<Admin> admins = new ArrayList<>();
         locations = new ArrayList<>();
-        ArrayList<Manager> managers = new ArrayList<>();
-        ArrayList<RegisteredUser> registeredUsers = new ArrayList<>();
         reports = new ArrayList<>();
-        ArrayList<SubmittedQualityReports> submittedQualityReports = new ArrayList<>();
-        ArrayList<SubmittedReports> submittedReports = new ArrayList<>();
         users = new ArrayList<>();
         waterQualityReports = new ArrayList<>();
-        ArrayList<Worker> workers = new ArrayList<>();
         // set singleton
         controller = this;
     }
@@ -49,13 +43,17 @@ public class SerializationController implements Serializable {
 
     public void retrieveAll() {
         //admins = (ArrayList<Admin>)retrieveChanges("admins");
+        //noinspection unchecked
         locations = (ArrayList<Location>) retrieveChanges("locations");
         //managers = (ArrayList<Manager>)retrieveChanges("managers");
         //registeredUsers = (ArrayList<RegisteredUser>)retrieveChanges("registeredUsers");
+        //noinspection unchecked
         reports = (ArrayList<Report>) retrieveChanges("reports");
         //submittedQualityReports = (ArrayList<SubmittedQualityReports>)retrieveChanges("submittedQualityReports");
         //submittedReports = (ArrayList<SubmittedReports>)retrieveChanges("submittedReports");
+        //noinspection unchecked
         users = (ArrayList<User>) retrieveChanges("users");
+        //noinspection unchecked
         waterQualityReports = (ArrayList<WaterQualityReport>) retrieveChanges("waterQualityReports");
         //workers = (ArrayList<Worker>)retrieveChanges("workers");
     }
@@ -83,6 +81,7 @@ public class SerializationController implements Serializable {
         try {
             FileInputStream fileIn = new FileInputStream("./" + fileName + ".ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
+            //noinspection unchecked
             list = (ArrayList<? extends Serializable>) in.readObject();
             in.close();
             fileIn.close();
