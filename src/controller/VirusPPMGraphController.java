@@ -94,7 +94,7 @@ public class VirusPPMGraphController extends Application {
             xAxis.setLabel("Month");
 
             final LineChart<String, Number> viruslineChart =
-                    new LineChart(xAxis, yAxis);
+                    new LineChart<>(xAxis, yAxis);
 
             viruslineChart.setTitle("VirusPPM History");
 

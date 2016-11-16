@@ -13,7 +13,7 @@ public class Admin implements Serializable {
     private final StringProperty username = new SimpleStringProperty();
     private final StringProperty password = new SimpleStringProperty();
     private final StringProperty id = new SimpleStringProperty();
-    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty();
+    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<AccountType>();
 
 
     //Advanced Information
