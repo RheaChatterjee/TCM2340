@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by David on 11/15/2016.
- */
 public class DavidTranJUnitTests {
     private InputChecker test;
     private String errorMessage;

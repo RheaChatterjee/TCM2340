@@ -3,9 +3,6 @@ package model;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Created by aminebenltaifa on 11/15/16.
- */
 public class AmineBenLtaifaJUnitTests {
 
     private User user;
