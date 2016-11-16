@@ -8,6 +8,7 @@ import model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class LoginController {
     @FXML
@@ -34,7 +35,7 @@ public class LoginController {
         System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
         System.out.println(userList.size());
-        HashMap<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
+        Map<String, User> registeredUserMap = registrationController.getRegisteredUser().getRegisteredUserMap();
         for (User user : userList) {
             System.out.println(user.getUsername() + " " + user.getPassword());
             registeredUserMap.put(user.getUsername(), user);

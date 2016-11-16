@@ -98,11 +98,6 @@ public class WaterQualityReport implements Serializable {
         return waterCondition;
     }
 
-    public String waterConditionProperty() {
-        String waterType = "";
-        return waterType;
-    }
-
     private void setWaterCondition(String waterCondition) {
         this.waterCondition = waterCondition;
     }

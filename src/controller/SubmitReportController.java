@@ -65,8 +65,8 @@ public class SubmitReportController {
      * */
     private boolean isInputValid() {
         String errorMessage = "";
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         //for now just check they actually typed something
         if (longitudeField.getText() == null || longitudeField.getText().length() == 0) {
             errorMessage += "No valid location entered!\n";
@@ -109,8 +109,8 @@ public class SubmitReportController {
     private void handleSubmitReport() {
         serController.retrieveChanges("reports");
         ArrayList<Report> reportList = serController.reports;
-        double longitude = Double.parseDouble(longitudeField.getText().toString());
-        double latitude = Double.parseDouble(latitudeField.getText().toString());
+        double longitude = Double.parseDouble(longitudeField.getText());
+        double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, typeField.getText(), "<h2>Type: " + typeField.getText() + "<br> Condition: " + conditionField.getText());
         Report report = new Report(user.getUsername(), loc, typeField.getText(), conditionField.getText());
         if (isInputValid()) {

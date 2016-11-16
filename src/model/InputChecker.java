@@ -4,6 +4,7 @@ public class InputChecker {
     public InputChecker() {
 
     }
+
     public String checkRegistrationInput(String name, String password, String email, String type, String address, String title) {
         String errorMessage = "";
         if (name == null || name.length() == 0) {
@@ -65,10 +66,6 @@ public class InputChecker {
     }
 
     public boolean checkEmail(String email) {
-        if (email.length() > 2 && email.contains("@") && email.contains(".")) {
-            return true;
-        } else {
-            return false;
-        }
+        return (email.length() > 2 && email.contains("@") && email.contains("."));
     }
 }

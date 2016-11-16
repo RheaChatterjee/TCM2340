@@ -150,7 +150,7 @@ public class Admin implements Serializable {
      * @return true if the credentials match and false otherwise
      */
     public boolean authenticate(String username, String password) {
-        return this.username.equals(username) && this.password.equals(password);
+        return getUsername().equals(username) && getPassword().equals(password);
     }
 
     /**

@@ -21,8 +21,8 @@ public class Report implements Serializable {
 
     public Report() {
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
-        Date date = new Date();
-        setDateTime(date.toString());
+        String date = dateFormat.format(new Date());
+        setDateTime(date);
     }
 
     public Report(String reporterName, Location location, String waterType, String waterCondition) {

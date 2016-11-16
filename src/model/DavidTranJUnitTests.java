@@ -73,6 +73,6 @@ public class DavidTranJUnitTests {
     @Test
     public void validInput() {
         errorMessage = test.checkReportInput(0, 0, "condition", "type");
-        assertTrue(valid == true);
+        assertTrue(valid);
     }
 }
