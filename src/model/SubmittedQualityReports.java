@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 public class SubmittedQualityReports implements Serializable {
 
-    private static SerializationController serController = SerializationController.getInstance();
+    private static final SerializationController serController = SerializationController.getInstance();
 
-    private static final ArrayList<WaterQualityReport> submittedQualityReports = serController.waterQualityReports;
+    private static final ArrayList<WaterQualityReport> submittedQualityReports = SerializationController.waterQualityReports;
 
 
     /**

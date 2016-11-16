@@ -9,6 +9,7 @@ import javafx.scene.control.ListView;
 import model.User;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 
 public class reportListViewController {
@@ -18,7 +19,7 @@ public class reportListViewController {
     private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     @FXML
-    private ListView<String> reportListView;
+    private final ListView<String> reportListView;
 
     /**
      * sets the user
@@ -49,11 +50,8 @@ public class reportListViewController {
     private void initialize() {
         SerializationController serController = SerializationController.getInstance();
         serController.retrieveChanges("reports");
-        ArrayList<Report> reportList = serController.reports;
-        ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for (Report report : reportList) {
-            reportsAsStrings.add(report.toString());
-        }
+        ArrayList<Report> reportList = SerializationController.reports;
+        ArrayList<String> reportsAsStrings = reportList.stream().map(Report::toString).collect(Collectors.toCollection(ArrayList::new));
         reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
     }
 }

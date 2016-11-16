@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class SubmittedReports implements Serializable {
 
-    private static SerializationController serController = SerializationController.getInstance();
-    private static final ArrayList<Report> submittedReports = serController.reports;
+    private static final SerializationController serController = SerializationController.getInstance();
+    private static final ArrayList<Report> submittedReports = SerializationController.reports;
 
     /**
      * gets the submitted reports

@@ -9,19 +9,19 @@ import java.util.HashMap;
 
 public class UserProfileController {
     @FXML
-    private Label usernameProfile;
+    private final Label usernameProfile;
 
     @FXML
-    private Label emailProfile;
+    private final Label emailProfile;
 
     @FXML
-    private Label titleProfile;
+    private final Label titleProfile;
 
     @FXML
-    private Label accountTypeProfile;
+    private final Label accountTypeProfile;
 
     @FXML
-    private Label addressProfile;
+    private final Label addressProfile;
 
     private Stage _dialogStage;
 

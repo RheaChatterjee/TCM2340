@@ -7,16 +7,16 @@ import java.util.ArrayList;
 public class SerializationController implements Serializable {
 
     private static SerializationController controller;
-    public static ArrayList<Admin> admins;
-    public static ArrayList<Location> locations;
-    public static ArrayList<Manager> managers;
-    public static ArrayList<RegisteredUser> registeredUsers;
+    private static ArrayList<Admin> admins;
+    private static ArrayList<Location> locations;
+    private static ArrayList<Manager> managers;
+    private static ArrayList<RegisteredUser> registeredUsers;
     public static ArrayList<Report> reports;
-    public static ArrayList<SubmittedQualityReports> submittedQualityReports;
-    public static ArrayList<SubmittedReports> submittedReports;
+    private static ArrayList<SubmittedQualityReports> submittedQualityReports;
+    private static ArrayList<SubmittedReports> submittedReports;
     public static ArrayList<User> users;
     public static ArrayList<WaterQualityReport> waterQualityReports;
-    public static ArrayList<Worker> workers;
+    private static ArrayList<Worker> workers;
 
     public SerializationController() {
         admins = new ArrayList<>();
