@@ -17,8 +17,6 @@ public class reportListViewController {
 
     private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
-    private static SerializationController serController;
-
     @FXML
     private ListView<String> reportListView;
 
@@ -27,7 +25,6 @@ public class reportListViewController {
      * @param user the logged in user
      */
     public void setUser(User user) {
-        User user1 = user;
     }
 
     /**
@@ -50,7 +47,7 @@ public class reportListViewController {
      */
     @FXML
     private void initialize() {
-        serController = SerializationController.getInstance();
+        SerializationController serController = SerializationController.getInstance();
         serController.retrieveChanges("reports");
         ArrayList<Report> reportList = serController.reports;
         ArrayList<String> reportsAsStrings = new ArrayList<>();

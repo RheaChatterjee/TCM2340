@@ -11,7 +11,6 @@ public class WaterQualityReport implements Serializable {
     private String reportNumber = "";
     private String reporterName = "";
     private Location location = new Location();
-    private String waterType = "";
     private String waterCondition = "";
     private String virusPPM = "";
     private String contamPPM = "";
@@ -32,8 +31,7 @@ public class WaterQualityReport implements Serializable {
         setVirusPPM(virusPPM);
         setContamPPM(contamPPM);
         DateFormat dateFormat = new SimpleDateFormat("MMM/dd/yyyy h:mm a");
-        String date = dateFormat.format(new Date());
-        this.dateTime = date;
+        this.dateTime = dateFormat.format(new Date());
     }
 
     /**
@@ -41,8 +39,7 @@ public class WaterQualityReport implements Serializable {
      * @return String of the year
      */
     public String getYear() {
-        String year = getDateTime().substring(7, 11);
-        return year;
+        return getDateTime().substring(7, 11);
     }
 
     /**
@@ -50,8 +47,7 @@ public class WaterQualityReport implements Serializable {
      * @return String of the year
      */
     public String getMonth() {
-        String month = getDateTime().substring(0, 3);
-        return month;
+        return getDateTime().substring(0, 3);
     }
 
     private String getDateTime() {
@@ -103,6 +99,7 @@ public class WaterQualityReport implements Serializable {
     }
 
     public String waterConditionProperty() {
+        String waterType = "";
         return waterType;
     }
 

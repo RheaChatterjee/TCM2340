@@ -38,7 +38,6 @@ public class UserProfileController {
      * @param user the user that will be set
      */
     public void setUser(User user) {
-        User user1 = user;
     }
 
     /**

@@ -42,8 +42,7 @@ public class Report implements Serializable {
      * @return String of the year
      */
     public String getYear() {
-        String year = getDateTime().substring(7, 11);
-        return year;
+        return getDateTime().substring(7, 11);
     }
 
     private String getDateTime() {

@@ -17,8 +17,6 @@ public class qualityReportListViewController {
 
     private final ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
 
-    private static SerializationController serController;
-
     @FXML
     private ListView<String> qualityReportListView;
 
@@ -43,7 +41,7 @@ public class qualityReportListViewController {
      */
     @FXML
     private void initialize() {
-        serController = SerializationController.getInstance();
+        SerializationController serController = SerializationController.getInstance();
         serController.retrieveChanges("waterQualityReports");
         ArrayList<WaterQualityReport> qualityReportsList = serController.waterQualityReports;
         ArrayList<String> reportsAsStrings = qualityReportsList.stream().map(WaterQualityReport::toString).collect(Collectors.toCollection(ArrayList::new));

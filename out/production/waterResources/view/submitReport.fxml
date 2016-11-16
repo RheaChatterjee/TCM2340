@@ -36,12 +36,12 @@
                 </Label>
                 <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@style.css" GridPane.columnIndex="1" />
                 <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
-         <children>
-                           <TextField fx:id="latitudeField" layoutX="7.0" layoutY="38.0" prefHeight="27.0" prefWidth="186.0" promptText="Latitude" translateX="19.0" translateY="20.0" />
-                     <TextField fx:id="longitudeField" layoutX="241.0" layoutY="33.0" prefHeight="27.0" prefWidth="186.0" promptText="Longitude" translateX="-10.0" translateY="24.0" />
-         </children>
-                </AnchorPane>
+            <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <TextField fx:id="latitudeField" layoutX="7.0" layoutY="38.0" prefHeight="27.0" prefWidth="186.0"
+                           promptText="Latitude" translateX="19.0" translateY="20.0"/>
+                <TextField fx:id="longitudeField" layoutX="241.0" layoutY="33.0" prefHeight="27.0" prefWidth="186.0"
+                           promptText="Longitude" translateX="-10.0" translateY="24.0"/>
+            </AnchorPane>
                 <ButtonBar prefHeight="122.0" prefWidth="455.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
          <buttons>
                            <TextField fx:id="typeField" prefHeight="27.0" prefWidth="391.0" translateX="-37.0" />

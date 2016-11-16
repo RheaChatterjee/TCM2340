@@ -24,14 +24,12 @@ public class LoginController {
 
     private boolean _login = false;
 
-    private static SerializationController serController;
-
     /**
      * called automatically after load
      */
     @FXML
     private void initialize() {
-        serController = SerializationController.getInstance();
+        SerializationController serController = SerializationController.getInstance();
         ArrayList<User> userList = serController.users;
         System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
