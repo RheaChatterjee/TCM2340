@@ -9,8 +9,6 @@ import cleanWaterApp.MainApp;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.stage.Stage;
-import javafx.stage.Window;
 
 
 import model.*;
@@ -20,6 +18,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 
 
 public class MapController implements Initializable, MapComponentInitializedListener {
@@ -75,11 +74,8 @@ public class MapController implements Initializable, MapComponentInitializedList
         map = mapView.createMap(options);
 
 
-        /** now we communciate with the model to get all the locations for markers */
-        List<Location> locations = new ArrayList<>();
-        for (Report r : reportArrayList) {
-            locations.add(r.getLocation());
-        }
+        /* now we communciate with the model to get all the locations for markers */
+        List<Location> locations = reportArrayList.stream().map(Report::getLocation).collect(Collectors.toList());
 
         for (Location l: locations) {
             MarkerOptions markerOptions = new MarkerOptions();

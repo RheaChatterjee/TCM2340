@@ -24,8 +24,8 @@ public class SerializationController implements Serializable {
         managers = new ArrayList<>();
         registeredUsers = new ArrayList<>();
         reports = new ArrayList<>();
-        submittedQualityReports = new ArrayList<SubmittedQualityReports>();
-        submittedReports = new ArrayList<SubmittedReports>();
+        submittedQualityReports = new ArrayList<>();
+        submittedReports = new ArrayList<>();
         users = new ArrayList<>();
         waterQualityReports = new ArrayList<>();
         workers = new ArrayList<>();

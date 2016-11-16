@@ -32,7 +32,7 @@ public class InputChecker {
         if (longitude > 180 || longitude < -180) {
             errorMessage += "Longitude field is invalid!\n";
         }
-        if (latitude > 90 || latitude < -180) {
+        if (latitude > 90 || latitude < -90) {
             errorMessage += "Latitude field is invalid!\n";
         }
         if (condition == null || condition.length() == 0) {
@@ -43,6 +43,23 @@ public class InputChecker {
         }
         if (contamPPM == null || contamPPM.length() == 0) {
             errorMessage += "No valid contamPPM entered!\n";
+        }
+        return errorMessage;
+    }
+
+    public String checkReportInput(double longitude, double latitude, String condition, String type) {
+        String errorMessage = "";
+        if (longitude > 180 || longitude < -180) {
+            errorMessage += "Longitude field is invalid!\n";
+        }
+        if (latitude > 90 || latitude < -90) {
+            errorMessage += "Latitude field is invalid!\n";
+        }
+        if (condition == null || condition.length() == 0) {
+            errorMessage += "No valid water condition entered!\n";
+        }
+        if (type == null || type.length() == 0) {
+            errorMessage += "No type entered!\n";
         }
         return errorMessage;
     }

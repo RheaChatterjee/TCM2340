@@ -58,8 +58,10 @@
             </AnchorPane>
             <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <buttons>
-                  <Button fx:id="UpdateButton" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Update" textFill="WHITE" translateX="-40.0" />
-                  <Button fx:id="CancelButton" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" translateX="-26.0" />
+                  <!--suppress JavaFxUnresolvedFxIdReference -->
+                   <Button fx:id="UpdateButton" mnemonicParsing="false" onAction="#handleEditProfile" styleClass="Button" stylesheets="@style.css" text="Update" textFill="WHITE" translateX="-40.0" />
+                  <!--suppress JavaFxUnresolvedFxIdReference -->
+                   <Button fx:id="CancelButton" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" translateX="-26.0" />
                </buttons>
             </ButtonBar>
         </GridPane>

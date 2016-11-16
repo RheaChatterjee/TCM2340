@@ -42,17 +42,15 @@
             </Label>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@style.css" GridPane.columnIndex="1" />
             <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
-         <children>
-                     <TextField fx:id="latitudeField" layoutX="18.0" layoutY="19.0" prefHeight="27.0" prefWidth="186.0" promptText="Latitude" />
-                     <TextField fx:id="longitudeField" layoutX="221.0" layoutY="19.0" prefHeight="27.0" prefWidth="186.0" promptText="Longitude" />
-         </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
-         <children>
-                     <TextField fx:id="conditionField" layoutX="18.0" layoutY="21.0" prefHeight="27.0" prefWidth="391.0" />
-         </children>
-            </AnchorPane>
+         <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <TextField fx:id="latitudeField" layoutX="18.0" layoutY="19.0" prefHeight="27.0" prefWidth="186.0"
+                       promptText="Latitude"/>
+            <TextField fx:id="longitudeField" layoutX="221.0" layoutY="19.0" prefHeight="27.0" prefWidth="186.0"
+                       promptText="Longitude"/>
+         </AnchorPane>
+         <AnchorPane prefHeight="96.0" prefWidth="412.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <TextField fx:id="conditionField" layoutX="18.0" layoutY="21.0" prefHeight="27.0" prefWidth="391.0"/>
+         </AnchorPane>
             <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
          <buttons>
                      <TextField fx:id="virusPPMField" prefHeight="27.0" prefWidth="391.0" translateX="-19.0" />

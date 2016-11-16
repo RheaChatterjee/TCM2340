@@ -1,5 +1,8 @@
 package controller;
 
+/*
+  Created by David on 11/6/2016.
+ */
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
@@ -10,14 +13,12 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import model.Report;
 import model.SubmittedQualityReports;
-import model.SubmittedReports;
 import model.WaterQualityReport;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 
 public class VirusPPMGraphController extends Application {
@@ -75,13 +76,9 @@ public class VirusPPMGraphController extends Application {
     }
 
     public ArrayList<WaterQualityReport> getWaterQualityData() {
-        for (WaterQualityReport report : reportArrayList) {
-            if ((report.getYear().equals(yearText.getText()))
+        reportListGraph.addAll(reportArrayList.stream().filter(report -> (report.getYear().equals(yearText.getText()))
                 && (report.getLocation().getLatitude() == getLatitude())
-                && report.getLocation().getLongitude() == getLongitude()) {
-                reportListGraph.add(report);
-            }
-        }
+                && report.getLocation().getLongitude() == getLongitude()).collect(Collectors.toList()));
         return reportListGraph;
     }
 
