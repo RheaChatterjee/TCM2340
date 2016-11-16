@@ -20,6 +20,7 @@ public class SubmittedReports implements Serializable {
     }
 
 
+
     /**
      * gets the size of the array
      * @return int size of the array

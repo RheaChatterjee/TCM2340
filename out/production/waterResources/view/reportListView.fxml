@@ -7,5 +7,5 @@
 <AnchorPane prefHeight="500.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reportListViewController">
 
       <ListView fx:id="reportListView" layoutX="-7.0" layoutY="119.0" prefHeight="332.0" prefWidth="607.0" />
-      <Button fx:id="cancelButton" layoutX="495.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+      <Button layoutX="495.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
 </AnchorPane>

@@ -342,7 +342,6 @@ public class MainApp extends Application {
 
             reportListViewController controller = loader.getController();
             controller.setDialogStage(dialogStage);
-            controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

@@ -30,8 +30,7 @@ public class LoginController {
      */
     @FXML
     private void initialize() {
-        SerializationController serController = SerializationController.getInstance();
-        ArrayList<User> userList = serController.users;
+        ArrayList<User> userList = SerializationController.users;
         System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
         System.out.println(userList.size());

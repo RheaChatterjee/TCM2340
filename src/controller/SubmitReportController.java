@@ -16,16 +16,16 @@ public class SubmitReportController {
     private Stage _dialogStage;
 
     @FXML
-    private final TextField longitudeField;
+    private TextField longitudeField;
 
     @FXML
-    private final TextField latitudeField;
+    private TextField latitudeField;
 
     @FXML
-    private final TextField conditionField;
+    private TextField conditionField;
 
     @FXML
-    private final TextField typeField;
+    private TextField typeField;
 
     @FXML
     private Button SubmitButton;

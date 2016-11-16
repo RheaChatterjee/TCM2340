@@ -9,16 +9,16 @@ import model.User;
 
 public class EditProfileController {
     @FXML
-    private final TextField emailField;
+    private TextField emailField;
 
     @FXML
-    private final TextField passwordField;
+    private TextField passwordField;
 
     @FXML
-    private final TextField addressField;
+    private TextField addressField;
 
     @FXML
-    private final TextField titleField;
+    private TextField titleField;
 
     private User user;
 
@@ -49,7 +49,7 @@ public class EditProfileController {
     @FXML
     private void handleEditProfile() {
         InputChecker checker = new InputChecker();
-        if (checker.checkEmail(emailField.getText())) {
+        if (!checker.checkEmail(emailField.getText())) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.initOwner(_dialogStage);
             alert.setTitle("Invalid Fields");

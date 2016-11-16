@@ -23,19 +23,19 @@ import java.util.stream.Collectors;
 public class VirusPPMGraphController extends Application {
 
     @FXML
-    private final RadioButton containmentButton;
+    private RadioButton containmentButton;
 
     @FXML
-    private final RadioButton virusButton;
+    private RadioButton virusButton;
 
     @FXML
-    private final TextField yearText;
+    private TextField yearText;
 
     @FXML
-    private final TextField latitude;
+    private TextField latitude;
 
     @FXML
-    private final TextField longitude;
+    private TextField longitude;
 
     private Stage stage;
 

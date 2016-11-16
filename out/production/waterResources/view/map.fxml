@@ -13,19 +13,13 @@
     <top>
         <MenuBar BorderPane.alignment="CENTER">
             <Menu mnemonicParsing="false" text="File">
-                <items>
-                    <SeparatorMenuItem mnemonicParsing="false"/>
-                </items>
+                <SeparatorMenuItem mnemonicParsing="false"/>
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
-                <items>
-                    <MenuItem mnemonicParsing="false" text="Delete"/>
-                </items>
+                <MenuItem mnemonicParsing="false" text="Delete"/>
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
-                <items>
-                    <MenuItem mnemonicParsing="false" text="About"/>
-                </items>
+                <MenuItem mnemonicParsing="false" text="About"/>
             </Menu>
         </MenuBar>
     </top>

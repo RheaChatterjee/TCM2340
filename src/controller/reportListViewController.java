@@ -17,20 +17,12 @@ public class reportListViewController {
 
     private Stage _dialogStage;
 
-    private final ArrayList<Report> reportArrayList = SubmittedReports.getSubmittedReports();
 
     @FXML
-    private final ListView<String> reportListView;
+    private ListView<String> reportListView;
 
     @FXML
     private Button cancelButton;
-
-    /**
-     * sets the user
-     * @param user the logged in user
-     */
-    public void setUser(User user) {
-    }
 
     /**
      * sets the dialog stage

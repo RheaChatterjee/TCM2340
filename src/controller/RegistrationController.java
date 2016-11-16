@@ -17,22 +17,22 @@ import java.util.HashMap;
 public class RegistrationController {
 
     @FXML
-    private final TextField registrationName;
+    private TextField registrationName;
 
     @FXML
-    private final TextField registrationEmail;
+    private TextField registrationEmail;
 
     @FXML
-    private final TextField registrationPassword;
+    private TextField registrationPassword;
 
     @FXML
-    private final TextField addressBox;
+    private TextField addressBox;
 
     @FXML
-    private final TextField titleBox;
+    private TextField titleBox;
 
     @FXML
-    private final ComboBox<AccountType> selectAccountType;
+    private ComboBox<AccountType> selectAccountType;
 
     private static final RegisteredUser registeredUser = new RegisteredUser();
 

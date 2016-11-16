@@ -26,6 +26,8 @@ public class UserProfileController {
 
     private Stage _dialogStage;
 
+    private User user;
+
     /**
      * sets the dialog stage
      * @param dialogStage dialogStage to be created
@@ -39,6 +41,7 @@ public class UserProfileController {
      * @param user the user that will be set
      */
     public void setUser(User user) {
+        this.user = user;
     }
 
     /**

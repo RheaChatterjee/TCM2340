@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class DavidTranJUnitTests {
     private InputChecker test;
     private String errorMessage;
-    private final boolean valid;
+    private boolean valid;
 
     @Before
     public void setUp() {

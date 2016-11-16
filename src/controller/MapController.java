@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 public class MapController implements Initializable, MapComponentInitializedListener {
     @FXML
-    private final GoogleMapView mapView;
+    private GoogleMapView mapView;
 
     private GoogleMap map;
 

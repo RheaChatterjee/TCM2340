@@ -9,7 +9,7 @@ public class AmineBenLtaifaJUnitTests {
     private RegisteredUser regUserMap;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         regUserMap = new RegisteredUser();
         user = new User("King Of Speed", "kos123", "01", "kos@gmail.com", AccountType.MANAGER, "GT", "");
     }
