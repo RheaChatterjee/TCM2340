@@ -74,7 +74,7 @@ public class MapController implements Initializable, MapComponentInitializedList
         map = mapView.createMap(options);
 
 
-        /* now we communciate with the model to get all the locations for markers */
+        /* now we communicate with the model to get all the locations for markers */
         List<Location> locations = reportArrayList.stream().map(Report::getLocation).collect(Collectors.toList());
 
         for (Location l: locations) {
