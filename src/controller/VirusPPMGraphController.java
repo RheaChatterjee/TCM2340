@@ -1,8 +1,5 @@
 package controller;
 
-/**
- * Created by David on 11/6/2016.
- */
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;

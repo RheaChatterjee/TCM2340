@@ -4,9 +4,6 @@ import model.*;
 import java.io.*;
 import java.util.ArrayList;
 
-/**
- * Created by aminebenltaifa on 11/7/16.
- */
 public class SerializationController implements Serializable {
 
     private static SerializationController controller;

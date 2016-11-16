@@ -1,8 +1,5 @@
 package model;
 
-/**
- * Created by Elizabeth on 11/7/2016.
- */
 public class InputChecker {
     public InputChecker() {
 
