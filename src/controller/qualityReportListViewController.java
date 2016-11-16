@@ -18,7 +18,7 @@ public class qualityReportListViewController {
     private final ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
 
     @FXML
-    private final ListView<String> qualityReportListView;
+    private ListView<String> qualityReportListView;
 
 
     /**
