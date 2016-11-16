@@ -9,16 +9,16 @@ import model.User;
 
 public class EditProfileController {
     @FXML
-    private TextField emailField;
+    private final TextField emailField;
 
     @FXML
-    private TextField passwordField;
+    private final TextField passwordField;
 
     @FXML
-    private TextField addressField;
+    private final TextField addressField;
 
     @FXML
-    private TextField titleField;
+    private final TextField titleField;
 
     private User user;
 

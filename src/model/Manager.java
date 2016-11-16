@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class Manager extends Worker implements Serializable {
 
     private final StringProperty managerId = new SimpleStringProperty();
-    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<AccountType>();
+    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<>();
 
     public Manager(String username, String password, String id, String email, AccountType accountType,
                 String address, String title, String workerId, StringProperty managerId) {

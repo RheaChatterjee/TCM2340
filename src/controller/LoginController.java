@@ -12,10 +12,10 @@ import java.util.Map;
 
 public class LoginController {
     @FXML
-    private TextField usernameField;
+    private final TextField usernameField;
 
     @FXML
-    private TextField passwordField;
+    private final TextField passwordField;
 
     private User _user;
 
@@ -31,7 +31,7 @@ public class LoginController {
     @FXML
     private void initialize() {
         SerializationController serController = SerializationController.getInstance();
-        ArrayList<User> userList = serController.users;
+        ArrayList<User> userList = SerializationController.users;
         System.out.println("loaded " + userList.size() + " users.");
         registrationController = new RegistrationController();
         System.out.println(userList.size());

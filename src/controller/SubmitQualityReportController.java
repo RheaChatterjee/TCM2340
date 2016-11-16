@@ -15,19 +15,19 @@ public class SubmitQualityReportController {
     private Stage _dialogStage;
 
     @FXML
-    private TextField longitudeField;
+    private final TextField longitudeField;
 
     @FXML
-    private TextField latitudeField;
+    private final TextField latitudeField;
 
     @FXML
-    private TextField conditionField;
+    private final TextField conditionField;
 
     @FXML
-    private TextField virusPPMField;
+    private final TextField virusPPMField;
 
     @FXML
-    private TextField contamPPMField;
+    private final TextField contamPPMField;
 
     private static final SubmittedQualityReports reports = new SubmittedQualityReports();
 
@@ -100,7 +100,7 @@ public class SubmitQualityReportController {
     @FXML
     private void handleSubmitQualityReport() {
         serController.retrieveChanges("waterQualityReports");
-        ArrayList<WaterQualityReport> reportList = serController.waterQualityReports;
+        ArrayList<WaterQualityReport> reportList = SerializationController.waterQualityReports;
         double longitude = Double.parseDouble(longitudeField.getText());
         double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, virusPPMField.getText(), "<h2>Type: " + contamPPMField.getText() + "<br> Condition: " + conditionField.getText());

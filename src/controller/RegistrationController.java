@@ -17,22 +17,22 @@ import java.util.HashMap;
 public class RegistrationController {
 
     @FXML
-    private TextField registrationName;
+    private final TextField registrationName;
 
     @FXML
-    private TextField registrationEmail;
+    private final TextField registrationEmail;
 
     @FXML
-    private TextField registrationPassword;
+    private final TextField registrationPassword;
 
     @FXML
-    private TextField addressBox;
+    private final TextField addressBox;
 
     @FXML
-    private TextField titleBox;
+    private final TextField titleBox;
 
     @FXML
-    private ComboBox<AccountType> selectAccountType;
+    private final ComboBox<AccountType> selectAccountType;
 
     private static final RegisteredUser registeredUser = new RegisteredUser();
 
@@ -98,7 +98,7 @@ public class RegistrationController {
     private boolean isInputValid() {
         String errorMessage = "";
         InputChecker checker = new InputChecker();
-        ArrayList<User> userList = serController.users;
+        ArrayList<User> userList = SerializationController.users;
         HashMap<String, User> registeredUserMap = getRegisteredUser().getRegisteredUserMap();
         for (User user : userList) {
             System.out.println(user.getUsername() + " " + user.getPassword());
@@ -133,9 +133,9 @@ public class RegistrationController {
         this.user = new User(registrationName.getText(), registrationPassword.getText(), "tempID", registrationEmail.getText(), selectAccountType.getValue(), addressBox.getText(), titleBox.getText());
         if (isInputValid()) {
             serController.retrieveChanges("users");
-            ArrayList<User> userList = serController.users;
+            ArrayList<User> userList = SerializationController.users;
             userList.add(user);
-            serController.saveChanges("users", serController.users);
+            serController.saveChanges("users", SerializationController.users);
             registeredUser.addUser(user);
             registered = true;
             registrationStage.close();

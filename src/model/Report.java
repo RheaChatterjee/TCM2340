@@ -53,7 +53,7 @@ public class Report implements Serializable {
         return dateTime;
     }
 
-    public void setDateTime(String dateTime) {
+    private void setDateTime(String dateTime) {
         this.dateTime = dateTime;
     }
 

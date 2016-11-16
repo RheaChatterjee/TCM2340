@@ -23,26 +23,26 @@ import java.util.stream.Collectors;
 public class VirusPPMGraphController extends Application {
 
     @FXML
-    private RadioButton containmentButton;
+    private final RadioButton containmentButton;
 
     @FXML
-    private RadioButton virusButton;
+    private final RadioButton virusButton;
 
     @FXML
-    private TextField yearText;
+    private final TextField yearText;
 
     @FXML
-    private TextField latitude;
+    private final TextField latitude;
 
     @FXML
-    private TextField longitude;
+    private final TextField longitude;
 
     private Stage stage;
 
 
-    private ArrayList<WaterQualityReport> reportListGraph = new ArrayList<>();
+    private final ArrayList<WaterQualityReport> reportListGraph = new ArrayList<>();
 
-    private ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
+    private final ArrayList<WaterQualityReport> reportArrayList = SubmittedQualityReports.getSubmittedQualityReports();
 
 
 
@@ -74,7 +74,7 @@ public class VirusPPMGraphController extends Application {
         return Double.parseDouble(longitude.getText());
     }
 
-    public ArrayList<WaterQualityReport> getWaterQualityData() {
+    private ArrayList<WaterQualityReport> getWaterQualityData() {
         reportListGraph.addAll(reportArrayList.stream().filter(report -> (report.getYear().equals(yearText.getText()))
                 && (report.getLocation().getLatitude() == getLatitude())
                 && report.getLocation().getLongitude() == getLongitude()).collect(Collectors.toList()));

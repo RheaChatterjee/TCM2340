@@ -7,28 +7,22 @@ import java.util.ArrayList;
 public class SerializationController implements Serializable {
 
     private static SerializationController controller;
-    public static ArrayList<Admin> admins;
-    public static ArrayList<Location> locations;
-    public static ArrayList<Manager> managers;
-    public static ArrayList<RegisteredUser> registeredUsers;
+    private static ArrayList<Location> locations;
     public static ArrayList<Report> reports;
-    public static ArrayList<SubmittedQualityReports> submittedQualityReports;
-    public static ArrayList<SubmittedReports> submittedReports;
     public static ArrayList<User> users;
     public static ArrayList<WaterQualityReport> waterQualityReports;
-    public static ArrayList<Worker> workers;
 
     public SerializationController() {
-        admins = new ArrayList<>();
+        ArrayList<Admin> admins = new ArrayList<>();
         locations = new ArrayList<>();
-        managers = new ArrayList<>();
-        registeredUsers = new ArrayList<>();
+        ArrayList<Manager> managers = new ArrayList<>();
+        ArrayList<RegisteredUser> registeredUsers = new ArrayList<>();
         reports = new ArrayList<>();
-        submittedQualityReports = new ArrayList<>();
-        submittedReports = new ArrayList<>();
+        ArrayList<SubmittedQualityReports> submittedQualityReports = new ArrayList<>();
+        ArrayList<SubmittedReports> submittedReports = new ArrayList<>();
         users = new ArrayList<>();
         waterQualityReports = new ArrayList<>();
-        workers = new ArrayList<>();
+        ArrayList<Worker> workers = new ArrayList<>();
         // set singleton
         controller = this;
     }
