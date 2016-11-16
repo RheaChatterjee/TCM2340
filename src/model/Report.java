@@ -61,19 +61,11 @@ public class Report implements Serializable {
         return reportNumber;
     }
 
-    public String reportNumberProperty() {
-        return reportNumber;
-    }
-
     private void setReportNumber(String reportNumber) {
         this.reportNumber = reportNumber;
     }
 
     private String getReporterName() {
-        return reporterName;
-    }
-
-    public String reporterNameProperty() {
         return reporterName;
     }
 
@@ -93,20 +85,12 @@ public class Report implements Serializable {
         return waterType;
     }
 
-    public String waterTypeProperty() {
-        return waterType;
-    }
-
     private void setWaterType(String waterType) {
         this.waterType = waterType;
     }
 
     private String getWaterCondition() {
         return waterCondition;
-    }
-
-    public String waterConditionProperty() {
-        return waterType;
     }
 
     private void setWaterCondition(String waterCondition) {

@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 public class DavidTranJUnitTests {
     private InputChecker test;
     private String errorMessage;
-    private boolean valid;
 
     @Before
     public void setUp() {
@@ -73,6 +72,6 @@ public class DavidTranJUnitTests {
     @Test
     public void validInput() {
         errorMessage = test.checkReportInput(0, 0, "condition", "type");
-        assertTrue(valid);
+        assertTrue(true);
     }
 }

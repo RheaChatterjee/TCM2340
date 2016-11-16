@@ -7,7 +7,7 @@ import javafx.beans.property.StringProperty;
 import java.io.Serializable;
 
 
-public class Admin implements Serializable {
+class Admin implements Serializable {
 
     //Basic Information
     private final StringProperty username = new SimpleStringProperty();

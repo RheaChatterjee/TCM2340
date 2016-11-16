@@ -2,7 +2,6 @@ package model;
 
 public class InputChecker {
     public InputChecker() {
-
     }
 
     public String checkRegistrationInput(String name, String password, String email, String type, String address, String title) {

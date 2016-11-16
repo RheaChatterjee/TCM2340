@@ -5,8 +5,6 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import model.User;
 
-import java.util.HashMap;
-
 
 public class UserProfileController {
     @FXML
@@ -26,7 +24,6 @@ public class UserProfileController {
 
     private Stage _dialogStage;
 
-    private User user;
 
     /**
      * sets the dialog stage
@@ -34,14 +31,6 @@ public class UserProfileController {
      */
     public void setDialogStage(Stage dialogStage) {
         _dialogStage = dialogStage;
-    }
-
-    /**
-     * sets class user
-     * @param user the user that will be set
-     */
-    public void setUser(User user) {
-        this.user = user;
     }
 
     /**
@@ -57,13 +46,12 @@ public class UserProfileController {
      */
     @FXML
     public void initialize(User user) {
-        LoginController loginController = new LoginController();
-        RegistrationController registrationController = new RegistrationController();
-        setUser(loginController.getUser());
-        String username = user.getUsername();
+        //LoginController loginController = new LoginController();
+        //RegistrationController registrationController = new RegistrationController();
+        //String username = user.getUsername();
         //noinspection unchecked
-        HashMap<String, User> registeredUserInformation = registrationController.getRegisteredUser().getRegisteredUserMap();
-        User registeredUser = registeredUserInformation.get(username);
+        //HashMap<String, User> registeredUserInformation = registrationController.getRegisteredUser().getRegisteredUserMap();
+        //User registeredUser = registeredUserInformation.get(username);
         usernameProfile.setText(user.getUsername());
         emailProfile.setText(user.getEmail());
         accountTypeProfile.setText(user.getAccountType().getName());

@@ -394,7 +394,7 @@ public class MainApp extends Application {
             UserProfileController controller = loader.getController();
             controller.initialize(MainApp.user);
             controller.setDialogStage(dialogStage);
-            controller.setUser(MainApp.user);
+            //controller.setUser(MainApp.user);
 
             // Show the dialog and wait until the user closes it
             dialogStage.showAndWait();

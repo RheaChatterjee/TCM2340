@@ -4,9 +4,8 @@ import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
-import model.Report;
 import model.WaterQualityReport;
-import model.SubmittedQualityReports;
+
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
@@ -41,11 +40,8 @@ public class qualityReportListViewController {
     private void initialize() {
         SerializationController serController = SerializationController.getInstance();
         serController.retrieveChanges("waterQualityReports");
-        ArrayList<WaterQualityReport> qualityReportsList = serController.waterQualityReports;
-        ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for (WaterQualityReport x : qualityReportsList) {
-            reportsAsStrings.add(x.toString());
-        }
+        ArrayList<WaterQualityReport> qualityReportsList = SerializationController.waterQualityReports;
+        ArrayList<String> reportsAsStrings = qualityReportsList.stream().map(WaterQualityReport::toString).collect(Collectors.toCollection(ArrayList::new));
         qualityReportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
     }
 }

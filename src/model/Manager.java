@@ -1,17 +1,15 @@
 package model;
-import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleObjectProperty;
+
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import model.Worker;
 
 import java.io.Serializable;
 
 
-public class Manager extends Worker implements Serializable {
+class Manager extends Worker implements Serializable {
 
     private final StringProperty managerId = new SimpleStringProperty();
-    private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<>();
+    //private final ObjectProperty<AccountType> accountType = new SimpleObjectProperty<>();
 
     public Manager(String username, String password, String id, String email, AccountType accountType,
                 String address, String title, String workerId, StringProperty managerId) {
