@@ -15,16 +15,16 @@ public class SubmitReportController {
     private Stage _dialogStage;
 
     @FXML
-    private TextField longitudeField;
+    private final TextField longitudeField;
 
     @FXML
-    private TextField latitudeField;
+    private final TextField latitudeField;
 
     @FXML
-    private TextField conditionField;
+    private final TextField conditionField;
 
     @FXML
-    private TextField typeField;
+    private final TextField typeField;
 
     private static final SubmittedReports reports = new SubmittedReports();
 
@@ -108,7 +108,7 @@ public class SubmitReportController {
     @FXML
     private void handleSubmitReport() {
         serController.retrieveChanges("reports");
-        ArrayList<Report> reportList = serController.reports;
+        ArrayList<Report> reportList = SerializationController.reports;
         double longitude = Double.parseDouble(longitudeField.getText());
         double latitude = Double.parseDouble(latitudeField.getText());
         Location loc = new Location(latitude, longitude, typeField.getText(), "<h2>Type: " + typeField.getText() + "<br> Condition: " + conditionField.getText());
@@ -116,7 +116,7 @@ public class SubmitReportController {
         if (isInputValid()) {
             serController.retrieveChanges("reports");
             reportList.add(report);
-            serController.saveChanges("reports", serController.reports);
+            serController.saveChanges("reports", SerializationController.reports);
             //reports.addReport(report);
             _dialogStage.close();
         }

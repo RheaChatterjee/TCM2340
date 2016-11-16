@@ -49,7 +49,7 @@ public class Admin implements Serializable {
      * Gets username
      * @return username
      */
-    public String getUsername() {
+    private String getUsername() {
         return username.get();
     }
 
@@ -65,7 +65,7 @@ public class Admin implements Serializable {
      * Gets password
      * @return password
      */
-    public String getPassword() {
+    private String getPassword() {
         return password.get();
     }
 

@@ -48,8 +48,8 @@
          </buttons>
                 </ButtonBar>
         </GridPane>
-               <Button fx:id="SubmitButton" layoutX="375.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleSubmitReport" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" translateY="-10.0" />
-               <Button fx:id="CancelButton" layoutX="501.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" translateY="-10.0" />
+               <Button layoutX="375.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleSubmitReport" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" translateY="-10.0" />
+               <Button layoutX="501.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" translateY="-10.0" />
              <Label alignment="CENTER" layoutX="25.0" layoutY="329.0" prefHeight="23.0" prefWidth="125.0" text="Condition" textFill="WHITE" translateX="-4.0">
                  <font>
                      <Font size="18.0" />

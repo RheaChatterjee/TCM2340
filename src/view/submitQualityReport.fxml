@@ -62,7 +62,7 @@
                </font>
             </Label>
       </GridPane>
-         <Button fx:id="SubmitButton" layoutX="389.0" layoutY="409.0" mnemonicParsing="false" onAction="#handleSubmitQualityReport" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
-         <Button fx:id="CancelButton" layoutX="515.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" />
+         <Button layoutX="389.0" layoutY="409.0" mnemonicParsing="false" onAction="#handleSubmitQualityReport" styleClass="Button" stylesheets="@style.css" text="Submit Report" textFill="WHITE" />
+         <Button layoutX="515.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleCancelPressed" styleClass="Button" stylesheets="@style.css" text="Cancel" textFill="WHITE" />
             <TextField fx:id="contamPPMField" layoutX="188.0" layoutY="331.0" prefHeight="27.0" prefWidth="391.0" translateY="24.0" />
 </AnchorPane>
