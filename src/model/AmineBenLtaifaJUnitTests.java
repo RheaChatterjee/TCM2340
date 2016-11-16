@@ -3,8 +3,6 @@ package model;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by aminebenltaifa on 11/15/16.
  */

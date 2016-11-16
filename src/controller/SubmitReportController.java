@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 import model.*;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 
 public class SubmitReportController {

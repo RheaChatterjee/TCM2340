@@ -6,16 +6,19 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VirusPPMGraphController">
-   <children>
-      <RadioButton fx:id="containmentButton" layoutX="361.0" layoutY="143.0" mnemonicParsing="false" text="ContainmentPPM" />
-      <RadioButton fx:id="virusButton" layoutX="151.0" layoutY="143.0" mnemonicParsing="false" text="VirusPPM" />
-      <TextField fx:id="yearText" layoutX="246.0" layoutY="30.0" promptText="Year" />
-      <TextField fx:id="latitude" layoutX="180.0" layoutY="79.0" prefHeight="31.0" prefWidth="101.0" promptText="Latitude" />
-      <Label layoutX="180.0" layoutY="35.0" text="Year:" />
-      <Label layoutX="119.0" layoutY="84.0" text="Latitude" />
-      <Label layoutX="313.0" layoutY="84.0" text="Longitude" />
-      <TextField fx:id="longitude" layoutX="386.0" layoutY="79.0" prefHeight="31.0" prefWidth="101.0" promptText="Longitude" />
-      <Button layoutX="260.0" layoutY="245.0" onAction="#drawGraph" mnemonicParsing="false" text="Show Graph" />
-   </children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.VirusPPMGraphController">
+   <RadioButton fx:id="containmentButton" layoutX="361.0" layoutY="143.0" mnemonicParsing="false"
+                text="ContainmentPPM"/>
+   <RadioButton fx:id="virusButton" layoutX="151.0" layoutY="143.0" mnemonicParsing="false" text="VirusPPM"/>
+   <TextField fx:id="yearText" layoutX="246.0" layoutY="30.0" promptText="Year"/>
+   <TextField fx:id="latitude" layoutX="180.0" layoutY="79.0" prefHeight="31.0" prefWidth="101.0"
+              promptText="Latitude"/>
+   <Label layoutX="180.0" layoutY="35.0" text="Year:"/>
+   <Label layoutX="119.0" layoutY="84.0" text="Latitude"/>
+   <Label layoutX="313.0" layoutY="84.0" text="Longitude"/>
+   <TextField fx:id="longitude" layoutX="386.0" layoutY="79.0" prefHeight="31.0" prefWidth="101.0"
+              promptText="Longitude"/>
+   <Button layoutX="260.0" layoutY="245.0" onAction="#drawGraph" mnemonicParsing="false" text="Show Graph"/>
 </AnchorPane>

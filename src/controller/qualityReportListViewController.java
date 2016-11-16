@@ -6,9 +6,9 @@ import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 import model.WaterQualityReport;
 import model.SubmittedQualityReports;
-import model.User;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 
 public class qualityReportListViewController {
@@ -46,10 +46,7 @@ public class qualityReportListViewController {
         serController = SerializationController.getInstance();
         serController.retrieveChanges("waterQualityReports");
         ArrayList<WaterQualityReport> qualityReportsList = serController.waterQualityReports;
-        ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for(WaterQualityReport r : qualityReportsList) {
-            reportsAsStrings.add(r.toString());
-        }
+        ArrayList<String> reportsAsStrings = qualityReportsList.stream().map(WaterQualityReport::toString).collect(Collectors.toCollection(ArrayList::new));
 
         qualityReportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
     }

@@ -54,8 +54,7 @@ public class reportListViewController {
         serController.retrieveChanges("reports");
         ArrayList<Report> reportList = serController.reports;
         ArrayList<String> reportsAsStrings = new ArrayList<>();
-        for(int i = 0; i < reportList.size(); i++) {
-            Report report = reportList.get(i);
+        for (Report report : reportList) {
             reportsAsStrings.add(report.toString());
         }
         reportListView.setItems(FXCollections.observableArrayList(reportsAsStrings));
