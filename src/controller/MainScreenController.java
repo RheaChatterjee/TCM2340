@@ -2,12 +2,31 @@ package controller;
 
 import cleanWaterApp.MainApp;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import model.User;
 
 
 public class MainScreenController {
     private MainApp mainApplication;
     private User user;
+
+    @FXML
+    private Button userProfile;
+
+    @FXML
+    private Button viewMap;
+
+    @FXML
+    private Button viewReportsButton;
+
+    @FXML
+    private Button submitReportButton;
+
+    @FXML
+    private Button submitQualityReport;
+
+    @FXML
+    private Button viewQualityReportsButton;
 
     /**
      * Connects the controller to the main app

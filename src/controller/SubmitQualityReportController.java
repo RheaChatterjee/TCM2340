@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.*;
 
+import java.awt.*;
 import java.util.ArrayList;
 
 
@@ -28,6 +29,12 @@ public class SubmitQualityReportController {
 
     @FXML
     private final TextField contamPPMField;
+
+    @FXML
+    private Button SubmitButton;
+
+    @FXML
+    private Button CancelButton;
 
     private static final SubmittedQualityReports reports = new SubmittedQualityReports();
 

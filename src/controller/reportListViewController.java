@@ -8,6 +8,7 @@ import model.SubmittedReports;
 import javafx.scene.control.ListView;
 import model.User;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -20,6 +21,9 @@ public class reportListViewController {
 
     @FXML
     private final ListView<String> reportListView;
+
+    @FXML
+    private Button cancelButton;
 
     /**
      * sets the user
